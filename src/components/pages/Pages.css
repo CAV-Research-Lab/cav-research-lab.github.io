@@ -2,23 +2,23 @@
 	background-color: #eaee74;
     height: 100%;
     margin: 0;
-} 
+}
 
 .TeamBody {
 	background-color: #de4c4c;
     height: 100%;
     margin: 0;
-} 
+}
 .PublicationsBody {
 	background-color: #584cde;
     height: 100%;
     margin: 0;
-} 
+}
 .NewsBody {
 	background-color: #0e9d57;
     height: 100%;
     margin: 0;
-} 
+}
 .BlogBody {
 	background-color: #8c0e9d;
     height: 100%;
@@ -28,7 +28,13 @@
 /* p {
     font-family: "Sans", sans-serif;
 } */
-
+/* #vision {
+  font-family: "Lobster";
+  font-size: "32px";
+} */
+tr {
+  text-align: left;
+}
 table {
     /* border-spacing: 0; Reduce the space between table cells to 0 */
     /* border-collapse: collapse; Collapse the table cell borders */
@@ -36,11 +42,11 @@ table {
 
 }
 /* img {
-    display: block; /* Display the image as a block element 
-    float: left; /* Float the image to the left 
+    display: block; /* Display the image as a block element
+    float: left; /* Float the image to the left
 } */
 
-h3 {
+h3, h2, h1 {
     text-align: center;
 }
 p {
@@ -51,8 +57,7 @@ p {
     font-weight: normal;
 }
 /* h3, h4, ul, p {
-    text-align: left; /* Center the list items horizontally 
+    text-align: left; /* Center the list items horizontally
     display: block; /*Display the image as a block element
-    float: left; /* Float the image to the left 
+    float: left; /* Float the image to the left
 } */
-
