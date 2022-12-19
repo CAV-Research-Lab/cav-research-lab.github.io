@@ -49,12 +49,18 @@ table {
 h3, h2, h1 {
     text-align: center;
 }
-p {
-    text-align: left;
-    display: block;
+.vision_message {
     float: left;
+    display: block;
     padding-left: 3%;
-    font-weight: normal;
+    width:45%;
+    height:280px;
+}
+
+.vision_video {
+   float: right;
+   padding-right: 3%;
+   color: blue; 
 }
 /* h3, h4, ul, p {
     text-align: left; /* Center the list items horizontally
