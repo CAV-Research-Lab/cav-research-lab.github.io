@@ -41,6 +41,17 @@ table {
     vertical-align: top;
 
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 60% 30%;
+
+}
+
+.grid-item {
+  text-align: center;
+  animation-duration: 0.1s; /* don't forget to set a duration! */
+}
+
 /* img {
     display: block; /* Display the image as a block element
     float: left; /* Float the image to the left
@@ -60,7 +71,7 @@ h3, h2, h1 {
 .vision_video {
    float: right;
    padding-right: 3%;
-   color: blue; 
+   color: blue;
 }
 /* h3, h4, ul, p {
     text-align: left; /* Center the list items horizontally
