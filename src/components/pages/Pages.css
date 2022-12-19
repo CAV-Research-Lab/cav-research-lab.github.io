@@ -1,7 +1,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 60% 30%;
+  grid-template-columns: 50% 50%;
 
 }
 
@@ -10,22 +10,35 @@
   animation-duration: 0.1s; /* don't forget to set a duration! */
 }
 
+/* .video_wrapper {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    down: 150px;
+} */
+
+.video_wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#vision_video {
+    position: relative;
+    width: 85%;
+    height: 70%;
+    down: 30px;
+    left: 50px;
+    object-fit: cover;
+    z-index: 20;
+    padding: 3px;
+}
+
 h3, h2, h1 {
     text-align: center;
 }
-.vision_message {
-    float: left;
-    display: block;
-    padding-left: 3%;
-    width:45%;
-    height:280px;
-}
 
-.vision_video {
-   float: right;
-   padding-right: 3%;
-   color: blue;
-}
 /* h3, h4, ul, p {
     text-align: left; /* Center the list items horizontally
     display: block; /*Display the image as a block element

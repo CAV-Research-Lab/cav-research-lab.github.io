@@ -55,8 +55,8 @@ function Vision() {
 
                 <h2>CAN WE TRUST AI TO DRIVE US?</h2>
           </div></ScrollAnimation>
-          <div class="grid-item">
-            <h3>Insert Video Here</h3>
+          <div class="video_wrapper">
+          <video id="vision_video" src={cavlab_vision} controls/>
             <br></br>
           </div>
       </div>
