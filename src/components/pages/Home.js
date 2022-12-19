@@ -1,8 +1,9 @@
-import React from 'react';
+ import React from 'react';
 import '../../App.css';
 // import Cards from '../Cards';
 import DynamicBackground from '../DynamicBackground';
 import Footer from '../Footer';
+import cavlab_vision from '../../images/cavlab_vision.mp4'
 
 function Home() {
   return (
@@ -21,13 +22,13 @@ function Vision() {
   const mystyle = {
   color: "white",
   backgroundColor: "black",/*"#1C1B1B",*/
-  padding: "2%",
-  fontFamily: "Lobster",
+  padding: "2%"};
+  // fontFamily: "Lobster",
 
-  };
-  const lobster = {
-  fontFamily: "Lobster",
-  };
+  // };
+  // const lobster = {
+  // fontFamily: "Lobster",
+  // };
   return (
     <>
     <style> @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); </style>
@@ -37,7 +38,7 @@ function Vision() {
         </th>
         <th></th>
         <tr>
-        <th><p>To co-exist with all road users in a way that society considers
+        <th><p style={{textAlign: "center"}}>To co-exist with all road users in a way that society considers
          them trustworthy and safe. With an interdisciplinary team of
           researchers from engineering, social science, and the humanities,
            CAV-Lab aims to develop a novel highly automated driving platform
@@ -57,7 +58,7 @@ function Vision() {
                 However, the question is:</p>
           </th>
           <th><br></br>
-            <h3>Insert Video Here!</h3>
+            <video src={cavlab_vision} width="600" height="300" controls="controls" autoplay="false" />
           </th></tr>
 
           <tr><th>
