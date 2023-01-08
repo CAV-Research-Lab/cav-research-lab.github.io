@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f319b7e8.chunk.css",
+    "main.css": "/static/css/main.12fc28bb.chunk.css",
     "main.js": "/static/js/main.27fc8a6f.chunk.js",
     "main.js.map": "/static/js/main.27fc8a6f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d84520.js",
@@ -8,9 +8,9 @@
     "static/js/2.57333fd3.chunk.js": "/static/js/2.57333fd3.chunk.js",
     "static/js/2.57333fd3.chunk.js.map": "/static/js/2.57333fd3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.eeb635ac9c0a87263f5ce48cb303c429.js": "/precache-manifest.eeb635ac9c0a87263f5ce48cb303c429.js",
+    "precache-manifest.a78cf137c959f61b1f32a30b41b783ab.js": "/precache-manifest.a78cf137c959f61b1f32a30b41b783ab.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.f319b7e8.chunk.css.map": "/static/css/main.f319b7e8.chunk.css.map",
+    "static/css/main.12fc28bb.chunk.css.map": "/static/css/main.12fc28bb.chunk.css.map",
     "static/js/2.57333fd3.chunk.js.LICENSE.txt": "/static/js/2.57333fd3.chunk.js.LICENSE.txt",
     "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
     "static/media/background_video.mp4": "/static/media/background_video.f0c32ad2.mp4",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.67d84520.js",
     "static/js/2.57333fd3.chunk.js",
-    "static/css/main.f319b7e8.chunk.css",
+    "static/css/main.12fc28bb.chunk.css",
     "static/js/main.27fc8a6f.chunk.js"
   ]
 }
