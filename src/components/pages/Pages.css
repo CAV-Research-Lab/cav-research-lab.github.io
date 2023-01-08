@@ -3,9 +3,21 @@ h3, h2, h1 {
     text-align: center;
 }
 .circular--square { border-radius: 50%; }
+
 tr, th {
     text-align: center;
+    vertical-align: middle;
+
 }
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.underline {
+    padding-bottom: 0.75%;
+    border-bottom: 4px solid;
+   }
 /* h3, h4, ul, p {
     text-align: left; /* Center the list items horizontally
     display: block; /*Display the image as a block element

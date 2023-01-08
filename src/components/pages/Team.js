@@ -9,12 +9,10 @@ export default function Team() {
             <div class="TeamBody" style={{backgroundColor: "#333333" }}>
 
                 <br></br><br></br>
-                <h1 style={{color: "white"}}>CAV-Lab Team</h1>
+                <h1 style={{color: "white", textAlign: "left", marginLeft: "3%"}}><span class="underline">Meet the team</span></h1>
                 <br></br><br></br>
 
                 <div className="info" style={{ margin: "5%", marginTop: "2%" }}>
-                    <h2>CAV-Lab Staff</h2><br></br>
-
                     <table>
                     <tr><th></th>
 
@@ -29,12 +27,12 @@ export default function Team() {
                             <h3 >Saber Fallah</h3>
                             <p class="info">Dr. Fallah founded the CAV-Lab for connectivity and automation research in 2015
                                 and since then has worked
-                            </p><br></br></th></tr>
+                            </p><br></br><br></br><br></br><br></br></th></tr>
 
                         <tr>
-                            <th><span class="badge badge-pill badge-primary"><h5>Founder</h5></span></th>
-                            <th><span class="badge badge-pill badge-primary"><h5>Founder</h5></span></th>
-                            <th><span class="badge badge-pill badge-primary"><h5>Founder</h5></span></th>
+                            <th><span class="badge badge-pill badge-primary"><h5>PhD Student</h5></span></th>
+                            <th><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
+                            <th><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
 
                         </tr>
                         <tr>

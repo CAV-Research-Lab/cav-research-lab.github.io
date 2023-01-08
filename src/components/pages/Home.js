@@ -14,7 +14,7 @@ function Home() {
       <DynamicBackground />
       <Vision />
       <Team />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
