@@ -5,6 +5,7 @@ import './Pages.css';
 import DynamicBackground from '../DynamicBackground';
 import Vision from '../Vision';
 import Footer from '../Footer';
+import Team from './Team';
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
     <>
       <DynamicBackground />
       <Vision />
+      <Team />
       <Footer />
     </>
   );

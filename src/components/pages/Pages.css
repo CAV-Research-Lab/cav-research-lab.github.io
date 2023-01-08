@@ -2,7 +2,10 @@
 h3, h2, h1 {
     text-align: center;
 }
-
+.circular--square { border-radius: 50%; }
+tr, th {
+    text-align: center;
+}
 /* h3, h4, ul, p {
     text-align: left; /* Center the list items horizontally
     display: block; /*Display the image as a block element

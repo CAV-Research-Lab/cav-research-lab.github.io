@@ -7,7 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function Vision() {
     const mystyle = {
     color: "white",
-    backgroundColor: "black",/*"#1C1B1B",*/
+    backgroundColor: "#1C1B1B",/*"#1C1B1B",*/
     padding: "5%"};
   
     return (
