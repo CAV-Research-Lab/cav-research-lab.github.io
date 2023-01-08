@@ -4,7 +4,7 @@ import './Pages.css';
 // import Cards from '../Cards';
 import DynamicBackground from '../DynamicBackground';
 import Footer from '../Footer';
-import cavlab_vision from '../../images/cavlab_vision.mp4'
+//import cavlab_vision from '../../images/cavlab_vision.mp4'
 import ScrollAnimation from 'react-animate-on-scroll';
 
 function Home() {
@@ -56,7 +56,7 @@ function Vision() {
                 <h2>CAN WE TRUST AI TO DRIVE US?</h2>
           </div></ScrollAnimation>
           <div class="video_wrapper">
-          <video id="vision_video" src={cavlab_vision} controls/>
+          {/* <video id="vision_video" src={cavlab_vision} controls/> */}
             <br></br>
           </div>
       </div>
