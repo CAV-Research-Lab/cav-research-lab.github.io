@@ -1,4 +1,4 @@
-.grid-container {
+#vision-grid-container {
     display: grid;
     grid-template-columns: 50% 50%;
   
@@ -8,6 +8,14 @@
     text-align: center;
     animation-duration: 0.1s; /* don't forget to set a duration! */
   }
+
+  * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 24px;
+}
   
   /* .video_wrapper {
       width: 400px;
@@ -20,7 +28,7 @@
   .video_wrapper {
       width: 100%;
       height: 100%;
-      background-color: black;
+      background-color: #333333;
   }
   
   #vision_video {
