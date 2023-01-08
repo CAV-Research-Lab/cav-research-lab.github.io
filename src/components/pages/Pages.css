@@ -4,10 +4,14 @@ h3, h2, h1 {
 }
 .circular--square { border-radius: 50%; }
 
-tr, th {
+tr, th, span, h4, table{
     text-align: center;
     vertical-align: middle;
+}
 
+.teamText {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 * {
