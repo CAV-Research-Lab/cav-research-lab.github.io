@@ -1,0 +1,36 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  
+  }
+  
+  .grid-item {
+    text-align: center;
+    animation-duration: 0.1s; /* don't forget to set a duration! */
+  }
+  
+  /* .video_wrapper {
+      width: 400px;
+      height: 300px;
+      position: relative;
+      left: 100px;
+      down: 150px;
+  } */
+  
+  .video_wrapper {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+  }
+  
+  #vision_video {
+      position: relative;
+      width: 85%;
+      height: 70%;
+      down: 30px;
+      left: 50px;
+      object-fit: cover;
+      z-index: 20;
+      padding: 3px;
+  }
+  
