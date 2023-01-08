@@ -48,24 +48,21 @@ export default function Team() {
                                 <h3>Luc McCutcheon</h3><br></br>
                                 <p>
                                     As second year PhD student, Luc's work has focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control. Luc joined the team directly from a bachalors in computer
-                                    science after a summer placement in 2021.</p> <br></br>
+                                    algorithms to the task of teleoperated control.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
                                 <h3>Vinal Asodia</h3><br></br>
                                 <p>
-                                    As second year PhD student, Luc's work has focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control. Luc joined the team directly from a bachalors in computer
-                                    science after a summer placement in 2021.</p> <br></br>
+                                As second year PhD student, Luc's work has focused on applying state-of-the-art Reinforcement Learning
+                                    algorithms to the task of teleoperated control.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
                                 <h3>Mustafa Yilirim</h3><br></br>
                                 <p>
-                                    As second year PhD student, Luc's work has focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control. Luc joined the team directly from a bachalors in computer
-                                    science after a summer placement in 2021.</p> <br></br>
+                                As second year PhD student, Luc's work has focused on applying state-of-the-art Reinforcement Learning
+                                    algorithms to the task of teleoperated control.</p> <br></br>
 
                             </th>
 
@@ -85,11 +82,11 @@ export default function Team() {
                         <th width="20%"></th>
                         <th width="20%"></th>
 
-                        <tr>
-                            <th><h3>Saber Fallah</h3></th>
-                            <th><h3>Luc McCutcheon</h3></th>
-                            <th><h3>Vinal Asodia</h3></th>
-                            <th><h3>Mustafa Yildrim</h3></th>
+                        <tr></tr><tr>
+                            <th><h4>Saber Fallah</h4></th>
+                            <th><h4>Luc McCutcheon</h4></th>
+                            <th><h4>Vinal Asodia</h4></th>
+                            <th><h4>Mustafa Yildrim</h4></th>
 
                         <tr>
                             <th><h3>Shilp Dixit</h3></th>
