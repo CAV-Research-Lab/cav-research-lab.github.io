@@ -7,6 +7,8 @@ import Vision from '../Vision';
 import AboutUs from '../AboutUs';
 import Footer from '../Footer';
 import Team from './Team';
+import Sponsors from './Sponsors';
+
 
 
 function Home() {
@@ -16,7 +18,8 @@ function Home() {
       <Vision />
       <AboutUs />
       <Team />
-      {/* <Footer /> */}
+      <Sponsors />
+      <Footer />
     </>
   );
 }

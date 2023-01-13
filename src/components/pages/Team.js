@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './Pages.css';
 import Footer from '../Footer';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Team() {
     return (
@@ -11,8 +12,10 @@ export default function Team() {
                 <br></br><br></br>
                 <h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">Meet the team</span></h1>
                 <br></br><br></br>
+                <ScrollAnimation animateIn="fadeIn">
 
                 <div className="info" style={{ margin: "5%", marginTop: "2%" }}>
+
                     <table>
                         <tr><th></th>
 
@@ -43,21 +46,21 @@ export default function Team() {
 
 
                             <th><br></br><br></br>
-                                <h3>Luc McCutcheon</h3><br></br>
+                                <h3><b>Luc McCutcheon</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
-                                <h3>Vinal Asodia</h3><br></br>
+                                <h3><b>Vinal Asodia</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
-                                <h3>Mustafa Yilirim</h3><br></br>
+                                <h3><b>Mustafa Yilirim</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
@@ -74,7 +77,7 @@ export default function Team() {
                         </tr>
                         <tr><th></th>
                             <th><br></br><br></br>
-                                <h3>Barkin Dagda</h3><br></br>
+                                <h3><b>Barkin Dagda</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
@@ -87,7 +90,6 @@ export default function Team() {
                     <br></br><br></br><br></br>
 
                     <table>
-
                         <th width="20%"></th>
                         <th width="20%"></th>
                         <th width="20%">
@@ -106,12 +108,13 @@ export default function Team() {
                             </tr>
 
                         </tr>
+                        
                     </table>
-
                 </div>
+                </ScrollAnimation>
+
                 <br></br><br></br><br></br>
             </div>
-            <Footer />
         </>
     );
 }
