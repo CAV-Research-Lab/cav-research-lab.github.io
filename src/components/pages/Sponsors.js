@@ -14,7 +14,9 @@ function Sponsors() {
         <br></br><br></br>
         <h1 style={{ color: "black", textAlign: "left", marginLeft: "3%" }}><span class="orange_underline">Industrial Partners</span></h1>
         <br></br>
+        <ScrollAnimation animateIn="fadeIn">
         <img src={require('../../images/sponsors.PNG')}></img>
+        </ScrollAnimation>
     </div>
     );
   }
