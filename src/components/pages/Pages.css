@@ -12,8 +12,11 @@ tr, th, span, h4, table{
 .teamText {
     margin-left: 15%;
     margin-right: 15%;
+    font-weight: normal;
 }
-
+h5 {
+    font-weight: bold;
+}
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

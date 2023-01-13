@@ -43,21 +43,21 @@ export default function Team() {
 
 
                             <th><br></br><br></br>
-                                <h3>Luc McCutcheon</h3><br></br>
+                                <h3><b>Luc McCutcheon</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
-                                <h3>Vinal Asodia</h3><br></br>
+                                <h3><b>Vinal Asodia</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
-                                <h3>Mustafa Yilirim</h3><br></br>
+                                <h3><b>Mustafa Yilirim</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
@@ -74,7 +74,7 @@ export default function Team() {
                         </tr>
                         <tr><th></th>
                             <th><br></br><br></br>
-                                <h3>Barkin Dagda</h3><br></br>
+                                <h3><b>Barkin Dagda</b></h3><br></br>
                                 <p class="teamText">
                                     Focused on applying state-of-the-art Reinforcement Learning
                                     algorithms to the task of teleoperated control.</p> <br></br>
@@ -111,7 +111,6 @@ export default function Team() {
                 </div>
                 <br></br><br></br><br></br>
             </div>
-            <Footer />
         </>
     );
 }
