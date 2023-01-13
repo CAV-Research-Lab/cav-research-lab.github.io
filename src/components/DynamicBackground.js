@@ -11,8 +11,8 @@ function DynamicBackground() {
       <video src={background_vid} autoPlay loop muted />
       {/*<img src={backgroundImg} /> */}
       <div id='company-name'>
-        <h4>CONNECTED AND AUTONOMOUS VEHICLES LAB</h4>
-        <h5>AUTOMOTIVE AND ROBOTICS AI RESEARCH</h5>
+        <h1>CONNECTED AND AUTONOMOUS VEHICLES LAB</h1>
+        <h3>AUTOMOTIVE AND ROBOTICS AI RESEARCH</h3>
       </div>
       {/* <div className='hero-btns'>
         <Button

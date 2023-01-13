@@ -18,7 +18,7 @@ function AboutUs() {
             <div class="about-us-content">
                 <h1 class="about-us-titles">Who Are We</h1>
                 <br></br>
-                <p>CAV-Lab was established in 2016 and since 
+                <p>CAV-Lab was established in 2016 by Dr Saber Fallah and since 
                     then has received several research funding 
                     from the UK and European governments 
                     (e.g. EPSRC, Innovate UK, H2020, KTP) as 

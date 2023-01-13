@@ -8,11 +8,12 @@ video {
 
 #company-name {
   color: white;
-  background-color: black;
+  /* background-color: black; */
   padding: 4%;
-  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  /* background: rgba(0, 0, 0, 0.7); */
   position: relative;
-  left: -250px;
+  /* left: -250px; */
 }
 
 
@@ -25,7 +26,7 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
   object-fit: contain;
 }
 
