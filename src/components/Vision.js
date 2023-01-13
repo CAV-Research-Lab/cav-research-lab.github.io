@@ -26,7 +26,7 @@ function Vision() {
 
             </div></ScrollAnimation>
             <div id="video_wrapper">
-              <YoutubeEmbed embedId="3b9qXX7sG50" />
+              <YoutubeEmbed embedId="gxI3J9OArMY" />
             </div>
         </div>
       </>
