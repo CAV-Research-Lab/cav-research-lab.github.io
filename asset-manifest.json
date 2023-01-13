@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7d99ad4d.chunk.css",
-    "main.js": "/static/js/main.871321bc.chunk.js",
-    "main.js.map": "/static/js/main.871321bc.chunk.js.map",
+    "main.js": "/static/js/main.d87c1029.chunk.js",
+    "main.js.map": "/static/js/main.d87c1029.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d84520.js",
     "runtime-main.js.map": "/static/js/runtime-main.67d84520.js.map",
     "static/js/2.e5747ad0.chunk.js": "/static/js/2.e5747ad0.chunk.js",
     "static/js/2.e5747ad0.chunk.js.map": "/static/js/2.e5747ad0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3aac72e241c6d77143baa1094a58d012.js": "/precache-manifest.3aac72e241c6d77143baa1094a58d012.js",
+    "precache-manifest.d2ea1eb6ad0b2a118c9b36741c710524.js": "/precache-manifest.d2ea1eb6ad0b2a118c9b36741c710524.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.7d99ad4d.chunk.css.map": "/static/css/main.7d99ad4d.chunk.css.map",
     "static/js/2.e5747ad0.chunk.js.LICENSE.txt": "/static/js/2.e5747ad0.chunk.js.LICENSE.txt",
     "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
-    "static/media/background_video.mp4": "/static/media/background_video.f0c32ad2.mp4",
+    "static/media/background_video.mp4": "/static/media/background_video.43139eb7.mp4",
     "static/media/demonstration.png": "/static/media/demonstration.df11c034.png",
     "static/media/img-1.jpg": "/static/media/img-1.cd1d1c97.jpg",
     "static/media/sponsors.PNG": "/static/media/sponsors.b30fc4ce.PNG"
@@ -22,6 +22,6 @@
     "static/js/runtime-main.67d84520.js",
     "static/js/2.e5747ad0.chunk.js",
     "static/css/main.7d99ad4d.chunk.css",
-    "static/js/main.871321bc.chunk.js"
+    "static/js/main.d87c1029.chunk.js"
   ]
 }
