@@ -2,6 +2,7 @@
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
+    /* right: -50px; */
     height: 0;
   }
   
@@ -14,5 +15,6 @@
     height: 100%;
     width: 100%;
     position: relative;
+    /* right: -250px; */
   }
   
