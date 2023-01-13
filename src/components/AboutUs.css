@@ -2,43 +2,25 @@
     display: grid;
     grid-template-columns: 33% 0.5% 33% 0.5% 33%;  
     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#left {
-    padding-left: 7%;
-    padding-right: 7%;
+.about-us-content {
+    padding-left: 12%;
+    padding-right: 10%;
     padding-top: 5%;
-    /* padding-bottom: 5%; */
-    /* text-align: center; */
     font-size: 16px;
 }
 
 .splitter {
-    border-left: 2px solid black;
-    height: 100%;
-}
-
-#middle {
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 5%;
-    /* padding-bottom: 5%; */
-    /* text-align: center; */
-    font-size: 16px;
-}
-
-#right {
-    padding-left: 7%;
-    padding-right: 7%;
-    padding-top: 5%;
-    /* padding-bottom: 5%; */
-    /* text-align: center; */
-    font-size: 16px;
+    border-left: 2px solid #333333;
+    height: 85%;
+    position: relative;
+    top: 50px;
 }
 
 .about-us-titles {

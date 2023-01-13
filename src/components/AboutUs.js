@@ -15,7 +15,7 @@ function AboutUs() {
         <h1 style={{ color: "black", textAlign: "left", marginLeft: "3%" }}><span class="orange_underline">About Us</span></h1>
         <div class="about-us-container">
             <ScrollAnimation animateIn="fadeIn">
-            <div id="left">
+            <div class="about-us-content">
                 <h1 class="about-us-titles">Who Are We</h1>
                 <br></br>
                 <p>CAV-Lab was established in 2016 and since 
@@ -35,7 +35,7 @@ function AboutUs() {
             </ScrollAnimation>
             <div class="splitter"></div>
             <ScrollAnimation animateIn="fadeIn">
-            <div id="middle">
+            <div class="about-us-content">
                 <h1 class="about-us-titles">What We Do</h1>
                 <br></br>
                 <p>Our team at CAV-Lab is working on creating innovative 
@@ -54,7 +54,7 @@ function AboutUs() {
             </ScrollAnimation>
             <div class="splitter"></div>
             <ScrollAnimation animateIn="fadeIn">
-            <div id="right">
+            <div class="about-us-content">
                 <h1 class="about-us-titles">What We Offer</h1>
                 <br></br>
                 <p>At CAV-Lab, we offer a range of knowledge and expertise in the 
