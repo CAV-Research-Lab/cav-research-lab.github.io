@@ -6,6 +6,17 @@ video {
   z-index: -1;
 }
 
+#company-name {
+  color: white;
+  background-color: black;
+  padding: 4%;
+  background: rgba(0, 0, 0, 0.7);
+  position: relative;
+  left: -250px;
+}
+
+
+
 .hero-container {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
   height: 100vh;
