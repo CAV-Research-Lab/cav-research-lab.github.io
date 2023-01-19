@@ -1,10 +1,12 @@
 
-h3, h2, h1 {
+
+
+h3, h2 {
     text-align: center;
 }
 .circular--square { border-radius: 50%; }
 
-tr, th, span, h4, table{
+tr, th, span, table{
     text-align: center;
     vertical-align: middle;
 }

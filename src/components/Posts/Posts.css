@@ -4,4 +4,9 @@
 	/* display: flex; */
 	justify-content: center;
 	align-items: center;
+	padding: 0%;
+}
+.image {
+	margin-left: 10%;
+	display: block;
 }

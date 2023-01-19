@@ -8,6 +8,7 @@ import AboutUs from '../AboutUs';
 import Footer from '../Footer';
 import Team from './Team';
 import Sponsors from './Sponsors';
+import Highlights from './Highlights';
 
 
 
@@ -17,6 +18,7 @@ function Home() {
       <DynamicBackground />
       <Vision />
       <AboutUs />
+      <Highlights />
       <Sponsors />
       <Footer />
     </>

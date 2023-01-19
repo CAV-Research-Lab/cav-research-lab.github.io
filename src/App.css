@@ -10,6 +10,7 @@
 	margin: 0 2%;
 	align-self: center;
   color: #fff;
+  text-align: left;
 }
 .home,
 .services,
@@ -48,3 +49,18 @@
   color: #fff;
   font-size: 100px;
 }
+/* .list-row {
+  background:#f4f4f4;
+  display:inline-block;
+  border:2px solid red;}
+
+.list-left {
+  width:auto;
+  padding:10px;
+  float:left;
+  border: 2px solid blue;}
+
+.list-right {
+  padding:10px;
+  float:right;
+  border:2px solid green;} */

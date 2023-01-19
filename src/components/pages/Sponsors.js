@@ -7,7 +7,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 function Sponsors() {
     const mystyle = {
     color: "black",
-    backgroundColor: "#FFFFFF",/*"#1C1B1B",*/};
+    backgroundColor: "#FFFFFF",/*"#1C1B1B",*/
+    width: "100%"
+};
   
     return (
     <div style={mystyle}>
@@ -15,7 +17,7 @@ function Sponsors() {
         <h1 style={{ color: "black", textAlign: "left", marginLeft: "3%" }}><span class="orange_underline">Industrial Partners</span></h1>
         <br></br>
         <ScrollAnimation animateIn="fadeIn">
-        <img src={require('../../images/sponsors.PNG')}></img>
+        <img width="100%" src={require('../../images/sponsors.PNG')}></img>
         </ScrollAnimation>
     </div>
     );
