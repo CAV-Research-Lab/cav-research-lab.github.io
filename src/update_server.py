@@ -1,8 +1,8 @@
 import os
 
-print("-> Make sure you have npm and git installed before running this script.")
+print("-> Make sure you have npm and git installed before running this script, see github page bellow for more details on setup.")
 print("-> npm version 9.1.1")
-print("-> https://github.com/CAV-Research-Lab/cav-research-lab.github.io.git")
+print("-> https://github.com/CAV-Research-Lab/cav-research-lab.github.io.git\n")
 
 # Update github
 os.system("git add .")
