@@ -12,7 +12,7 @@ import Highlight from "../Post";
 function Highlights() {
     const mystyle = {
     color: "black",
-    backgroundColor: "#212529",/*"#1C1B1B",*/
+    backgroundColor: "#333333",/*"#1C1B1B",*/
     width: "100%"
     };
     var newsPosts = NewsPosts().slice(0,2);

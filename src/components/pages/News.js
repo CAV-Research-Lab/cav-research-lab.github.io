@@ -8,10 +8,10 @@ import Footer from '../Footer';
 export default function News() {
   return (
     <>
-    <div class="NewsBody" style={{height: "100%"}}>
+    <div class="NewsBody" style={{height: "100%", backgroundColor: "rgb(51, 51, 51)"}}>
       <div className="main-container">
         <br></br><br></br>
-        <h1 className="main-heading">CAV-Lab News </h1>
+        <h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">News</span></h1>
           <br></br><br></br>
 
         <Posts />
