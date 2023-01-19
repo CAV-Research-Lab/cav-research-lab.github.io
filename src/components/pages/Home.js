@@ -17,7 +17,6 @@ function Home() {
       <DynamicBackground />
       <Vision />
       <AboutUs />
-      <Team />
       <Sponsors />
       <Footer />
     </>
