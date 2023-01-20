@@ -5,6 +5,7 @@ print("-> npm version 9.1.1")
 print("-> https://github.com/CAV-Research-Lab/cav-research-lab.github.io.git\n")
 
 # Update github
+os.system("git pull")
 os.system("git add .")
 os.system("git commit -m \"Automated Update\"")
 os.system("git push")
