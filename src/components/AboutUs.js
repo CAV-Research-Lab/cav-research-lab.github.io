@@ -16,7 +16,7 @@ function AboutUs() {
         <div class="about-us-container">
             <ScrollAnimation animateIn="fadeIn">
             <div class="about-us-content">
-                <h1 class="about-us-titles">Who Are We</h1>
+                <h1 class="about-us-titles">Who We Are</h1>
                 <br></br>
                 <p>CAV-Lab was established in 2016 by Dr Saber Fallah and since 
                     then has received several research funding 
