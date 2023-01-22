@@ -1,7 +1,7 @@
 import React from "react";
 import "./Post.css";
 import '../App.css';
-
+import './pages/Pages.css'
 
 
 
@@ -13,7 +13,7 @@ return (
 	<h1 textAlign="left">{title}</h1>
 	<img className="image" src={imgUrl} alt="post" />
 	<br></br><br></br>
-	<p>{body}</p>
+	<p style={{fontWight:"normal"}}>{body}</p>
 	<div className="info">	
 		<h4>Date: {date}</h4>
 	</div>

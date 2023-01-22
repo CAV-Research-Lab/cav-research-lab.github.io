@@ -1,0 +1,20 @@
+/* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
+
+.posts-container {
+	/* display: flex; */
+	justify-content: center;
+	align-items: center;
+	padding: 0%;
+}
+.image {
+	margin-left: 10%;
+	display: block;
+}
+.project-link {
+	text-decoration: none;
+	color: white;
+}
+.project-link:hover {
+	text-decoration: none;
+	color: rgba(239, 238, 238, 0.9);
+}
