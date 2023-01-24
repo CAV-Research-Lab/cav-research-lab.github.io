@@ -2,7 +2,20 @@
 const NewsPosts = () => {
 
 const newsPosts = [
-	{
+	
+
+{
+	title: "Autonomous driving – are we nearly there yet?",
+	body: `One critical part of the effective deployment of AVs is for them to be trusted by the public to make the right decisions in road traffic, properly balancing the system goals of efficiency and capacity with human values such as safety and legality. Without this being well understood, the potential benefits of AVs could fail to materialise. In this talk, I will introduce the challenges towards trustworthy autonomous driving and novel solutions to address both human concerns and design requirements. Please see the details here: https://www.cambridgewireless.co.uk/events/autonomous-driving-are-we-there-yet/`,
+	date: "12/01/2022",
+	imgUrl:
+		require('./PostMedia/CW.png'),
+
+	},
+
+
+
+{
 	title: "Connected Vehicle Demonstration",
 	body: `The CAV-Lab presentation at the University of Surrey captivated audiences with a demonstration of
 			internally developed connected vehicle technology. The cars seen above have been designed, engioneered
@@ -20,22 +33,7 @@ const newsPosts = [
 	require('./PostMedia/demonstration.jpg'),
 	}		
 	,
-	{
-	title: "Data Structure ",
-	body: `There are many real-life examples of
-	a stack. Consider an example of plates stacked
-	over one another in the canteen. The plate
-	which is at the top is the first one to be
-	removed, i.e. the plate which has been placed
-	at the bottommost position remains in the
-	stack for the longest period of time. So, it
-	can be simply seen to follow LIFO(Last In
-	First Out)/FILO(First In Last Out) order.`,
-	date: "12/01/2022",
-	imgUrl:
-		"https://media.geeksforgeeks.org/img-practice/banner/cp-maths-java-thumbnail.png",
-
-	},
+	
 	{
 	title: "Algorithm",
 	body: `The word Algorithm means “a process
