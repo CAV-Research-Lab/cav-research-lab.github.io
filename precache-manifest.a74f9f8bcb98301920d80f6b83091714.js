@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "345120a84f0fe9230647b4baf1bf9dd6",
+    "revision": "4840521a472fae804c054dfd6d01410c",
     "url": "/index.html"
   },
   {
-    "revision": "12b4fe322b010abb9f74",
-    "url": "/static/css/main.67007a8f.chunk.css"
+    "revision": "06e17e71927d9dd02fed",
+    "url": "/static/css/main.64850746.chunk.css"
   },
   {
     "revision": "2cf470e0409ac7c54cb6",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cf29d662.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "12b4fe322b010abb9f74",
-    "url": "/static/js/main.d4b83dbe.chunk.js"
+    "revision": "06e17e71927d9dd02fed",
+    "url": "/static/js/main.8e424d2f.chunk.js"
   },
   {
     "revision": "97c002b8f8a25334b102",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b57b1a7eacbc49e2e2e69afe3cda34e3",
     "url": "/static/media/CAV-LAB_logo_white.b57b1a7e.png"
+  },
+  {
+    "revision": "ea830f0881e1e320f3ccede9a814985b",
+    "url": "/static/media/CW.ea830f08.png"
   },
   {
     "revision": "43139eb7b1347cfa6f01de3f54a52016",
