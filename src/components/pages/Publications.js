@@ -1,16 +1,28 @@
 import React from 'react';
 import '../../App.css';
 import './Pages.css'
+import Posts from "../Projects/Posts";
+
 import Footer from '../Footer';
 
 export default function Publications() {
   return (
     <>
+    <div style={{height: "100%", backgroundColor: "rgb(51, 51, 51)"}}>
+        <br></br><br></br>
+        <h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">Projects</span></h1>
+          <br></br><br></br>
+          <div className="container">
+        <Posts />
+      </div>
+    </div>
+    <Footer/>
+    </>
+  );
+}
+/*
       <div class="PublicationsBody">
-
-        <br></br><br></br>
-        <h1 className='publications'>PUBLICATIONS</h1>
-        <br></br><br></br>
+      
 
         <div class="info">
           <ul>
@@ -32,7 +44,5 @@ export default function Publications() {
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
       </div>
-    <Footer/>
-    </>
-  );
-}
+
+*/

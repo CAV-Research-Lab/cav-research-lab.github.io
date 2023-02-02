@@ -14,9 +14,9 @@ return (
 	<img className="image" src={imgUrl} alt="post" />
 	<br></br><br></br>
 	<p style={{fontWight:"normal"}}>{body}</p>
-	<div className="info">	
+	{/* <div className="info">	
 		<h4>Date: {date}</h4>
-	</div>
+	</div> */}
 	</div>
 	</>
 );

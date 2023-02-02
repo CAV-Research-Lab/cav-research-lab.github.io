@@ -21,7 +21,7 @@ function getColourFromTheme(theme){
 }
 /* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
 const Project = ({ post: { title, body,
-	theme, date, link }, index }) => {
+	theme, github, link }, index }) => {
 		const overlineStyle = {
 			paddingTop: "2%",
 			borderTop: "4px solid ".concat(getColourFromTheme(theme))
@@ -36,7 +36,9 @@ const Project = ({ post: { title, body,
 		<p>{body}</p>
 		
 		<a href={link} class="project-link"><GoLinkExternal/> Read Online</a>
-		<h4>Date: {date}</h4>
+		<a href={github} class="project-link"><GoLinkExternal/> Github</a>
+
+		{/* <h4>Date: {date}</h4> */}
 		<br></br><br></br>
 
 		</div>

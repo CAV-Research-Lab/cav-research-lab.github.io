@@ -10,14 +10,14 @@ export default function Team() {
             <div class="TeamBody" style={{ backgroundColor: "#333333" }}>
 
                 <br></br><br></br>
-                <h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">Meet the team</span></h1>
-                <br></br><br></br>
+                {/* <h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">Meet the team</span></h1>
+                <br></br><br></br> */}
                 <div className="info" style={{ margin: "5%", marginTop: "2%" }}>
 
                     <table>
                         <tr width="33%">
                             <th width="33%">
-                            <span class="badge badge-pill badge-danger"><h5>Founder</h5></span>
+                            {/* <span class="badge badge-pill badge-danger"><h5>Founder</h5></span> */}
                             <br></br></th>
                         </tr>
                         <tr>

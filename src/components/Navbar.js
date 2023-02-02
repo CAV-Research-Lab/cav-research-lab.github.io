@@ -25,14 +25,24 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+  const logoStyle = {
+    marginTop: "-1.2%"
+  };
+
+
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
+
+          <div style={logoStyle}>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={cav_lab_logo} width="20%" height="10%" />
+            <img src={cav_lab_logo} width="25%" height="12.5%"/><br></br>
             {/* <i class='fab fa-typo3' /> */}
+
           </Link>
+          </div>
+
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

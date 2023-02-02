@@ -10,9 +10,9 @@ export default function News() {
     <>
     <div class="NewsBody" style={{height: "100%", backgroundColor: "rgb(51, 51, 51)"}}>
       <div className="main-container">
-        <br></br><br></br>
+        {/* <br></br><br></br>
         <h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">News</span></h1>
-          <br></br><br></br>
+          <br></br><br></br> */}
 
         <Posts />
       </div>
