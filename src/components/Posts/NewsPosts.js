@@ -6,8 +6,7 @@ const newsPosts = [
 
 {
 	title: "Autonomous driving – are we nearly there yet?",
-	body: `One critical part of the effective deployment of AVs is for them to be trusted by the public to make the right decisions in road traffic, properly balancing the system goals of efficiency and capacity with human values such as safety and legality. Without this being well understood, the potential benefits of AVs could fail to materialise. In this talk, I will introduce the challenges towards trustworthy autonomous driving and novel solutions to address both human concerns and design requirements. Please see the details here: https://www.cambridgewireless.co.uk/events/autonomous-driving-are-we-there-yet/`,
-	date: "12/01/2022",
+	body: `One critical part of the effective deployment of autonomous vehicles is for them to be trusted by the public to make the right decisions in road traffic, properly balancing the system goals of efficiency and capacity with human values such as safety and legality. Without this being well understood, the potential benefits of autonomous vehicles could fail to materialise. In this talk, I will introduce the challenges towards trustworthy autonomous driving and novel solutions to address both human concerns and design requirements. Please see the details here: https://www.cambridgewireless.co.uk/events/autonomous-driving-are-we-there-yet/`,
 	imgUrl:
 		require('./PostMedia/CW.png'),
 
@@ -16,53 +15,20 @@ const newsPosts = [
 
 
 {
-	title: "Connected Vehicle Demonstration",
-	body: `The CAV-Lab presentation at the University of Surrey captivated audiences with a demonstration of
-			internally developed connected vehicle technology. The cars seen above have been designed, engioneered
-			and programmed to operate through a WiFi connection.\n\n
-			
-			Through the use of a video feed, the operators were able to successfully navigate the university
-			and communicate with spectators. This initial demonstration was an insight into the connected vehicle 
-			research undergone in the lab. Future work will look at 4G connection to enable unbounded connections,
-			furthermore the car is being fit with state-of-the-art object detection through the use of YOLO-v5. These
-			advancements in vehicle technology lay the groundwork for autonomous research, as each car is equiped
-			with a veriety of precise sensors designed to enable autonomous navigation.
-			`,
-	date: "12th November 2021",
-	imgUrl:
-	require('./PostMedia/demonstration.jpg'),
-	}		
-	,
+	title: "Vision-based Reinforcement Learning for Emergency Braking",
+	body: `Our PhD student at CAV-Lab, Vinal Asodia, designed an emergency braking system using a vision-based reinforcement learning technique. However, during testing, the car exhibited an unexpected behavior: it brakes twice in emergency scenarios when a pedestrian is detected. This is likely a feature that was unintentionally learned by the vehicle. It is important to investigate why the car is braking twice and determine if this behavior is beneficial or detrimental before implementing AI-powered autonomous vehicles in real-world applications. This highlights the need to address such questions and challenges to ensure the technology is trustworthy.`,
+	videoUrl:
+		'https://youtu.be/I_eGm44ncg8',
+
+	},
 	
 	{
-	title: "Algorithm",
-	body: `The word Algorithm means “a process
-	or set of rules to be followed in calculations
-	or other problem-solving operations”. Therefore
-	Algorithm refers to a set of rules/instructions
-	that step-by-step define how a work is to be
-	executed upon in order to get the expected
-	results. `,
-	date: "12/01/2022",
-	imgUrl:
-		"https://media.geeksforgeeks.org/img-practice/banner/google-test-series-thumbnail.png",
+	title: "Concerns on Trustworthiness of Deep Learning Object Detection Systems",
+	body: `At CAV-Lab, we recently used and trained YOLO-v4 for pedestrians, vehicles, and bicycle detection. The algorithm showed good performance in detecting and classifying objects in the video. However, we noticed that the algorithm suffers from a major issue that raises a safety concern, which is not specified. Even though there are some misclassifications and classifications with poor accuracy, they can be addressed with larger datasets and longer training process. However, there is a major safety concern in this video that has not been well understood by the research community and autonomous driving industry. Can you guess what is this safety/performance issue? `,
+	videoUrl:
+		"https://youtu.be/DSusXuPpXOE",
 	},
-	{
-	title: "Computer Network",
-	body: `An interconnection of multiple devices,
-	also known as hosts, that are connected using
-	multiple paths for the purpose of sending/
-	receiving data media. Computer networks can
-	also include multiple devices/mediums which
-	help in the communication between two different
-	devices; these are known as Network devices
-	and include things such as routers, switches,
-	hubs, and bridges. `,
-	date: "12/01/2022",
-	imgUrl:
 	
-		"https://media.geeksforgeeks.org/img-practice/banner/cp-maths-java-thumbnail.png",
-	},
 ];
 return (
 	newsPosts

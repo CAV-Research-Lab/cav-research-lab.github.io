@@ -22,7 +22,7 @@ export default function Team() {
                         </tr>
                         <tr>
 
-                            <th width="33%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th> {/*style={{ width: "50%", height: "50%" }}*/}
+                            <th width="33%"><img class="circular--square" src={require('../../images/saber_fallah.jpeg')} style={{ width: "200px", height: "200px" }} /></th> {/*style={{ width: "50%", height: "50%" }}*/}
                         </tr>
                         <tr width="33%">
                             <th width="33%">
@@ -94,7 +94,7 @@ export default function Team() {
 
                         <tr><th width="0.01%"></th>
                             <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
+                            <th width="25%"><img class="circular--square" src={require('../../images/glen_mason.jpg')} style={{ width: "200px", height: "200px" }} /></th>
                             <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
 
 
@@ -111,8 +111,9 @@ export default function Team() {
                             <th><br></br><br></br>
                                 <h3><b>Glen Mason</b></h3><br></br>
                                 <p class="teamText">
-                                    Focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control.</p> <br></br>
+                                Ensuring Safe Platooning: An Analysis of Cooperative Adaptive Cruise 
+                                Control Controller in Connected and Automated Vehicles under 
+                                Communication Disruption.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>

@@ -20,7 +20,7 @@
     border-left: 2px solid #333333;
     height: 85%;
     position: relative;
-    top: 50px;
+    top: 3rem;
 }
 
 .about-us-titles {
@@ -33,3 +33,24 @@
     padding-bottom: 0.75%;
     border-bottom: 4px solid #E4572E;
    }
+
+@media screen and (max-width: 768px) {
+    .about-us-container {
+        display: grid;
+        grid-template-rows: 33% 0.5% 33% 0.5% 33%;
+        grid-template-columns: 100% ;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    
+    .splitter {
+        width: 85%;
+        height: 50%;
+        background-color: black;
+        top: 1rem;
+        left: 7%;
+
+    }
+
+  }
+  
