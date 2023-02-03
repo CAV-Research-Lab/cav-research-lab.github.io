@@ -34,9 +34,9 @@ const Publication = ({ post: { title, body,
 
 		<br></br><br></br>
 		<p>{body}</p>
-		
-		<a href={link} class="publication-link"><GoLinkExternal/> Read Online</a>
-		<a href={github} class="publication-link"><GoLinkExternal/> Github</a>
+
+		<a href={link} class="project-link"><GoLinkExternal/> Read Online</a>
+		<a href={github} class="project-link"><GoLinkExternal/> Github</a>
 
 		{/* <h4>Date: {date}</h4> */}
 		<br></br><br></br>
@@ -46,8 +46,13 @@ const Publication = ({ post: { title, body,
 	);
 	};
 
-const Posts = () => {
-const publicationPosts = PublicationPosts();
+const Posts = (filterTheme) => {
+if (typeof filterTheme.filterTheme === 'undefined'){
+	var publicationPosts = PublicationPosts()
+}else{
+	var publicationPosts = PublicationPosts().filter(post => post.theme === filterTheme.filterTheme);
+}
+// const publicationPosts = PublicationPosts()
 return (
 	<>
 	{publicationPosts.map((post, index) => (

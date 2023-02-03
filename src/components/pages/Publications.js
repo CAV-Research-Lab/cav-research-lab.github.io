@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import './Pages.css'
-import Posts from "../Projects/Posts";
+import Posts from "../Publications/Posts";
 
 import Footer from '../Footer';
 
@@ -22,7 +22,7 @@ export default function Publications() {
 }
 /*
       <div class="PublicationsBody">
-      
+
 
         <div class="info">
           <ul>

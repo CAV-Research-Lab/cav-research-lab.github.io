@@ -34,7 +34,7 @@ const Project = ({ post: { title, body,
 
 		<br></br><br></br>
 		<p>{body}</p>
-		
+
 		<a href={link} class="project-link"><GoLinkExternal/> Read Online</a>
 		<a href={github} class="project-link"><GoLinkExternal/> Github</a>
 
@@ -46,8 +46,14 @@ const Project = ({ post: { title, body,
 	);
 	};
 
-const Posts = () => {
-const projectPosts = ProjectPosts();
+const Posts = (filterTheme) => {
+	if (typeof filterTheme.filterTheme === 'undefined'){
+		var projectPosts = ProjectPosts()
+	}else{
+		var projectPosts = ProjectPosts().filter(post => post.theme === filterTheme.filterTheme);
+	}// console.log(ProjectPosts()[0].theme);
+// console.log(filterTheme.filterTheme);
+
 return (
 	<>
 	{projectPosts.map((post, index) => (
