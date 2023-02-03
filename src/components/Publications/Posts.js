@@ -46,11 +46,12 @@ const Publication = ({ post: { title, body,
 	);
 	};
 
-const Posts = (filterTheme) => {
-if (typeof filterTheme.filterTheme === 'undefined'){
+const Posts = (filterYear) => {
+	console.log(filterYear);
+if (typeof filterYear.filterYear === 'undefined'){
 	var publicationPosts = PublicationPosts()
 }else{
-	var publicationPosts = PublicationPosts().filter(post => post.theme === filterTheme.filterTheme);
+	var publicationPosts = PublicationPosts().filter(post => post.year === filterYear.filterYear);
 }
 // const publicationPosts = PublicationPosts()
 return (
