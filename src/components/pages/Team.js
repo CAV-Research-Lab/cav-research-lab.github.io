@@ -45,7 +45,7 @@ export default function Team() {
                         <tr>
                             <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
                             <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
+                            <th width="25%"><img class="circular--square" src={require('../../images/mustafa_yildirim.png')} style={{ width: "200px", height: "200px" }} /></th>
                             <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
 
                         </tr><tr>
@@ -61,15 +61,15 @@ export default function Team() {
                             <th><br></br><br></br>
                                 <h3><b>Vinal Asodia</b></h3><br></br>
                                 <p class="teamText">
-                                    Focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control.</p> <br></br>
+                                    End-to-End Decision Making for Emergency Braking using 
+                                    Deep Reinforcement Learning.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
                                 <h3><b>Mustafa Yilirim</b></h3><br></br>
                                 <p class="teamText">
-                                    Focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control.</p> <br></br>
+                                Intelligent Decision-Making Method for Autonomous Driving Using 
+                                Reinforcement Learning.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>
@@ -93,7 +93,7 @@ export default function Team() {
                         </tr>
 
                         <tr><th width="0.01%"></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
+                            <th width="25%"><img class="circular--square" src={require('../../images/barkin_dagda.png')} style={{ width: "200px", height: "200px" }} /></th>
                             <th width="25%"><img class="circular--square" src={require('../../images/glen_mason.jpg')} style={{ width: "200px", height: "200px" }} /></th>
                             <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
 
@@ -104,8 +104,8 @@ export default function Team() {
                             <th><br></br><br></br>
                                 <h3><b>Barkin Dagda</b></h3><br></br>
                                 <p class="teamText">
-                                    Focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control.</p> <br></br>
+                                Self-Supervised Vision Based Localization of Autonomous 
+                                Vehicles using Satellite Imagery.</p> <br></br>
 
                             </th>
                             <th><br></br><br></br>

@@ -39,7 +39,7 @@
         display: grid;
         grid-template-rows: 33% 0.5% 33% 0.5% 33%;
         grid-template-columns: 100% ;
-        padding-top: 3%;
+        padding-top: 5%;
         padding-bottom: 3%;
     }
     
