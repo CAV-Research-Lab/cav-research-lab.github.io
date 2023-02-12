@@ -7,152 +7,97 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default function Team() {
     return (
         <>
-            <div class="TeamBody" style={{ backgroundColor: "#333333" }}>
-
-                <br></br><br></br>
-                {/* <h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">Meet the team</span></h1>
-                <br></br><br></br> */}
-                <div className="info" style={{ margin: "5%", marginTop: "2%" }}>
-
-                    <table>
-                        <tr width="33%">
-                            <th width="33%">
-                            {/* <span class="badge badge-pill badge-danger"><h5>Founder</h5></span> */}
-                            <br></br></th>
-                        </tr>
-                        <tr>
-
-                            <th width="33%"><img class="circular--square" src={require('../../images/saber_fallah.jpeg')} style={{ width: "200px", height: "200px" }} /></th> {/*style={{ width: "50%", height: "50%" }}*/}
-                        </tr>
-                        <tr width="33%">
-                            <th width="33%">
-
-                            <h3>Saber Fallah</h3>
-                            <p class="teamText">Dr. Fallah founded the CAV-Lab for connectivity and automation research in 2015
-                                and since then has worked on numerous projects focused on safe automation.
-                            </p>
-                            <br></br><br></br><br></br><br></br></th></tr>
-</table>
-
-<table>
-                        <tr>
-                            <th width="25%"><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
-                            <th width="25%"><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
-                            <th width="25%"><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
-                            <th width="25%"><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
-
-                        </tr>
-                        <tr>
-                            <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/mustafa_yildirim.png')} style={{ width: "200px", height: "200px" }} /></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
-
-                        </tr><tr>
-
-
-                            <th><br></br><br></br>
-                                <h3><b>Luc McCutcheon</b></h3><br></br>
-                                <p class="teamText">
-                                    Focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control.</p> <br></br>
-
-                            </th>
-                            <th><br></br><br></br>
-                                <h3><b>Vinal Asodia</b></h3><br></br>
-                                <p class="teamText">
-                                    End-to-End Decision Making for Emergency Braking using 
-                                    Deep Reinforcement Learning.</p> <br></br>
-
-                            </th>
-                            <th><br></br><br></br>
-                                <h3><b>Mustafa Yilirim</b></h3><br></br>
-                                <p class="teamText">
-                                Intelligent Decision-Making Method for Autonomous Driving Using 
-                                Reinforcement Learning.</p> <br></br>
-
-                            </th>
-                            <th><br></br><br></br>
-                                <h3><b>Maxim Tyshkovsky</b></h3><br></br>
-                                <p class="teamText">
-                                    Focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control.</p> <br></br>
-
-                            </th>
-                        </tr>
-                        </table>
-{/* -------------------------------------------------------------------------------------------------------------------------------------- */}
-                        <br></br><br></br><table>
-
-                        <tr>
-                            <th></th>
-                            <th><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
-                            <th><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
-                            <th><span class="badge badge-pill badge-primary"><h5>PhD</h5></span></th>
-
-                        </tr>
-
-                        <tr><th width="0.01%"></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/barkin_dagda.png')} style={{ width: "200px", height: "200px" }} /></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/glen_mason.jpg')} style={{ width: "200px", height: "200px" }} /></th>
-                            <th width="25%"><img class="circular--square" src={require('../../images/old_images/img-1.jpg')} style={{ width: "200px", height: "200px" }} /></th>
-
-
-
-                        </tr>
-                        <tr><th></th>
-                            <th><br></br><br></br>
-                                <h3><b>Barkin Dagda</b></h3><br></br>
-                                <p class="teamText">
-                                Self-Supervised Vision Based Localization of Autonomous 
-                                Vehicles using Satellite Imagery.</p> <br></br>
-
-                            </th>
-                            <th><br></br><br></br>
-                                <h3><b>Glen Mason</b></h3><br></br>
-                                <p class="teamText">
-                                Ensuring Safe Platooning: An Analysis of Cooperative Adaptive Cruise 
-                                Control Controller in Connected and Automated Vehicles under 
-                                Communication Disruption.</p> <br></br>
-
-                            </th>
-                            <th><br></br><br></br>
-                                <h3><b>Iman Sharifi</b></h3><br></br>
-                                <p class="teamText">
-                                    Focused on applying state-of-the-art Reinforcement Learning
-                                    algorithms to the task of teleoperated control.</p> <br></br>
-
-                            </th>
-                        </tr>
-                    </table>
-
-                    {/* -------------------------------------------------------------------------------------------------------------------------------------- */}
-                    <br></br><br></br><br></br><br></br>
-
-                    <table>
-                        <th width="20%"></th>
-                        <th width="20%"></th>
-                        <th width="20%">
-                            <span class="badge badge-pill badge-success"><h5>Alumni</h5></span></th>
-                        <th width="20%"></th>
-                        <th width="20%"></th>
-
-                        <tr></tr><tr>
-                            <th><h4>Saber Fallah</h4></th>
-                            <th><h4>Luc McCutcheon</h4></th>
-                            <th><h4>Vinal Asodia</h4></th>
-                            <th><h4>Mustafa Yildrim</h4></th>
-
-                            <tr>
-                                <th><h3>Shilp Dixit</h3></th>
-                            </tr>
-
-                        </tr>
-                        
-                    </table>
+            <div class="team-body">
+                <div class="founder-card">
+                    <h2 id="team-title">Meet the Team</h2>
+                    <img class="circular--square" src={require('../../images/saber_fallah.jpeg')}/>
+                    <h3 className='team-name'>Saber Fallah</h3>
+                    <p class="teamText">The director of CAV-Lab and associate professor in
+                        safe AI and autonomy.
+                    </p>
                 </div>
-
-                <br></br><br></br><br></br>
+                <div className='phd-first-row'>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <h3 className='team-name'>Luc <br/>McCutcheon</h3>
+                        <p class="teamText">
+                            Focused on applying state-of-the-art Reinforcement Learning
+                            algorithms to the task of teleoperated control.
+                        </p>
+                    </div>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <h3 className='team-name'>Vinal <br/>Asodia</h3>
+                        <p class="teamText">
+                            End-to-End Decision Making for Emergency Braking using 
+                            Deep Reinforcement Learning.
+                        </p>
+                    </div>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/mustafa_yildirim.png')}/>
+                        <h3 className='team-name'>Mustafa <br/>Yilirim</h3>
+                        <p class="teamText">
+                            Intelligent Decision-Making Method for Autonomous Driving Using 
+                            Reinforcement Learning.
+                        </p>
+                    </div>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <h3 className='team-name'>Maxim <br/>Tyshkovsky</h3>
+                        <p class="teamText">
+                            Focused on applying state-of-the-art Reinforcement  
+                            algorithms to the task of teleoperated control.
+                        </p>
+                    </div>
+                </div>
+                <div className='phd-second-row'>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/barkin_dagda.png')}/>
+                        <h3 className='team-name'>Barkin <br/>Dagda</h3>
+                        <p class="teamText">
+                            Self-Supervised Vision Based Localization of Autonomous 
+                            Vehicles using Satellite Imagery.
+                        </p>
+                    </div>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/glen_mason.jpg')}/>
+                        <h3 className='team-name'>Glen <br/>Mason</h3>
+                        <p class="teamText">
+                            Ensuring Safe Platooning: An Analysis of Cooperative Adaptive Cruise 
+                            Control Controller in Connected and Automated Vehicles under 
+                            Communication Disruption.
+                        </p>
+                    </div>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <h3 className='team-name'>Iman <br/>Sharifi</h3>
+                        <p class="teamText">
+                            Focused on applying state-of-the-art Reinforcement Learning
+                            algorithms to the task of teleoperated control.
+                        </p>
+                    </div>
+                </div>
+                <div className='alumni'>
+                    <h2 id='alumni-title'>Alumni</h2>
+                    <h4>Post Doctoral Research Fellows:</h4>
+                    <ul>
+                        <li>Post Doc 1 - Thesis Title)</li>
+                        <li>Post Doc 2 - Thesis Title)</li>
+                        <li>Post Doc 3 - Thesis Title)</li>
+                    </ul>
+                    <h4>PhD Researchers:</h4>
+                    <ul>
+                        <li>PhD Researcher 1 - Thesis Title)</li>
+                        <li>PhD Researcher 2 - Thesis Title)</li>
+                        <li>Phd Researcher 3 - Thesis Title)</li>
+                    </ul>
+                    <h4>Visiting Scholars:</h4>
+                    <ul>
+                        <li>Scholar 1 - Work Summary)</li>
+                        <li>Schoalr 2 - Work Summary)</li>
+                        <li>Scholar 3 - Work Summary)</li>
+                    </ul>
+                </div>
             </div>
         </>
     );

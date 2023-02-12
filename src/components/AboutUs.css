@@ -39,8 +39,15 @@
         display: grid;
         grid-template-rows: 33% 0.5% 33% 0.5% 33%;
         grid-template-columns: 100% ;
-        padding-top: 5%;
+        padding-top: 3%;
         padding-bottom: 3%;
+    }
+
+    .about-us-titles {
+        font-size: 38px;
+        font-weight: bold;
+        color: #E4572E;
+        padding-top: 3%;
     }
     
     .splitter {
@@ -49,6 +56,7 @@
         background-color: black;
         top: 1rem;
         left: 7%;
+        
 
     }
 

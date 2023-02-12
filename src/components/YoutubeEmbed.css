@@ -9,6 +9,8 @@
   .video-responsive iframe {
     /* left: 0; */
     /* padding-left: 5%; */
+    max-width: 500rem;
+    max-height: 300rem;
     margin-left: auto;
     margin-right: auto;   
     top: 0;
@@ -18,3 +20,10 @@
     /* right: -250px; */
   }
   
+  @media screen and (max-width: 1000px) {
+    .video-responsive iframe {
+      min-width: 300rem;
+      min-height: 200rem;
+    }
+    
+  }
