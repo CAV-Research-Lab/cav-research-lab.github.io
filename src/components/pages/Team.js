@@ -9,7 +9,7 @@ export default function Team() {
         <>
             <div class="team-body">
                 <div class="founder-card">
-                    <h2 id="team-title"><span>Meet the Team</span></h2> <br></br>
+                    {/* <h2 id="team-title"><span>Meet the Team</span></h2> <br></br> */}
                     <img class="circular--square" src={require('../../images/saber_fallah.jpeg')}/>
                     <h3 className='team-name'>Saber Fallah</h3>
                     <p class="teamText">The director of CAV-Lab and associate professor in

@@ -12,9 +12,55 @@ export default function Projects() {
 
   return (
     <>
-    <div style={{height: "100%", backgroundColor: "rgb(51, 51, 51)"}}>
+    <div class="black" style={{height: "100%", fontSize: "1.5rem"}}>
         <br></br><br></br>
-        <div style={{ color: "white", textAlign: "left", marginLeft: "3%" }}>
+        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <h1><span className="orange_underline">CARMA</span></h1><br></br>
+        <p >A short description detailing what the theme is about </p>
+        <ul style={{ listStyleType: "square" }}>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ul></div>
+          <br></br><br></br>
+
+
+        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <h1><span className='orange_underline'>SocioDrive</span></h1><br></br>
+        <p>A short description detailing what the theme is about </p>
+        <ul style={{ listStyleType: "square" }}>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ul></div>
+        <br></br><br></br>
+
+        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <h1><span className='orange_underline'>FAIR-Robot</span></h1><br></br>
+        <p>A short description detailing what the theme is about </p>
+        <ul style={{ listStyleType: "square" }}>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ul></div>
+        <br></br><br></br>
+
+        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <h1><span className='orange_underline'>SatCAV</span></h1><br></br>
+        <p>A short description detailing what the theme is about </p>
+        <ul style={{ listStyleType: "square" }}>
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ul></div>
+        <br></br><br></br>
+    </div>
+    <Footer/>
+    </>
+  );
+}
+/*
+<div style={{ color: "white", textAlign: "left", marginLeft: "3%" }}>
         <h1><span>CARMA</span></h1>
         <p>A short description detailing what the theme is about </p></div>
           <br></br><br></br>
@@ -43,8 +89,4 @@ export default function Projects() {
           <div className="container">
           <Posts filterTheme="SatCAV"/>
         </div>
-    </div>
-    <Footer/>
-    </>
-  );
-}
+*/

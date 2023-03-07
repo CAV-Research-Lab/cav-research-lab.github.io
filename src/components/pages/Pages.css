@@ -64,7 +64,9 @@
     padding-bottom: 0.75%;
     border-bottom: 4px solid;
 }
-
+#black {
+    color: black;
+}
 h3, h2 {
     text-align: center;
 }
@@ -92,6 +94,10 @@ h5 {
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+#orange_underline {
+    padding-bottom: 0.75%;
+    border-bottom: 4px solid #E4572E;
+   }
 
 .underline {
     padding-bottom: 0.75%;
