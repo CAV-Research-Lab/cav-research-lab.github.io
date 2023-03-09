@@ -18,7 +18,7 @@ export default function Team() {
                 </div>
                 <div className='phd-first-row'>
                     <div className='team-card'>
-                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <img class="circular--square" src={require('../../images/luc_mccutcheon.jpg')}/>
                         <h3 className='team-name'>Luc <br/>McCutcheon</h3>
                         <p class="teamText">
                             Focused on applying state-of-the-art Reinforcement Learning
@@ -80,22 +80,72 @@ export default function Team() {
                 <div className='alumni'>
                     <h2 id='alumni-title'>Alumni</h2>
                     <h4>Post Doctoral Research Fellows:</h4>
-                    <ul>
-                        <li>Post Doc 1 - Thesis Title)</li>
-                        <li>Post Doc 2 - Thesis Title)</li>
-                        <li>Post Doc 3 - Thesis Title)</li>
+                    <ul className='alumni-list'>
+                        <li>Dr Ashith Rajendra, Model-based reinforcement 
+                            learning control of multi-link space robot,</li>
+                        <li>Dr Saeid Safavi, Predictive fault detection 
+                            for autonomous vehicles,</li>
+                        <li>Dr Elnaz Shafipour, Multi-agent ad-hoc task 
+                            allocation,</li>
+                        <li>Dr Fatina Basmadji, Satellite collision risk 
+                            prediction,</li>
+                        <li>Dr Zeeshan Barbar, Multi-objective task 
+                            optimization for autonomous vehicles,</li>
+                        <li>Dr Kaushik Halder, Distributed H∞ Controller 
+                            for Vehicle Platooning under Random Multiple 
+                            Packet Drop,</li>
+                        <li>Dr Umberto Montanaro, Cloud-aided distributed 
+                            control systems for connected autonomous cars</li>
                     </ul>
                     <h4>PhD Researchers:</h4>
-                    <ul>
-                        <li>PhD Researcher 1 - Thesis Title)</li>
-                        <li>PhD Researcher 2 - Thesis Title)</li>
-                        <li>Phd Researcher 3 - Thesis Title)</li>
+                    <ul className='alumni-list'>
+                        <li>Barkin Dagda, “Vehicle localisation using Self-supervised 
+                            Learning and Satellite Imagery”, Oct. 2022-present,</li>
+                        <li>Maxim Tyshkovsky, “Uncertainty-aware decision making for 
+                            safe autonomous driving”, Jan. 2022-present,</li>
+                        <li>Zahra Chaghazardi, “Resilient Traffic Sign Detection Method 
+                            for Safe Autonomous Driving Using Logic-Based Learning”, 
+                            Jan 2022-present,</li>
+                        <li>Luc Mccutcheon, “Time-delayed deep reinforcement learning 
+                            for tele-operated robot systems”, Oct. 2021-present,</li>
+                        <li>Vinal Asodia, “Self-supervised vision-based deep 
+                            reinforcement learning for autonomous driving decision-making”, 
+                            Oct. 2021-present,</li>
+                        <li>Thomas Babier, “State estimation for non-cooperative space robots 
+                            used for active debris removal”, Jan. 2019-June 2022,</li>
+                        <li>Mustafa Yildirim, “Intelligent Decision Making for Autonomous Driving”, 
+                            Oct. 2020-present,</li>
+                        <li>Marco Visca, “Vision-based Reinforcement Learning Control of Autonomous 
+                            Vehicles”, Oct. 2018-Dec. 2022,</li>
+                        <li>Salar Arbabi, “Interaction-aware Decision Making for Autonomous Urban 
+                            Driving”, Oct. 2018-Feb. 2023,</li>
+                        <li>Eduardo Arnold, “Cooperative Visual Percetion at the Edge of Cloud”, 
+                            Nov. 2017- Dec. 2021,</li>
+                        <li>Glen Mason, “Design of a Fault-Tolerant Cooperative Adaptive Cruise 
+                            Control System”, Oct. 2017-present</li>
+                        <li>Sampo Kuutti, “Autonomous Vehicle Motion Control using Deep Learning”, 
+                            Oct. 2017- April 2021,</li>
+                        <li>Shayan Taherian, “Intelligent Automated Braking System for Heavy Duty 
+                            Vehicles”, May 2017-Nov. 2020,</li>
+                        <li>Shilp Dixit, “Fault-tolerant Cooperative Cruise Control with Autonomous 
+                            Overtaking”, Oct. 2016 - Nov. 2019,</li>
+                        <li>Young Wang, “Optimal Torque-vectoring Control Design for In-wheel Electric 
+                            Vehicles”, Jan. 2015-Feb. 2019,</li>
+                        <li>Johan Theunissen, “Development of active vehicle suspension systems using 
+                            driver’s emotional metrics”, March 2015-Feb. 2019.</li>
                     </ul>
-                    <h4>Visiting Scholars:</h4>
-                    <ul>
-                        <li>Scholar 1 - Work Summary)</li>
-                        <li>Schoalr 2 - Work Summary)</li>
-                        <li>Scholar 3 - Work Summary)</li>
+                    <h4>Research Engineers:</h4>
+                    <ul className='alumni-list'>
+                        <li>Erfan Aminhatamy, “Learning-based Robust Model Predictive Control using 
+                            Safe Reinforcement Learning”, 2022–present.</li>
+                        <li>Mehran Raeisi, “Robust Controller using Model Predictive Path Integral 
+                            Control”, 2021 - 2023</li>
+                        <li>Amirhossein Nohian, “Effective MPC-Based Reinforcement Learning Systems 
+                            for Robotics”, 2021-2023</li>
+                        <li>Hossein Hamid, “Autonomous Decision Support for Space System Monitoring”, 
+                            2019-2020</li>
+                        <li>Tatiana Farcas, “Autonomous Decision Support for Space System Monitoring”, 
+                            2019 - 2020</li>
                     </ul>
                 </div>
             </div>
