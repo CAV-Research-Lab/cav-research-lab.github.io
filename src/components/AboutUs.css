@@ -13,7 +13,7 @@
     padding-left: 12%;
     padding-right: 10%;
     padding-top: 5%;
-    font-size: 16px;
+    font-size: 1.2rem;
 }
 
 .splitter {
@@ -24,7 +24,7 @@
 }
 
 .about-us-titles {
-    font-size: 38px;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #E4572E;
 }
@@ -44,7 +44,7 @@
     }
 
     .about-us-titles {
-        font-size: 38px;
+        font-size: 2.5rem;
         font-weight: bold;
         color: #E4572E;
         padding-top: 3%;

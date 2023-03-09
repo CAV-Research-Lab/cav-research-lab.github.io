@@ -11,7 +11,7 @@
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 20px;
+    font-size: 1.2rem;
     animation-duration: 0.1s; /* don't forget to set a duration! */
   }
 
@@ -33,14 +33,14 @@
       background-color: #333333;
       display: flex;
       position: relative;
-      padding-left: -0.5rem;
-      padding-right: -1rem;
+      padding-left: 0.5rem;
+      padding-right: 1rem;
       flex-direction: column;
       justify-content: center;
       align-items: center;
   }
   
-  #vision_video {
+  .vision_video {
       position: relative;
       width: 85%;
       height: 70%;

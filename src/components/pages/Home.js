@@ -5,10 +5,10 @@ import './Pages.css';
 import DynamicBackground from '../DynamicBackground';
 import Vision from '../Vision';
 import AboutUs from '../AboutUs';
+import Highlights from '../Highlights';
 import Footer from '../Footer';
 import Team from './Team';
 import Sponsors from './Sponsors';
-import Highlights from './Highlights';
 
 
 

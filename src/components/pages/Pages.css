@@ -119,12 +119,7 @@ h5 {
     float: left; /* Float the image to the left
 } */
 
-.posts-container {
-	/* display: flex; */
-	justify-content: center;
-	align-items: center;
-	padding: 0%;
-}
+
 .image {
 	margin-left: 10%;
 	display: block;
