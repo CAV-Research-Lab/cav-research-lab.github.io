@@ -43,6 +43,11 @@
     padding-right: 2%;
 }
 
+  
+  .grid-item {
+    /* style for the items within the grid */
+  }
+  
 .team-name {
     padding-top: 2%;
     color: black;
@@ -127,6 +132,21 @@ h5 {
     /* grid-template-rows: 3em 1.6em 1.6em; */
 
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 59% 0% 39%;
+    align-items: left;
+    grid-gap: 2%; /* set gap between the columns */
+
+  }
+
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
 .overline {
     padding-top: 0.75%;
     border-top: 4px solid;
