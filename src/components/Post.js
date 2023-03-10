@@ -51,7 +51,8 @@ const Highlight = ({ post: { title, body,
 		<div className="highlight-container">
 			<div className="post-grid-container">
 				<div className="post-image">
-					<img className="image" src={imgUrl} alt="post" />
+					{/* <img className="image" src={imgUrl} alt="post" /> */}
+					{mediaFormat(imgUrl, videoUrl)}
 				</div>
 				<div className="post-info">
 					<h1 className="heading"><b>{title}</b></h1>
