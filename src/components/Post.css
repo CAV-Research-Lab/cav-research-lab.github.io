@@ -19,20 +19,21 @@
 	display: grid;
     color: white;
     background-color: #333333;/*"#1C1B1B",*/
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 45% 55%;
 }
 
-.post-image {
+.post-media {
 	padding-top: 7rem;
+	padding-left: 3rem;
     padding-right: 2rem;
 	align-items: center;
     animation-duration: 0.1s; /* don't forget to set a duration! */
 }
 
-.image {
+.posts-image {
 	/* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
-	width: 20rem;
-	height: 15rem;	
+	width: 31rem;
+	height: 20rem;	
 }
 
 .heading {
@@ -42,14 +43,14 @@
 .post-info {
 	text-align: center;
     padding-top: 7%;
-    padding-bottom: 5%;
+    padding-bottom: 1.5rem;
     padding-left: 2rem;
     padding-right: 5rem;
     font-size: 1.2rem;
 	animation-duration: 0.1s; /* don't forget to set a duration! */
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .post-grid-container {
 		display: grid;
       	color: white;
@@ -65,20 +66,21 @@
 
   	.post-info {
 		text-align: center;
-		padding-top: .5rem;
-		padding-bottom: 3rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+		padding-left: 4rem;
+		padding-right: 4rem;
 		font-size: 1.1rem;
 		animation-duration: 0.1s; /* don't forget to set a duration! */
 	}
 
-	.post-image {
-		padding-top: 2rem;
-		padding-bottom: .5rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
-		align-items: center;
+	.post-media {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		/* padding-left: 4rem;
+		padding-right: 4rem; */
+		display: flex;
+		justify-content: center;
 		animation-duration: 0.1s; /* don't forget to set a duration! */
 	}
 

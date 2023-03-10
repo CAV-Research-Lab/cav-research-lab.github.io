@@ -27,13 +27,13 @@ function mediaFormat(imgUrl, videoUrl){
 	console.log(videoUrl)
 	if (videoUrl !== "" || videoUrl === undefined){
 		return(
-			<div id="highlight_video_wrapper">
-				<YoutubeEmbed embedId={videoUrl}/>
+			<div>
+				<YoutubeEmbed className="image" embedId={videoUrl}/>
 	  		</div>
 	  );
 	}else{
 		return(
-			<img className="image" src={imgUrl} alt="post" />
+			<img className="posts-image" src={imgUrl} alt="post" />
 
 		);
 	}
@@ -50,7 +50,7 @@ const Highlight = ({ post: { title, body,
 		<>
 		<div className="highlight-container">
 			<div className="post-grid-container">
-				<div className="post-image">
+				<div className="post-media">
 					{/* <img className="image" src={imgUrl} alt="post" /> */}
 					{mediaFormat(imgUrl, videoUrl)}
 				</div>
@@ -60,8 +60,6 @@ const Highlight = ({ post: { title, body,
 					<h4>Date: {date}</h4>
 				</div>
 			</div>
-
-		<br></br><br></br>
 		</div>
 		</>
 	);
