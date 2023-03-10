@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb5f1eab.css",
-    "main.js": "/static/js/main.a6cdfe79.js",
+    "main.css": "/static/css/main.78394691.css",
+    "main.js": "/static/js/main.c78d5099.js",
     "static/media/background_video.mp4": "/static/media/background_video.6b00500c43335333bf00.mp4",
     "static/media/CW.png": "/static/media/CW.d58598b341e0ad8ae150.png",
     "static/media/saber_fallah.jpeg": "/static/media/saber_fallah.86343b210354397b09a8.jpeg",
     "static/media/img-1.jpg": "/static/media/img-1.53f4843759ebec256cb9.jpg",
+    "static/media/Socio-Drive.png": "/static/media/Socio-Drive.6292d36b16b121db515d.png",
     "static/media/barkin_dagda.png": "/static/media/barkin_dagda.6ed142c62046fce58759.png",
     "static/media/mustafa_yildirim.png": "/static/media/mustafa_yildirim.8d9ec64cbdce4c79ddb2.png",
     "static/media/sponsors.PNG": "/static/media/sponsors.ccf4cd4be1bc14398180.PNG",
@@ -13,11 +14,11 @@
     "static/media/luc_mccutcheon.jpg": "/static/media/luc_mccutcheon.9fae497ca8cf21d4a19e.jpg",
     "static/media/glen_mason.jpg": "/static/media/glen_mason.8e8c1ad9060df76fbe46.jpg",
     "index.html": "/index.html",
-    "main.fb5f1eab.css.map": "/static/css/main.fb5f1eab.css.map",
-    "main.a6cdfe79.js.map": "/static/js/main.a6cdfe79.js.map"
+    "main.78394691.css.map": "/static/css/main.78394691.css.map",
+    "main.c78d5099.js.map": "/static/js/main.c78d5099.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb5f1eab.css",
-    "static/js/main.a6cdfe79.js"
+    "static/css/main.78394691.css",
+    "static/js/main.c78d5099.js"
   ]
 }
