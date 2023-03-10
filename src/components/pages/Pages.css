@@ -43,7 +43,16 @@
     padding-right: 2%;
 }
 
-  
+  /* .pdf {
+    color: blue;
+    text-decoration: none;
+
+  }
+  .pdf:hover {
+    color: blue;
+
+  } */
+
   .grid-item {
     /* style for the items within the grid */
   }
