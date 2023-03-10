@@ -49,22 +49,16 @@ const Highlight = ({ post: { title, body,
 			};	return (
 		<>
 		<div className="highlight-container">
-			<table>
-				<tr>
-					<th width="30%" textAlign="left">
-						{mediaFormat(imgUrl, videoUrl)}
-
-					</th>
-
-					<th>
-						<div className="info">
-						<h1 className="heading">{title}</h1>
-						<p >{body}</p>
-						<h4>{date}</h4>
-						</div>
-					</th>
-				</tr>
-			</table>
+			<div className="post-grid-container">
+				<div className="post-image">
+					<img className="image" src={imgUrl} alt="post" />
+				</div>
+				<div className="post-info">
+					<h1 className="heading"><b>{title}</b></h1>
+					<p >{body}</p>
+					<h4>Date: {date}</h4>
+				</div>
+			</div>
 
 		<br></br><br></br>
 		</div>
