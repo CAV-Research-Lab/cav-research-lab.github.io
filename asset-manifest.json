@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.78394691.css",
-    "main.js": "/static/js/main.c78d5099.js",
-    "static/media/background_video.mp4": "/static/media/background_video.6b00500c43335333bf00.mp4",
-    "static/media/CW.png": "/static/media/CW.d58598b341e0ad8ae150.png",
-    "static/media/saber_fallah.jpeg": "/static/media/saber_fallah.86343b210354397b09a8.jpeg",
-    "static/media/img-1.jpg": "/static/media/img-1.53f4843759ebec256cb9.jpg",
-    "static/media/Socio-Drive.png": "/static/media/Socio-Drive.6292d36b16b121db515d.png",
-    "static/media/barkin_dagda.png": "/static/media/barkin_dagda.6ed142c62046fce58759.png",
-    "static/media/mustafa_yildirim.png": "/static/media/mustafa_yildirim.8d9ec64cbdce4c79ddb2.png",
-    "static/media/sponsors.PNG": "/static/media/sponsors.ccf4cd4be1bc14398180.PNG",
-    "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.61a4cdacfc3e0bf8a6a6.png",
-    "static/media/luc_mccutcheon.jpg": "/static/media/luc_mccutcheon.9fae497ca8cf21d4a19e.jpg",
-    "static/media/glen_mason.jpg": "/static/media/glen_mason.8e8c1ad9060df76fbe46.jpg",
+    "main.css": "/static/css/main.e92128e8.chunk.css",
+    "main.js": "/static/js/main.6ee424a4.chunk.js",
+    "main.js.map": "/static/js/main.6ee424a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.67d84520.js",
+    "runtime-main.js.map": "/static/js/runtime-main.67d84520.js.map",
+    "static/js/2.5179dc8a.chunk.js": "/static/js/2.5179dc8a.chunk.js",
+    "static/js/2.5179dc8a.chunk.js.map": "/static/js/2.5179dc8a.chunk.js.map",
     "index.html": "/index.html",
-    "main.78394691.css.map": "/static/css/main.78394691.css.map",
-    "main.c78d5099.js.map": "/static/js/main.c78d5099.js.map"
+    "precache-manifest.37270bad82fb5f282c476fc3862e6508.js": "/precache-manifest.37270bad82fb5f282c476fc3862e6508.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e92128e8.chunk.css.map": "/static/css/main.e92128e8.chunk.css.map",
+    "static/js/2.5179dc8a.chunk.js.LICENSE.txt": "/static/js/2.5179dc8a.chunk.js.LICENSE.txt",
+    "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
+    "static/media/CW.png": "/static/media/CW.ea830f08.png",
+    "static/media/Socio-Drive.png": "/static/media/Socio-Drive.944f17e7.png",
+    "static/media/background_video.mp4": "/static/media/background_video.43139eb7.mp4",
+    "static/media/barkin_dagda.png": "/static/media/barkin_dagda.fc7f4f20.png",
+    "static/media/glen_mason.jpg": "/static/media/glen_mason.a5d56aaf.jpg",
+    "static/media/img-1.jpg": "/static/media/img-1.cd1d1c97.jpg",
+    "static/media/luc_mccutcheon.jpg": "/static/media/luc_mccutcheon.2e94fca1.jpg",
+    "static/media/mustafa_yildirim.png": "/static/media/mustafa_yildirim.4f673dc3.png",
+    "static/media/saber_fallah.jpeg": "/static/media/saber_fallah.77e698c4.jpeg",
+    "static/media/sponsors.PNG": "/static/media/sponsors.b30fc4ce.PNG"
   },
   "entrypoints": [
-    "static/css/main.78394691.css",
-    "static/js/main.c78d5099.js"
+    "static/js/runtime-main.67d84520.js",
+    "static/js/2.5179dc8a.chunk.js",
+    "static/css/main.e92128e8.chunk.css",
+    "static/js/main.6ee424a4.chunk.js"
   ]
 }
