@@ -12,7 +12,7 @@ export default function Projects() {
 
   return (
     <>
-      <div class="black" style={{ height: "100%", fontSize: "1.5rem" }}>
+      <div class="black" style={{ height: "100%", fontSize: "1.3rem" }}>
         <br></br><br></br>
         <div class="grid-container">
 
@@ -46,7 +46,7 @@ export default function Projects() {
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>Socio-Drive</span></h1><br></br>
-            <p>
+            <p fontSize="large">
               Socio-Drive (Cognitive Learning of Scoial Norms for Human-like Autonomous Driving) research project was launched in 2017 with initial funding from EPSRC and Jaguar Land Rover. The aim here is to enhance the trust of AI-enabled autonomous
               vehicles by public. In this project, the backbone of our research is Deep Reinforcement Learning (DRL) which combines artificial neural networks with a framework of
               reinforcement learning. DRL offers a comprehensive framework for studying the interplay among learning, representation, and decision making, offering to the sciences
@@ -68,7 +68,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-            <p>image 2</p>
+            <img class="project-img" src={require('../../images/Socio-Drive.png')}/>
           </div>
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>

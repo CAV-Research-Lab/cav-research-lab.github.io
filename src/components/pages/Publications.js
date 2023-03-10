@@ -8,7 +8,7 @@ import Footer from '../Footer';
 export default function Publications() {
   return (
     <>
-      <div class="black" style={{ height: "100%", fontSize: "1.5rem" }}>
+      <div class="black" style={{ height: "100%", fontSize: "1.3rem" }}>
         <br></br><br></br>
         <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
           <h1><span className="orange_underline">2023</span></h1><br></br>

@@ -25,9 +25,9 @@ return (
 
 function mediaFormat(imgUrl, videoUrl){
 	console.log(videoUrl)
-	if (videoUrl != "" || videoUrl === undefined){
+	if (videoUrl !== "" || videoUrl === undefined){
 		return(
-			<div id="video_wrapper">
+			<div id="highlight_video_wrapper">
 				<YoutubeEmbed embedId={videoUrl}/>
 	  		</div>
 	  );

@@ -124,6 +124,13 @@ h5 {
 	margin-left: 10%;
 	display: block;
 }
+
+.project-img {
+    height: 80%;
+    width: 80%;
+
+}
+
 .container {
     display: grid;
     grid-template-columns: 41% 41% 41%;
