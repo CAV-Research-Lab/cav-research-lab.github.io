@@ -2,6 +2,7 @@ import React from "react";
 import "./Post.css";
 import '../App.css';
 import './pages/Pages.css'
+import YoutubeEmbed from "./YoutubeEmbed";
 
 
 
@@ -22,8 +23,25 @@ return (
 );
 };
 
+function mediaFormat(imgUrl, videoUrl){
+	console.log(videoUrl)
+	if (videoUrl != "" || videoUrl === undefined){
+		return(
+			<div id="video_wrapper">
+				<YoutubeEmbed embedId={videoUrl}/>
+	  		</div>
+	  );
+	}else{
+		return(
+			<img className="image" src={imgUrl} alt="post" />
+
+		);
+	}
+
+}
+
 const Highlight = ({ post: { title, body,
-	imgUrl, date }, index }) => {
+	imgUrl,videoUrl, date }, index }) => {
 		const left = {
 			color: "black",
 			backgroundColor: "#212529",/*"#1C1B1B",*/
@@ -34,14 +52,15 @@ const Highlight = ({ post: { title, body,
 			<table>
 				<tr>
 					<th width="30%" textAlign="left">
-						<img className="image" src={imgUrl} alt="post" />
+						{mediaFormat(imgUrl, videoUrl)}
+
 					</th>
 
 					<th>
 						<div className="info">
 						<h1 className="heading">{title}</h1>
 						<p >{body}</p>
-						<h4>Date: {date}</h4>
+						<h4>{date}</h4>
 						</div>
 					</th>
 				</tr>

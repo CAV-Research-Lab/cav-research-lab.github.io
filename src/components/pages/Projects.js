@@ -18,9 +18,9 @@ export default function Projects() {
 
           <div class="grid-item">
             <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
-              <h1><span className="orange_underline">CARMA: Secure Cloud-based Distributed Control Systems for Connected Autonomous Cars</span></h1><br></br>
+              <h1><span className="orange_underline">CARMA</span></h1><br></br>
               <p>
-                CARMA research project was initiated in 2016 with initial funding from EPSRC and Jaguar Land Rover.
+                CARMA (Secure Cloud-based Distributed Control Systems for Connected Autonomous Cars) research project was initiated in 2016 with initial funding from EPSRC and Jaguar Land Rover.
                 The project aims to integrate off-board vehicle information into on-board vehicle control systems using cloud,
                 5G communication technologies, AI, and distributed optimal control theories. The goal is to improve vehicle perception and expand the information horizon,
                 while addressing issues such as sensor limitations, real-time decision-making, and line of sight. The expected outcome is the development of safer and faster
@@ -45,9 +45,9 @@ export default function Projects() {
           </div>
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
-            <h1><span className='orange_underline'>Socio-Drive: Cognitive Learning of Scoial Norms for Human-like Autonomous Driving</span></h1><br></br>
+            <h1><span className='orange_underline'>Socio-Drive</span></h1><br></br>
             <p>
-              Socio-Drive research project was launched in 2017 with initial funding from EPSRC and Jaguar Land Rover. The aim here is to enhance the trust of AI-enabled autonomous
+              Socio-Drive (Cognitive Learning of Scoial Norms for Human-like Autonomous Driving) research project was launched in 2017 with initial funding from EPSRC and Jaguar Land Rover. The aim here is to enhance the trust of AI-enabled autonomous
               vehicles by public. In this project, the backbone of our research is Deep Reinforcement Learning (DRL) which combines artificial neural networks with a framework of
               reinforcement learning. DRL offers a comprehensive framework for studying the interplay among learning, representation, and decision making, offering to the sciences
               and researchers a new set of research tools and a wide range of novel research hypotheses. DRL borrows ideas not only from nature but also from our psychology
@@ -72,9 +72,9 @@ export default function Projects() {
           </div>
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
-            <h1><span className='orange_underline'>FAIR-Robots: Future AI Research for Robots</span></h1><br></br>
+            <h1><span className='orange_underline'>FAIR-Robots</span></h1><br></br>
             <p>
-              FAIR-Robots project was launched in 2017 when w`e received initial funding from EPSRC and UKRI as part of the larger FAIR-SPACE Hub project. The project is a
+              FAIR-Robots (Future AI Research for Robots) project was launched in 2017 when w`e received initial funding from EPSRC and UKRI as part of the larger FAIR-SPACE Hub project. The project is a
               collaboration between leading experts from academia, industry, and governments, with the aim of pushing the boundaries of AI robotics and enabling robots to
               operate safely in hazardous and extreme environments such as space and nuclear plants. During this project, we developed novel control and navigation
               algorithms using state-of-the-art machine learning and AI techniques, to empower the next generation of robots to perform tasks autonomously and safely.
@@ -94,8 +94,9 @@ export default function Projects() {
 
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
-            <h1><span className='orange_underline'>I-Aware: Intelligent Situational Awareness for Safety Enhancement of Autonomous Vehicle</span></h1><br></br>
+            <h1><span className='orange_underline'>I-Aware</span></h1><br></br>
             <p>
+              I-Aware (Intelligent Situational Awareness for Safety Enhancement of Autonomous Vehicle)
               Situational awareness is crucial for safe autonomous driving as it allows the vehicle to perceive, understand, and respond to the environment and potential hazards
               around it. It involves the continuous monitoring and assessment of the road, traffic, weather, and other factors that may affect the vehicle's operation. With a
               high level of situational awareness, an autonomous vehicle can make informed decisions and adjust its behaviour to ensure the safety of its passengers and other
