@@ -28,7 +28,7 @@ function mediaFormat(imgUrl, videoUrl){
 	if (videoUrl !== "" || videoUrl === undefined){
 		return(
 			<div>
-				<YoutubeEmbed className="image" embedId={videoUrl}/>
+				<YoutubeEmbed embedId={videoUrl}/>
 	  		</div>
 	  );
 	}else{
@@ -51,7 +51,6 @@ const Highlight = ({ post: { title, body,
 		<div className="highlight-container">
 			<div className="post-grid-container">
 				<div className="post-media">
-					{/* <img className="image" src={imgUrl} alt="post" /> */}
 					{mediaFormat(imgUrl, videoUrl)}
 				</div>
 				<div className="post-info">
