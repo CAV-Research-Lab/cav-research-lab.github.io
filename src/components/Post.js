@@ -15,9 +15,8 @@ return (
 	<img className="image" src={imgUrl} alt="post" />
 	<br></br><br></br>
 	<p style={{fontWight:"normal"}}>{body}</p>
-	{/* <div className="info">	
-		<h4>Date: {date}</h4>
-	</div> */}
+	<h4>{date}</h4>
+
 	</div>
 	</>
 );
@@ -56,7 +55,7 @@ const Highlight = ({ post: { title, body,
 				<div className="post-info">
 					<h1 className="heading"><b>{title}</b></h1>
 					<p >{body}</p>
-					<h4>Date: {date}</h4>
+					<h4>{date}</h4>
 				</div>
 			</div>
 		</div>

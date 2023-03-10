@@ -41,7 +41,8 @@ export default function Projects() {
             </div></div>
           <br></br><br></br>
           <div class="grid-item">
-            <p>image 1</p>
+            <img class="project-img" src={require('../../images/Socio-Drive.png')} />
+
           </div>
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
@@ -68,7 +69,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-            <img class="project-img" src={require('../../images/Socio-Drive.png')}/>
+            <p>image 2</p>
           </div>
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
@@ -86,11 +87,11 @@ export default function Projects() {
 
 
           </div>
-        <br></br><br></br>
+          <br></br><br></br>
 
-        <div class="grid-item">
-          <p>image 3</p>
-        </div>
+          <div class="grid-item">
+            <p>image 3</p>
+          </div>
 
 
           <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
@@ -107,13 +108,13 @@ export default function Projects() {
           </div>
           <br></br><br></br>
 
-        <div class="grid-item">
-          <p>image 4</p>
+          <div class="grid-item">
+            <p>image 4</p>
+          </div>
         </div>
-        </div>
-        </div>
+      </div>
       {/* Add some blank vertical space to the bottom of page */}
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br> 
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
       <Footer />
     </>
