@@ -107,8 +107,7 @@ export default function Projects() {
           <div class="grid-item">
             <p>image 4</p>
           </div>
-        </div>
-        <br></br><br></br><br></br><br></br>
+
         <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>
         <h1><span className='orange_underline'>Research Funding</span></h1><br></br>
           <h5>EPSRC</h5>
@@ -164,8 +163,8 @@ export default function Projects() {
 
 <li> Development of Regenerative Auxiliary Power Systems, Automotive Partnership Canada (APC) and Canada Foundation for Innovation (CFI).</li>
 </ul>
-
-
+        <br></br><br></br><br></br><br></br>
+          </div>
         </div>
       </div>
       {/* Add some blank vertical space to the bottom of page */}
