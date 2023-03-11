@@ -43,15 +43,13 @@
     padding-right: 2%;
 }
 
-  /* .pdf {
-    color: blue;
-    text-decoration: none;
-
+a {
+    color: blue; /* Set the color of the link */
+    text-decoration: underline; /* Underline the link */
+    cursor: pointer; /* Change cursor on hover */
   }
-  .pdf:hover {
-    color: blue;
 
-  } */
+  
 
   .grid-item {
     /* style for the items within the grid */
