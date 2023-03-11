@@ -63,7 +63,7 @@ export default function Team() {
                         <img class="circular--square" src={require('../../images/glen_mason.jpg')}/>
                         <h3 className='team-name'>Glen <br/>Mason</h3>
                         <p class="teamText">
-                            Ensuring Safe Platooning: An Analysis of Cooperative Adaptive Cruise 
+                            Analysis of Cooperative Adaptive Cruise 
                             Control Controller in Connected and Automated Vehicles under 
                             Communication Disruption.
                         </p>
@@ -74,6 +74,14 @@ export default function Team() {
                         <p class="teamText">
                             Focused on applying state-of-the-art Reinforcement Learning
                             algorithms to the task of teleoperated control.
+                        </p>
+                    </div>
+                    <div className='team-card'>
+                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <h3 className='team-name'>Erfan <br/>Aminhatamy</h3>
+                        <p class="teamText">
+                            Learning-based Robust Model Predictive Control using 
+                            Safe Reinforcement Learning.
                         </p>
                     </div>
                 </div>
@@ -99,30 +107,15 @@ export default function Team() {
                     </ul>
                     <h4>PhD Researchers:</h4>
                     <ul className='alumni-list'>
-                        <li>Barkin Dagda, “Vehicle localisation using Self-supervised 
-                            Learning and Satellite Imagery”, Oct. 2022-present,</li>
-                        <li>Maxim Tyshkovsky, “Uncertainty-aware decision making for 
-                            safe autonomous driving”, Jan. 2022-present,</li>
                         <li>Zahra Chaghazardi, “Resilient Traffic Sign Detection Method 
                             for Safe Autonomous Driving Using Logic-Based Learning”, 
                             Jan 2022-present,</li>
-                        <li>Luc Mccutcheon, “Time-delayed deep reinforcement learning 
-                            for tele-operated robot systems”, Oct. 2021-present,</li>
-                        <li>Vinal Asodia, “Self-supervised vision-based deep 
-                            reinforcement learning for autonomous driving decision-making”, 
-                            Oct. 2021-present,</li>
                         <li>Thomas Babier, “State estimation for non-cooperative space robots 
                             used for active debris removal”, Jan. 2019-June 2022,</li>
-                        <li>Mustafa Yildirim, “Intelligent Decision Making for Autonomous Driving”, 
-                            Oct. 2020-present,</li>
                         <li>Marco Visca, “Vision-based Reinforcement Learning Control of Autonomous 
                             Vehicles”, Oct. 2018-Dec. 2022,</li>
-                        <li>Salar Arbabi, “Interaction-aware Decision Making for Autonomous Urban 
-                            Driving”, Oct. 2018-Feb. 2023,</li>
                         <li>Eduardo Arnold, “Cooperative Visual Percetion at the Edge of Cloud”, 
                             Nov. 2017- Dec. 2021,</li>
-                        <li>Glen Mason, “Design of a Fault-Tolerant Cooperative Adaptive Cruise 
-                            Control System”, Oct. 2017-present</li>
                         <li>Sampo Kuutti, “Autonomous Vehicle Motion Control using Deep Learning”, 
                             Oct. 2017- April 2021,</li>
                         <li>Shayan Taherian, “Intelligent Automated Braking System for Heavy Duty 
@@ -134,10 +127,8 @@ export default function Team() {
                         <li>Johan Theunissen, “Development of active vehicle suspension systems using 
                             driver’s emotional metrics”, March 2015-Feb. 2019.</li>
                     </ul>
-                    <h4>Research Engineers:</h4>
+                    <h4>Research Associates:</h4>
                     <ul className='alumni-list'>
-                        <li>Erfan Aminhatamy, “Learning-based Robust Model Predictive Control using 
-                            Safe Reinforcement Learning”, 2022–present.</li>
                         <li>Mehran Raeisi, “Robust Controller using Model Predictive Path Integral 
                             Control”, 2021 - 2023</li>
                         <li>Amirhossein Nohian, “Effective MPC-Based Reinforcement Learning Systems 
