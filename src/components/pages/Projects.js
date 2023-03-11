@@ -17,7 +17,7 @@ export default function Projects() {
         <div class="grid-container">
 
           <div class="grid-item">
-            <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+            <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
               <h1><span className="orange_underline">CARMA</span></h1><br></br>
               <p>
                 CARMA (Secure Cloud-based Distributed Control Systems for Connected Autonomous Cars) research project was initiated in 2016 with initial funding from EPSRC and Jaguar Land Rover.
@@ -33,11 +33,7 @@ export default function Projects() {
                 leveraging cloud computing, 5G communication technologies, and cutting-edge AI and distributed optimal control theories. The ultimate goal is to create safer
                 and faster autonomous vehicles that can operate in a variety of challenging driving scenarios.
               </p>
-              {/* <ul style={{ listStyleType: "square" }}>
-              <li>Project 1</li>
-              <li>Project 2</li>
-              <li>Project 3</li>
-            </ul> */}
+
             </div></div>
           <br></br><br></br>
           <div class="grid-item">
@@ -45,7 +41,7 @@ export default function Projects() {
 
           </div>
 
-          <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>Socio-Drive</span></h1><br></br>
             <p fontSize="large">
               Socio-Drive (Cognitive Learning of Scoial Norms for Human-like Autonomous Driving) research project was launched in 2017 with initial funding from EPSRC and Jaguar Land Rover. The aim here is to enhance the trust of AI-enabled autonomous
@@ -72,7 +68,7 @@ export default function Projects() {
             <p>image 2</p>
           </div>
 
-          <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>FAIR-Robots</span></h1><br></br>
             <p>
               FAIR-Robots (Future AI Research for Robots) project was launched in 2017 when w`e received initial funding from EPSRC and UKRI as part of the larger FAIR-SPACE Hub project. The project is a
@@ -94,7 +90,7 @@ export default function Projects() {
           </div>
 
 
-          <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>I-Aware</span></h1><br></br>
             <p>
               I-Aware (Intelligent Situational Awareness for Safety Enhancement of Autonomous Vehicle)
@@ -111,6 +107,65 @@ export default function Projects() {
           <div class="grid-item">
             <p>image 4</p>
           </div>
+        </div>
+        <br></br><br></br><br></br><br></br>
+        <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>
+        <h1><span className='orange_underline'>Research Funding</span></h1><br></br>
+          <h5>EPSRC</h5>
+          <ul style={{ listStyleType: "square" }}>
+
+<li> Vision-based Localisation Using Satellite Imagery (£80K), Oct. 2022 – present.</li>
+
+<li> Predictive Fault-detection for Autonomous Mobile Robots (£50K), Principal Investigator, March 2021 – March 2022.</li>
+
+<li> Future AI and Robotics for Space (£7M), Nov. 2017 – March 2022.</li>
+
+<li> End-to-End Deep Learning Control for Connected Autonomous Vehicles (£70K), Sept. 2017 – Sept. 2021.</li>
+
+<li> Secure Cloud-based Distributed Control Systems for Connected Autonomous Cars (£4M), June 2015 – March 2022.</li>
+
+</ul>
+<h5>InnovateUK</h5>
+<ul>
+
+<li> Research to Consider the Future UK Opportunities in Active Debris Removal and in Orbit Servicing, Jan. 2022 – June 2022.</li>
+
+<li> GPR for Localisation of Autonomous Vehicles (£100K) , Oct. 2018 – May 2019.</li>
+
+<li> Holistic Energy Management Software Tool for a Fleet of Connected Electric Vehicles (£260K), Principal Investigator, Sept. 2018 – Sept. 2021.</li>
+
+<li> 5G Above the Cloud (£270K), Innovate UK, Sept. 2018 – Sept. 2021.</li>
+
+</ul>
+<h5>EU Commision</h5>
+<ul>
+
+<li> Powering EU Net Zero Future by Escalating Zero Emission HDVs and Logistic Intelligence (£350K), Jan. 2023 - present.</li>
+
+<li> Optimization of scalable real-time models and functional testing for e-drive concepts (£250K), Oct. 2017 – Nov. 2020.</li>
+
+<li> Improved Trustworthiness and Weather-Independence of Conditionally Automated Vehicles in Mixed Traffic Scenarios (£350K), June 2017 – Oct. 2020.</li>
+
+<li> Integrated Control of Multiple-Motor and Multiple-Storage Fully Electric Vehicles (£300K), Oct. 2013 – Sept. 2016.</li>
+</ul>
+<h5>Industry</h5>
+<ul>
+<li> Supporting AI Required to Allow DEXTER Telemanipulator to Autonomously Respond to Haptic Feedback (£55K), Veolia Nuclear Solutions, Oct. 2021 – present.</li>
+
+<li> Autonomous Decision System Support (£70K), SPRINT, March 2021 – March 2022.</li>
+
+<li> UK In-Orbit Servicing Capability: A Platform for Growth, UKSA, Nov. 2020 – May 2021.</li>
+
+<li> Deep Learning for the Energy-Aware Guidance of Robots in Natural Environments (£65K), The UK Atomic Energy Authority, RACE, Oct. 2018 – Oct 2021.</li>
+
+<li> Autonomous High-Speed Overtaking in Structured Environments (£80K), Jaguar Land Rover, Oct. 2016 – Dec. 2019.</li>
+
+<li> Development of Pre-emptive Optimal Control for Active Suspension Systems (£170K), Jaguar Land Rover, Jan. 2013 – Jan. 2015.</li>
+
+<li> Development of Regenerative Auxiliary Power Systems, Automotive Partnership Canada (APC) and Canada Foundation for Innovation (CFI).</li>
+</ul>
+
+
         </div>
       </div>
       {/* Add some blank vertical space to the bottom of page */}
