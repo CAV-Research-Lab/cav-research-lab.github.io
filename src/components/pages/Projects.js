@@ -37,7 +37,7 @@ export default function Projects() {
             </div></div>
           <br></br><br></br>
           <div class="grid-item">
-            <img class="project-img" src={require('../../images/Socio-Drive.png')} />
+            <img class="project-img" src={require('../../images/CARMA.png')} />
 
           </div>
 
@@ -86,7 +86,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-            <p>image 3</p>
+          <img class="project-img" src={require('../../images/mujoco-arm.PNG')} />
           </div>
 
 
