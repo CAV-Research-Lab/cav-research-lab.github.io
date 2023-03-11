@@ -2,29 +2,37 @@ import React from 'react';
 import '../../App.css';
 import './Pages.css'
 import Posts from "../Publications/Posts";
-import {GrDocumentPdf} from 'react-icons/gr'
+import { GrDocumentPdf } from 'react-icons/gr'
+import { AiOutlineArrowDown,AiOutlineArrowUp } from 'react-icons/ai'
+
 import { useRef } from 'react';
+import { scroller, animateScroll as scroll } from 'react-scroll'
 
 import Footer from '../Footer';
 
 export default function Publications() {
-  const targetRef = useRef(null);
-
-  const scrollToTarget = () => {
-    targetRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
+  function scrollTo(year) {
+    scroller.scrollTo(year, {
+      duration: 800,
+      delay: 0,
+      smooth: 'easeInOutQuart'
+    })
+  }
 
   return (
     <>
-    <nav>
-    <div style={{textAlign: "center"}}>
-    <a href="#target" onClick={scrollToTarget}>2018</a>
-    </div>
-    </nav>
+      <br></br>
+      <nav>
+        <div style={{ textAlign: "center" }}>
+          <p> <a className="black" onClick={() => scrollTo("2023")} >2023</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2020")} >2020</a> - <a className="black" onClick={() => scrollTo("2019")} >2019</a> - <a className="black" onClick={() => scrollTo("2018")} >2018</a> - <a className="black" onClick={() => scrollTo("2017")} >2017</a></p>
+          <p><a onClick={() => scroll.scrollToBottom()}><AiOutlineArrowDown/></a></p>
+        </div>
+      </nav>
 
       <div class="black" style={{ height: "100%", fontSize: "1.3rem" }}>
-        <br></br><br></br>
-        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2023" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <br></br><br></br>
+
           <h1><span className="orange_underline">2023</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
             <li>Explainable Traffic Sign Detection for Safe Autonomous Driving: an Inductive Logic Programming Approach, under review. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
@@ -33,10 +41,11 @@ export default function Publications() {
             <li>Adaptive PID Control using Deep Reinforcement Learning for Local-Remote Teleoperation with Stochastic Time Delays, IEEE/RSJ International Conference on Intelligent Robots and Systems, under review. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
             <li>Value Summation: A Novel Scoring Function for MPC-based Model-based Reinforcement Learning, under review. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
           </ul></div>
-        <br></br><br></br>
 
 
-        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2022" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <br></br><br></br>
+
           <h1><span className='orange_underline'>2022</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
             <li> Hybrid fleet capacitated vehicle routing problem with flexible Monte–Carlo Tree search, J. of System Science: Operation & Logistic.  <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
@@ -53,9 +62,10 @@ export default function Publications() {
 
 
           </ul></div>
-        <br></br><br></br>
 
-        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2021" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <br></br><br></br>
+
           <h1><span className='orange_underline'>2021</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
             <li> Distributed H Controller Design and Robustness Analysis for Vehicle Platooning Under Random Packet Drop, IEEE Tran. on Int. Transportation Systems. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
@@ -71,9 +81,10 @@ export default function Publications() {
             <li>Multi-Sensor Fault Detection, Identification, Isolation and Health Forecasting for Autonomous Vehicles, Journal of Sensors. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
             <li>A Novel Fault Detection, Identification and Prediction Approach for Autonomous Vehicle Controllers Using SVM, Automotive Innovation. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
           </ul></div>
-        <br></br><br></br>
 
-        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2020" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <br></br><br></br>
+
           <h1><span className='orange_underline'>2020</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
             <li> Integral MRAC With Bounded Switching Gain for Vehicle Lateral Tracking, IEEE Tran. on Control System Technology. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
@@ -85,9 +96,10 @@ export default function Publications() {
             <li> Conv1D Energy-Aware Path Planner for Mobile Robots in Unstructured Environments, International Conference on Robotics and Automation (ICRA). <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
 
           </ul></div>
-        <br></br><br></br>
 
-        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2019" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <br></br><br></br>
+
           <h1><span className='orange_underline'>2019</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
             <li> Trajectory Planning for Autonomous High-Speed Overtaking in Structured Environments Using Robust MPC, IEEE Transactions on Intelligent Transportation Systems. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
@@ -102,9 +114,10 @@ export default function Publications() {
             <li> Ground-Based High-DOF AI And Robotics Demonstrator for In-Orbit Space Optical Telescope Assembly, Congress IAC. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
 
           </ul></div>
-        <br></br><br></br>
 
-        <div id="target" ref={targetRef} style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className='2018' style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+          <br></br><br></br>
+
           <h1><span className='orange_underline'>2018</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
             <li>Trajectory planning and tracking for autonomous overtaking: State-of-the-art and future prospects, Annual Reviews in Control. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
@@ -116,19 +129,25 @@ export default function Publications() {
             <li> A Survey of the State-of-the-Art Localization Techniques and Their Potentials for Autonomous Vehicle Applications, IEEE Intelligent Transportation Systems <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
 
           </ul></div>
+
+        <div className="2017" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
         <br></br><br></br>
 
-        <div style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
           <h1><span className='orange_underline'>2017</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
-          <li> Cooperative automation through the cloud: The CARMA project, Proceedings of 12th ITS European Congress. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
-          <li> Torque Distribution Strategies for Energy-Efficient Electric Vehicles With Multiple Drivetrains, Journal of Dynamic Systems, Measurement and Control. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
-          <li> Energy efficient torque vectoring for electric vehicles with multiple drivetrains, Vehicle Dynamics and Control Seminar. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
+            <li> Cooperative automation through the cloud: The CARMA project, Proceedings of 12th ITS European Congress. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
+            <li> Torque Distribution Strategies for Energy-Efficient Electric Vehicles With Multiple Drivetrains, Journal of Dynamic Systems, Measurement and Control. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
+            <li> Energy efficient torque vectoring for electric vehicles with multiple drivetrains, Vehicle Dynamics and Control Seminar. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
 
           </ul></div>
         <br></br><br></br>
 
       </div>
+      <div style={{ textAlign: "center" }}>
+          <p> <a className="black" onClick={() => scrollTo("2023")} >2023</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2020")} >2020</a> - <a className="black" onClick={() => scrollTo("2019")} >2019</a> - <a className="black" onClick={() => scrollTo("2018")} >2018</a> - <a className="black" onClick={() => scrollTo("2017")} >2017</a></p>
+          <p><a onClick={() => scroll.scrollToTop()}><AiOutlineArrowUp/></a></p>
+
+        </div>
       <Footer />
     </>
   );
