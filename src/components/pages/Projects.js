@@ -65,7 +65,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-            <p>image 2</p>
+            <img style={{width:"25rem", height:"21rem"}} class="project-img" src={require('../../images/carla.png')} />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>

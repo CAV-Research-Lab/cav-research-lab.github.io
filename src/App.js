@@ -8,7 +8,6 @@ import Projects from './components/pages/Projects';
 import News from './components/pages/News';
 import Team from './components/pages/Team';
 import Blog from './components/pages/Blog';
-import Navbar_New from './components/Navbar-New';
 
 
 function App() {
