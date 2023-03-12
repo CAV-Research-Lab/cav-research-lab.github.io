@@ -25,22 +25,20 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
-  const logoStyle = {
-    marginTop: "-1.2%"
-  };
+  // const logoStyle = {
+  //   marginTop: "-1.2%"
+  // };
 
 
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
+          <div>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+              <img src={cav_lab_logo}/><br></br>
+              {/* <i class='fab fa-typo3' /> */}
 
-          <div style={logoStyle}>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={cav_lab_logo}/><br></br>
-            {/* <i class='fab fa-typo3' /> */}
-
-          </Link>
+            </Link>
           </div>
 
           <div className='menu-icon' onClick={handleClick}>
@@ -88,28 +86,7 @@ function Navbar() {
                 News
               </Link>
             </li>
-            {/* <li className='nav-item'>
-              <Link
-                to='/blog'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Blog
-              </Link>
-            </li> */}
           </ul>
-          {/* <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
-            </li>
-          </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
-        </div>
       </nav>
     </>
   );

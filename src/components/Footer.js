@@ -3,7 +3,7 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import cav_lab_logo from '../images/CAV-LAB_logo_white.png'
-import {AiOutlineMail, AiOutlinePhone} from 'react-icons/ai'
+import {AiOutlineMail, AiOutlinePhone, AiOutlineYoutube} from 'react-icons/ai'
 import {IoMdContact} from 'react-icons/io'
 
 function Footer() {
@@ -24,8 +24,8 @@ function Footer() {
       <th><h1 style={{textAlign: "right"}}><a style={{color: "inherit"}} href="tel:+01483686528"><AiOutlinePhone /></a></h1></th>
       <th style={{fontWeight: 'normal'}}><b>Office:</b> 01483686528</th>
 
-      <th><h1 style={{textAlign: "right"}}><a style={{color: "inherit"}} href="tel:+447460536501"><AiOutlinePhone /></a></h1></th>
-      <th nowrap style={{fontWeight: 'normal'}}><b>Mobile:</b> 07460536501</th>
+      <th><h1 style={{textAlign: "right"}}><a style={{color: "inherit"}} href="https://www.youtube.com/@cavresearchlab"><AiOutlineYoutube /></a></h1></th>
+      <th nowrap style={{fontWeight: 'normal'}}><b>Youtube:</b> @cavresearchlab</th>
       </tr>
       </table>  {/* Add closing tag here */}
       <section class='social-media'>

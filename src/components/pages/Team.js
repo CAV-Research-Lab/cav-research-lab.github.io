@@ -140,6 +140,7 @@ export default function Team() {
                     </ul>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
