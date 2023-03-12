@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb5a33fa.chunk.css",
-    "main.js": "/static/js/main.bd6d1f78.chunk.js",
-    "main.js.map": "/static/js/main.bd6d1f78.chunk.js.map",
+    "main.css": "/static/css/main.225e35f3.chunk.css",
+    "main.js": "/static/js/main.1ef39ff6.chunk.js",
+    "main.js.map": "/static/js/main.1ef39ff6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d84520.js",
     "runtime-main.js.map": "/static/js/runtime-main.67d84520.js.map",
-    "static/js/2.ae7976c4.chunk.js": "/static/js/2.ae7976c4.chunk.js",
-    "static/js/2.ae7976c4.chunk.js.map": "/static/js/2.ae7976c4.chunk.js.map",
+    "static/js/2.fa55552c.chunk.js": "/static/js/2.fa55552c.chunk.js",
+    "static/js/2.fa55552c.chunk.js.map": "/static/js/2.fa55552c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9a01a8cefe393d0c137cb81e3ea54074.js": "/precache-manifest.9a01a8cefe393d0c137cb81e3ea54074.js",
+    "precache-manifest.bc87a1b232db05c27a628535b6f76253.js": "/precache-manifest.bc87a1b232db05c27a628535b6f76253.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.bb5a33fa.chunk.css.map": "/static/css/main.bb5a33fa.chunk.css.map",
-    "static/js/2.ae7976c4.chunk.js.LICENSE.txt": "/static/js/2.ae7976c4.chunk.js.LICENSE.txt",
+    "static/css/main.225e35f3.chunk.css.map": "/static/css/main.225e35f3.chunk.css.map",
+    "static/js/2.fa55552c.chunk.js.LICENSE.txt": "/static/js/2.fa55552c.chunk.js.LICENSE.txt",
     "static/media/CARMA.png": "/static/media/CARMA.944f17e7.png",
     "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
     "static/media/CW.png": "/static/media/CW.ea830f08.png",
     "static/media/background_video.mp4": "/static/media/background_video.43139eb7.mp4",
     "static/media/barkin_dagda.png": "/static/media/barkin_dagda.fc7f4f20.png",
+    "static/media/carla.png": "/static/media/carla.09d81489.png",
     "static/media/glen_mason.jpg": "/static/media/glen_mason.a5d56aaf.jpg",
     "static/media/img-1.jpg": "/static/media/img-1.cd1d1c97.jpg",
     "static/media/luc_mccutcheon.jpg": "/static/media/luc_mccutcheon.2e94fca1.jpg",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.67d84520.js",
-    "static/js/2.ae7976c4.chunk.js",
-    "static/css/main.bb5a33fa.chunk.css",
-    "static/js/main.bd6d1f78.chunk.js"
+    "static/js/2.fa55552c.chunk.js",
+    "static/css/main.225e35f3.chunk.css",
+    "static/js/main.1ef39ff6.chunk.js"
   ]
 }
