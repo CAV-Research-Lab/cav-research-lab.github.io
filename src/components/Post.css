@@ -27,6 +27,8 @@
 	padding-left: 3rem;
     padding-right: 2rem;
 	align-items: center;
+	height: 30rem;
+	width: 30rem;
     animation-duration: 0.1s; /* don't forget to set a duration! */
 }
 

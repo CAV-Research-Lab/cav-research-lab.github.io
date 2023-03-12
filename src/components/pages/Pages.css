@@ -133,8 +133,9 @@ h5 {
 }
 
 .project-img {
-    height: 80%;
-    width: 80%;
+    height: 37rem;
+    width: 30rem;
+    aspect-ratio: auto;
 
 }
 

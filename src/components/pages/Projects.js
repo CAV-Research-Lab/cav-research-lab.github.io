@@ -86,7 +86,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-          <img class="project-img" src={require('../../images/mujoco-arm.PNG')} />
+          <img style={{width:"25rem", height:"21rem"}} class="project-img" src={require('../../images/mujoco-arm.PNG')} />
           </div>
 
 

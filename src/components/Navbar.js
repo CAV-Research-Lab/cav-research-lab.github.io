@@ -37,7 +37,7 @@ function Navbar() {
 
           <div style={logoStyle}>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            <img src={cav_lab_logo} width="25%" height="12.5%"/><br></br>
+            <img src={cav_lab_logo}/><br></br>
             {/* <i class='fab fa-typo3' /> */}
 
           </Link>
