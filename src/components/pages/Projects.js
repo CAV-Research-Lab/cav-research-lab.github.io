@@ -12,7 +12,7 @@ export default function Projects() {
 
   return (
     <>
-      <div class="black" style={{ height: "100%", fontSize: "1.3rem" }}>
+      <div class="black" style={{ height: "100%", fontSize: "1.2rem" }}>
         <br></br><br></br>
         <div class="grid-container">
 
@@ -111,7 +111,7 @@ export default function Projects() {
         <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>
         <h1><span className='orange_underline'>Research Funding</span></h1><br></br>
           <h5>EPSRC</h5>
-          <ul style={{ listStyleType: "square" }}>
+<ul style={{ listStyleType: "square" }}>
 
 <li> Vision-based Localisation Using Satellite Imagery (£80K), Oct. 2022 – present.</li>
 
@@ -125,7 +125,7 @@ export default function Projects() {
 
 </ul>
 <h5>InnovateUK</h5>
-<ul>
+<ul style={{ liststyletype: "square" }}>
 
 <li> Research to Consider the Future UK Opportunities in Active Debris Removal and in Orbit Servicing, Jan. 2022 – June 2022.</li>
 
@@ -137,7 +137,7 @@ export default function Projects() {
 
 </ul>
 <h5>EU Commision</h5>
-<ul>
+<ul style={{ liststyletype: "square" }}>
 
 <li> Powering EU Net Zero Future by Escalating Zero Emission HDVs and Logistic Intelligence (£350K), Jan. 2023 - present.</li>
 
@@ -148,7 +148,7 @@ export default function Projects() {
 <li> Integrated Control of Multiple-Motor and Multiple-Storage Fully Electric Vehicles (£300K), Oct. 2013 – Sept. 2016.</li>
 </ul>
 <h5>Industry</h5>
-<ul>
+<ul style={{ liststyletype: "square" }}>
 <li> Supporting AI Required to Allow DEXTER Telemanipulator to Autonomously Respond to Haptic Feedback (£55K), Veolia Nuclear Solutions, Oct. 2021 – present.</li>
 
 <li> Autonomous Decision System Support (£70K), SPRINT, March 2021 – March 2022.</li>

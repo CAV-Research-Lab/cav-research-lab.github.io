@@ -23,14 +23,14 @@ export default function Publications() {
     <>
       <br></br>
       <nav>
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center", fontSize: "1.5rem" }}>
           <p> <a className="black" onClick={() => scrollTo("2023")} >2023</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2020")} >2020</a> - <a className="black" onClick={() => scrollTo("2019")} >2019</a> - <a className="black" onClick={() => scrollTo("2018")} >2018</a> - <a className="black" onClick={() => scrollTo("2017")} >2017</a></p>
           <p><a onClick={() => scroll.scrollToBottom()}><AiOutlineArrowDown/></a></p>
         </div>
       </nav>
 
-      <div class="black" style={{ height: "100%", fontSize: "1.3rem" }}>
-        <div className="2023" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+      <div class="black" style={{ height: "100%", fontSize: "1.2rem" }}>
+        <div className="2023" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 
           <h1><span className="orange_underline">2023</span></h1><br></br>
@@ -43,7 +43,7 @@ export default function Publications() {
           </ul></div>
 
 
-        <div className="2022" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2022" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 
           <h1><span className='orange_underline'>2022</span></h1><br></br>
@@ -63,7 +63,7 @@ export default function Publications() {
 
           </ul></div>
 
-        <div className="2021" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2021" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 
           <h1><span className='orange_underline'>2021</span></h1><br></br>
@@ -82,7 +82,7 @@ export default function Publications() {
             <li>A Novel Fault Detection, Identification and Prediction Approach for Autonomous Vehicle Controllers Using SVM, Automotive Innovation. <a href="https://www.google.co.uk/"><GrDocumentPdf /> </a> </li>
           </ul></div>
 
-        <div className="2020" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2020" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 
           <h1><span className='orange_underline'>2020</span></h1><br></br>
@@ -97,7 +97,7 @@ export default function Publications() {
 
           </ul></div>
 
-        <div className="2019" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2019" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 
           <h1><span className='orange_underline'>2019</span></h1><br></br>
@@ -115,7 +115,7 @@ export default function Publications() {
 
           </ul></div>
 
-        <div className='2018' style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className='2018' style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 
           <h1><span className='orange_underline'>2018</span></h1><br></br>
@@ -130,7 +130,7 @@ export default function Publications() {
 
           </ul></div>
 
-        <div className="2017" style={{ color: "black", textAlign: "left", marginLeft: "3%" }}>
+        <div className="2017" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
         <br></br><br></br>
 
           <h1><span className='orange_underline'>2017</span></h1><br></br>
@@ -143,7 +143,7 @@ export default function Publications() {
         <br></br><br></br>
 
       </div>
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center", fontSize: "1.5rem" }}>
           <p> <a className="black" onClick={() => scrollTo("2023")} >2023</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2020")} >2020</a> - <a className="black" onClick={() => scrollTo("2019")} >2019</a> - <a className="black" onClick={() => scrollTo("2018")} >2018</a> - <a className="black" onClick={() => scrollTo("2017")} >2017</a></p>
           <p><a onClick={() => scroll.scrollToTop()}><AiOutlineArrowUp/></a></p>
 
