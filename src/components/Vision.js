@@ -26,7 +26,11 @@ function Vision() {
 
             </div></ScrollAnimation>
             <div id="video_wrapper">
-              <YoutubeEmbed embedId="gxI3J9OArMY" />
+              <iframe className="vision-video"
+              src={`https://www.youtube.com/embed/gxI3J9OArMY`}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Embedded youtube"/>
             </div>
         </div>
       </>

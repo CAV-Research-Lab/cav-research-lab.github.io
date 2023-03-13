@@ -15,6 +15,11 @@
 	align-self: center;
 } */
 
+.highlight-container {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
 .post-grid-container {
 	display: grid;
     color: white;
@@ -23,13 +28,12 @@
 }
 
 .post-media {
-	padding-top: 7rem;
-	padding-left: 3rem;
-    padding-right: 2rem;
-	align-items: center;
-	height: 30rem;
-	width: 30rem;
-    animation-duration: 0.1s; /* don't forget to set a duration! */
+	height: 100%;
+    width: 100%;
+    animation-duration: 0.1s;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .posts-image {
@@ -38,13 +42,20 @@
 	height: 20rem;	
 }
 
+.posts-video {
+	/* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
+	width: 31rem;
+	height: 20rem;
+	border: 0;	
+}
+
 .heading {
 	font-size: 1.7rem;
 }
 
 .post-info {
-	text-align: center;
-    padding-top: 7%;
+	text-align: justify;
+    /* padding-top: 7%; */
     padding-bottom: 1.5rem;
     padding-left: 2rem;
     padding-right: 5rem;
@@ -59,31 +70,46 @@
       	background-color: #333333;/*"#1C1B1B",*/
       	grid-template-columns: 100%;
     	grid-template-rows: 50% 50%;
-		flex-direction: row-reverse;
+		flex-direction: column-reverse;
 	}
 
 	.heading {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 	}
 
   	.post-info {
-		text-align: center;
-		padding-top: 2rem;
+		text-align: justify;
+		padding-top: 0;
 		padding-bottom: 1rem;
-		padding-left: 4rem;
-		padding-right: 4rem;
-		font-size: 1.1rem;
-		animation-duration: 0.1s; /* don't forget to set a duration! */
+		padding-left: 3rem;
+		padding-right: 3rem;
+		font-size: 1rem;
+		animation-duration: 0.1s;
 	}
 
 	.post-media {
-		padding-top: 1rem;
-		padding-bottom: 1rem;
-		/* padding-left: 4rem;
-		padding-right: 4rem; */
+		width: 100%;
+		height: 100%;
 		display: flex;
 		justify-content: center;
 		animation-duration: 0.1s; /* don't forget to set a duration! */
 	}
 
+	.posts-image {
+		width: 35rem;
+		height: 20rem;
+		padding: 0.5rem;
+		aspect-ratio: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.posts-video {
+		width: 35rem;
+		height: 20rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
   }

@@ -26,9 +26,12 @@ function mediaFormat(imgUrl, videoUrl){
 	console.log(videoUrl)
 	if (videoUrl !== "" || videoUrl === undefined){
 		return(
-			<div>
-				<YoutubeEmbed embedId={videoUrl}/>
-	  		</div>
+			<iframe className="posts-video"
+      src={`https://www.youtube.com/embed/${videoUrl}`}
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      title="Embedded youtube"
+    	/>
 	  );
 	}else{
 		return(
