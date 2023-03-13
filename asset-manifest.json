@@ -1,35 +1,38 @@
 {
   "files": {
     "main.css": "/static/css/main.b12ddfcd.chunk.css",
-    "main.js": "/static/js/main.470b1ef1.chunk.js",
-    "main.js.map": "/static/js/main.470b1ef1.chunk.js.map",
+    "main.js": "/static/js/main.2e1d3650.chunk.js",
+    "main.js.map": "/static/js/main.2e1d3650.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d84520.js",
     "runtime-main.js.map": "/static/js/runtime-main.67d84520.js.map",
-    "static/js/2.fa55552c.chunk.js": "/static/js/2.fa55552c.chunk.js",
-    "static/js/2.fa55552c.chunk.js.map": "/static/js/2.fa55552c.chunk.js.map",
+    "static/js/2.07cbe857.chunk.js": "/static/js/2.07cbe857.chunk.js",
+    "static/js/2.07cbe857.chunk.js.map": "/static/js/2.07cbe857.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.79bbb12e0e6ffb94c5fa2545d8122496.js": "/precache-manifest.79bbb12e0e6ffb94c5fa2545d8122496.js",
+    "precache-manifest.a8af9590a6f215b6c8e0fb206b2e0d41.js": "/precache-manifest.a8af9590a6f215b6c8e0fb206b2e0d41.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b12ddfcd.chunk.css.map": "/static/css/main.b12ddfcd.chunk.css.map",
-    "static/js/2.fa55552c.chunk.js.LICENSE.txt": "/static/js/2.fa55552c.chunk.js.LICENSE.txt",
+    "static/js/2.07cbe857.chunk.js.LICENSE.txt": "/static/js/2.07cbe857.chunk.js.LICENSE.txt",
     "static/media/CARMA.png": "/static/media/CARMA.944f17e7.png",
     "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
     "static/media/CW.png": "/static/media/CW.ea830f08.png",
+    "static/media/SatCAV.png": "/static/media/SatCAV.aa9c343c.png",
     "static/media/background_video.mp4": "/static/media/background_video.43139eb7.mp4",
     "static/media/barkin_dagda.png": "/static/media/barkin_dagda.fc7f4f20.png",
     "static/media/carla.png": "/static/media/carla.09d81489.png",
     "static/media/glen_mason.jpg": "/static/media/glen_mason.a5d56aaf.jpg",
+    "static/media/iman_sharifi.jpg": "/static/media/iman_sharifi.065cc3db.jpg",
     "static/media/img-1.jpg": "/static/media/img-1.cd1d1c97.jpg",
     "static/media/luc_mccutcheon.jpg": "/static/media/luc_mccutcheon.2e94fca1.jpg",
     "static/media/mujoco-arm.PNG": "/static/media/mujoco-arm.d1edd6e4.PNG",
     "static/media/mustafa_yildirim.png": "/static/media/mustafa_yildirim.4f673dc3.png",
     "static/media/saber_fallah.jpeg": "/static/media/saber_fallah.77e698c4.jpeg",
-    "static/media/sponsors.PNG": "/static/media/sponsors.b30fc4ce.PNG"
+    "static/media/sponsors.PNG": "/static/media/sponsors.b30fc4ce.PNG",
+    "static/media/vinal_asodia.png": "/static/media/vinal_asodia.bf005533.png"
   },
   "entrypoints": [
     "static/js/runtime-main.67d84520.js",
-    "static/js/2.fa55552c.chunk.js",
+    "static/js/2.07cbe857.chunk.js",
     "static/css/main.b12ddfcd.chunk.css",
-    "static/js/main.470b1ef1.chunk.js"
+    "static/js/main.2e1d3650.chunk.js"
   ]
 }
