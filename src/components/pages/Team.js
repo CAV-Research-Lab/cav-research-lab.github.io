@@ -21,8 +21,7 @@ export default function Team() {
                         <img class="circular--square" src={require('../../images/luc_mccutcheon.jpg')}/>
                         <h3 className='team-name'>Luc <br/>McCutcheon</h3>
                         <p class="teamText">
-                            Focused on applying state-of-the-art Reinforcement Learning
-                            algorithms to the task of teleoperated control.
+                        Reinforcement Learning Control for time-delayed local-remote systems
                         </p>
                     </div>
                     <div className='team-card'>
@@ -35,7 +34,7 @@ export default function Team() {
                     </div>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/mustafa_yildirim.png')}/>
-                        <h3 className='team-name'>Mustafa <br/>Yilirim</h3>
+                        <h3 className='team-name'>Mustafa <br/>Yildirim</h3>
                         <p class="teamText">
                             Intelligent Decision-Making Method for Autonomous Driving Using 
                             Reinforcement Learning.

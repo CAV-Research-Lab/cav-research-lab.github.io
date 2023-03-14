@@ -105,7 +105,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-          <img class="project-img" src={require('../../images/SatCAV.png')} />
+          <img style={{width:"22rem", height:"28rem", paddingRight: "2%"}} class="project-img" src={require('../../images/SatCAV.png')} />
           </div>
 
         <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>

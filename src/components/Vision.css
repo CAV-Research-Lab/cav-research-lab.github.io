@@ -32,9 +32,10 @@
       height: 100%;
       background-color: #333333;
       display: flex;
-      position: relative;
+      /* position: relative; */
       padding-left: 0.5rem;
       padding-right: 1rem;
+      padding-top: 0.5rem;
       flex-direction: column;
       justify-content: center;
       align-items: center;

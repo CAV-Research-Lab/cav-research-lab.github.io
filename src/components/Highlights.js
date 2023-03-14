@@ -26,9 +26,12 @@ function Highlights() {
             {newsPosts.map((post, index) => (
             <Highlight key={index} index={index} post={post} />
             ))}
+
 	    </div>
 
+
     </div>
+
     );
   }
 
