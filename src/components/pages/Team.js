@@ -25,7 +25,7 @@ export default function Team() {
                         </p>
                     </div>
                     <div className='team-card'>
-                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <img class="circular--square" src={require('../../images/vinal_asodia.png')}/>
                         <h3 className='team-name'>Vinal <br/>Asodia</h3>
                         <p class="teamText">
                             End-to-End Decision Making for Emergency Braking using 
@@ -68,7 +68,7 @@ export default function Team() {
                         </p>
                     </div>
                     <div className='team-card'>
-                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <img class="circular--square" src={require('../../images/iman_sharifi.jpg')}/>
                         <h3 className='team-name'>Iman <br/>Sharifi</h3>
                         <p class="teamText">
                             Focused on applying state-of-the-art Reinforcement Learning
