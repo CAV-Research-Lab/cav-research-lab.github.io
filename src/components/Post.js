@@ -2,7 +2,6 @@ import React from "react";
 import "./Post.css";
 import '../App.css';
 import './pages/Pages.css'
-import YoutubeEmbed from "./YoutubeEmbed";
 
 
 

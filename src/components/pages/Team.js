@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css';
 import './Pages.css';
 import Footer from '../Footer';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 export default function Team() {
     return (
