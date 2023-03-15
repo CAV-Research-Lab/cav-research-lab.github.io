@@ -24,29 +24,48 @@
 	display: grid;
     color: white;
     background-color: #333333;/*"#1C1B1B",*/
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 30% 70%;
+}
+
+.posts-media-wrapper {
+	width: clamp(21rem, 80%, 25rem);
+    height: clamp(14rem, 70%, 22rem);
+	position: relative;
+	overflow: hidden;
+	background-color: #333333;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .post-media {
 	height: 100%;
     width: 100%;
     animation-duration: 0.1s;
+	margin-left: 7%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
 .posts-image {
 	/* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
-	width: 31rem;
-	height: 20rem;	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .posts-video {
 	/* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
-	width: 31rem;
-	height: 20rem;
-	border: 0;	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
 
 .heading {
@@ -69,12 +88,15 @@
       	color: white;
       	background-color: #333333;/*"#1C1B1B",*/
       	grid-template-columns: 100%;
-    	grid-template-rows: 50% 50%;
-		flex-direction: column-reverse;
+    	grid-template-rows: 1fr 1fr;
 	}
 
 	.heading {
 		font-size: 1.4rem;
+	}
+
+	.highlight-container {
+		padding: 0;
 	}
 
   	.post-info {
@@ -88,28 +110,35 @@
 	}
 
 	.post-media {
-		width: 100%;
-		height: 100%;
+		margin-left: 0;
+		padding-bottom: 3%;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		animation-duration: 0.1s; /* don't forget to set a duration! */
 	}
 
-	.posts-image {
-		width: 35rem;
-		height: 20rem;
-		padding: 0.5rem;
-		aspect-ratio: auto;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.posts-video {
-		width: 35rem;
-		height: 20rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	.posts-media-wrapper {
+		width: clamp(21rem, 80%, 25rem);
+    	height: clamp(14rem, 70%, 22rem);
 	}
   }
+
+@media screen and (max-width: 480px) {
+	.highlight-container {
+		padding-top: 2%;
+	}
+
+	.post-grid-container {
+		display: grid;
+      	color: white;
+      	background-color: #333333;/*"#1C1B1B",*/
+      	grid-template-columns: 100%;
+    	grid-template-rows: .5fr 1fr;
+	}
+
+	.posts-media-wrapper {
+		width: clamp(19rem, 80%, 25rem);
+    	height: clamp(14rem, 70%, 15rem);
+	}
+}

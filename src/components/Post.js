@@ -25,16 +25,20 @@ function mediaFormat(imgUrl, videoUrl){
 	console.log(videoUrl)
 	if (videoUrl !== "" || videoUrl === undefined){
 		return(
-			<iframe className="posts-video"
-      src={`https://www.youtube.com/embed/${videoUrl}`}
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Embedded youtube"
-    	/>
+			<div className="posts-media-wrapper">
+				<iframe className="posts-video"
+		src={`https://www.youtube.com/embed/${videoUrl}`}
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		allowFullScreen
+		title="Embedded youtube"
+				/>
+			</div>
 	  );
 	}else{
 		return(
-			<img className="posts-image" src={imgUrl} alt="post" />
+			<div className="posts-media-wrapper">
+				<img className="posts-image" src={imgUrl} alt="post" />
+			</div>
 
 		);
 	}
