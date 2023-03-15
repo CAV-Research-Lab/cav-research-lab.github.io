@@ -28,56 +28,58 @@ function Footer() {
 
 
         <section class='social-media'>
-          <div class=' logo-flex-container'>
-            <div class='footer-logo' style={{width: "35%"}}>
-              <Link to='/' className='social-logo'>
-                <img style={{paddingTop:"1.2rem"}} src={cav_lab_logo} width="210rem" height="160rem" />
+          <div class=' logo-grid-container'>
+            <div>
+              <Link to='/'>
+                <img id='footer-logo' src={cav_lab_logo}/>
               </Link>
             </div>
-            <div style={{width: "30%"}}>
-              <img style={{height: "2.7rem", width: "17rem", paddingRight:"7rem"}} class="UOS-logo" src={require('../images/UoS-Logo.png')}/>
+            <div>
+              <img id="UOS-logo" src={require('../images/UoS-Logo.png')}/>
             </div>
-            <div style={{width: "15%"}} class='social-icons'>
-              <Link
-                class='social-icon-link facebook'
-                to='/'
-                target='_blank'
-                aria-label='Facebook'
-              >
-                <i class='fab fa-facebook-f' />
-              </Link>
-              <Link
-                class='social-icon-link instagram'
-                to='/'
-                target='_blank'
-                aria-label='Instagram'
-              >
-                <i class='fab fa-instagram' />
-              </Link>
-              <Link
-                class='social-icon-link youtube'
-                to='/'
-                target='_blank'
-                aria-label='Youtube'
-              >
-                <i class='fab fa-youtube' />
-              </Link>
-              <Link
-                class='social-icon-link twitter'
-                to='/'
-                target='_blank'
-                aria-label='Twitter'
-              >
-                <i class='fab fa-twitter' />
-              </Link>
-              <Link
-                class='social-icon-link twitter'
-                to='/'
-                target='_blank'
-                aria-label='LinkedIn'
+            <div>
+              <div class='social-icons'>
+                <Link
+                  class='social-icon-link facebook'
+                  to='/'
+                  target='_blank'
+                  aria-label='Facebook'
                 >
-                <i class='fab fa-linkedin' />
-              </Link>
+                  <i class='fab fa-facebook-f' />
+                </Link>
+                <Link
+                  class='social-icon-link instagram'
+                  to='/'
+                  target='_blank'
+                  aria-label='Instagram'
+                >
+                  <i class='fab fa-instagram' />
+                </Link>
+                <Link
+                  class='social-icon-link youtube'
+                  to='/'
+                  target='_blank'
+                  aria-label='Youtube'
+                >
+                  <i class='fab fa-youtube' />
+                </Link>
+                <Link
+                  class='social-icon-link twitter'
+                  to='/'
+                  target='_blank'
+                  aria-label='Twitter'
+                >
+                  <i class='fab fa-twitter' />
+                </Link>
+                <Link
+                  class='social-icon-link twitter'
+                  to='/'
+                  target='_blank'
+                  aria-label='LinkedIn'
+                  >
+                  <i class='fab fa-linkedin' />
+                </Link>
+              </div>
             </div>
           </div>
         </section>
