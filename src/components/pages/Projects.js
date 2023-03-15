@@ -12,7 +12,7 @@ export default function Projects() {
 
   return (
     <>
-      <div class="black" style={{ height: "100%", fontSize: "1.2rem" }}>
+      <div class="black" style={{ height: "100%", width: "97%", fontSize: "1.2rem" }}>
         <br></br><br></br>
         <div class="grid-container">
 
@@ -37,7 +37,7 @@ export default function Projects() {
             </div></div>
           <br></br><br></br>
           <div class="grid-item">
-            <img class="project-img" src={require('../../images/CARMA.png')} />
+            <img style={{paddingTop: "5rem", height: "37rem", width: "30rem"}} class="project-img" src={require('../../images/CARMA2.png')} />
 
           </div>
 
@@ -65,7 +65,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-            <img style={{width:"25rem", height:"21rem"}} class="project-img" src={require('../../images/carla.png')} />
+            <img style={{width:"25rem", height:"21rem",paddingTop: "1rem"}} class="project-img" src={require('../../images/carla.png')} />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
@@ -86,7 +86,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-          <img style={{width:"25rem", height:"21rem"}} class="project-img" src={require('../../images/mujoco-arm.PNG')} />
+          <img style={{width:"25rem", height:"25rem", paddingTop: "5rem"}} class="project-img" src={require('../../images/mujoco-arm.PNG')} />
           </div>
 
 
@@ -105,7 +105,7 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-          <img style={{width:"22rem", height:"24rem", paddingRight: "4%"}} class="project-img" src={require('../../images/SatCAV.png')} />
+          <img style={{width:"22rem", height:"25rem", paddingRight: "4%",paddingTop: "5rem"}} class="project-img" src={require('../../images/SatCAV.png')} />
           </div>
 
         <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>

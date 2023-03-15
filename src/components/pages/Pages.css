@@ -6,7 +6,9 @@
     padding-bottom: 0.75%;
     border-bottom: 4px solid;
 }
-
+/* body {
+    max-width:80vw;
+} */
 .team-body {
     background-color: #f8f8ff;
     text-align: center;
@@ -132,12 +134,12 @@ h5 {
 	display: block;
 }
 
-.project-img {
+/* .project-img {
     height: 35rem;
     width: 30rem;
     aspect-ratio: auto;
 
-}
+} */
 
 .container {
     display: grid;
@@ -149,9 +151,9 @@ h5 {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 59% 0% 39%;
+    grid-template-columns: 70% 0% 30%;
     align-items: left;
-    grid-gap: 2%; /* set gap between the columns */
+    grid-gap: 0.7%; /* set gap between the columns */
 
   }
 
