@@ -101,7 +101,7 @@ export default function Projects() {
         <br></br><br></br><br></br><br></br>
         <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>
           <h1><span className='orange_underline'>Research Funding</span></h1><br></br>
-          <h5>EPSRC</h5>
+          <h5><b>EPSRC</b></h5>
           <ul style={{ listStyleType: "square" }}>
             <li> Vision-based Localisation Using Satellite Imagery (£80K), Oct. 2022 – present.</li>
             <li> Predictive Fault-detection for Autonomous Mobile Robots (£50K), Principal Investigator, March 2021 – March 2022.</li>
@@ -116,14 +116,14 @@ export default function Projects() {
             <li> Holistic Energy Management Software Tool for a Fleet of Connected Electric Vehicles (£260K), Principal Investigator, Sept. 2018 – Sept. 2021.</li>
             <li> 5G Above the Cloud (£270K), Innovate UK, Sept. 2018 – Sept. 2021.</li>
           </ul>
-          <h5>EU Commision</h5>
+          <h5><b>EU Commision</b></h5>
           <ul style={{ listStyleType: "square" }}>
             <li> Powering EU Net Zero Future by Escalating Zero Emission HDVs and Logistic Intelligence (£350K), Jan. 2023 - present.</li>
             <li> Optimization of scalable real-time models and functional testing for e-drive concepts (£250K), Oct. 2017 – Nov. 2020.</li>
             <li> Improved Trustworthiness and Weather-Independence of Conditionally Automated Vehicles in Mixed Traffic Scenarios (£350K), June 2017 – Oct. 2020.</li>
             <li> Integrated Control of Multiple-Motor and Multiple-Storage Fully Electric Vehicles (£300K), Oct. 2013 – Sept. 2016.</li>
           </ul>
-          <h5>Industry</h5>
+          <h5><b>Industry</b></h5>
           <ul style={{ listStyleType: "square" }}>
             <li> Supporting AI Required to Allow DEXTER Telemanipulator to Autonomously Respond to Haptic Feedback (£55K), Veolia Nuclear Solutions, Oct. 2021 – present.</li>
             <li> Autonomous Decision System Support (£70K), SPRINT, March 2021 – March 2022.</li>
