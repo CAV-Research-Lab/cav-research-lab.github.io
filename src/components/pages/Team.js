@@ -70,8 +70,8 @@ export default function Team() {
                         <img class="circular--square" src={require('../../images/iman_sharifi.jpg')}/>
                         <h3 className='team-name'>Iman <br/>Sharifi</h3>
                         <p class="teamText">
-                            Focused on applying state-of-the-art Reinforcement Learning
-                            algorithms to the task of teleoperated control.
+                        Social compliant behavioural decision-making for autonomous 
+                        driving using explainable AI.
                         </p>
                     </div>
                     <div className='team-card'>
