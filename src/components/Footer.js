@@ -14,6 +14,7 @@ function Footer() {
   return (
       <div className='footer-container'>
         <div className='contact-grid'>
+
             <h1><a style={mystyle} href="https://www.linkedin.com/in/msfallah/"><IoMdContact /></a></h1>
             <p className='contact-info'>Dr. Saber <br></br> Fallah</p>
             <h1><a style={mystyle} href="mailto:s.fallah@surrey.ac.uk"><AiOutlineMail /></a></h1>
@@ -27,14 +28,16 @@ function Footer() {
 
 
         <section class='social-media'>
-          <div class='social-media-wrap'>
-            <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              <img src={cav_lab_logo} width="25%" height="12.5%"/>
-            </Link>
+          <div class=' logo-flex-container'>
+            <div class='footer-logo' style={{width: "35%"}}>
+              <Link to='/' className='social-logo'>
+                <img style={{paddingTop:"1.2rem"}} src={cav_lab_logo} width="210rem" height="160rem" />
+              </Link>
             </div>
-            <small class='website-rights'>CAV Lab © 2022</small>
-            <div class='social-icons'>
+            <div style={{width: "30%"}}>
+              <img style={{height: "2.7rem", width: "17rem", paddingRight:"7rem"}} class="UOS-logo" src={require('../images/UoS-Logo.png')}/>
+            </div>
+            <div style={{width: "15%"}} class='social-icons'>
               <Link
                 class='social-icon-link facebook'
                 to='/'

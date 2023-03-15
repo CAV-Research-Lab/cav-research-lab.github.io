@@ -19,7 +19,7 @@ export default function Projects() {
           <div class="grid-item">
             <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
               <h1><span className="orange_underline">CARMA</span></h1><br></br>
-              <p>
+              <p style={{paddingLeft: "3%"}}>
                 CARMA (Secure Cloud-based Distributed Control Systems for Connected Autonomous Cars) research project was initiated in 2016 with initial funding from EPSRC and Jaguar Land Rover.
                 The project aims to integrate off-board vehicle information into on-board vehicle control systems using cloud,
                 5G communication technologies, AI, and distributed optimal control theories. The goal is to improve vehicle perception and expand the information horizon,
@@ -43,7 +43,7 @@ export default function Projects() {
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>Socio-Drive</span></h1><br></br>
-            <p fontSize="large">
+            <p style={{paddingLeft: "3%"}}>
               Socio-Drive (Cognitive Learning of Scoial Norms for Human-like Autonomous Driving) research project was launched in 2017 with initial funding from EPSRC and Jaguar Land Rover. The aim here is to enhance the trust of AI-enabled autonomous
               vehicles by public. In this project, the backbone of our research is Deep Reinforcement Learning (DRL) which combines artificial neural networks with a framework of
               reinforcement learning. DRL offers a comprehensive framework for studying the interplay among learning, representation, and decision making, offering to the sciences
@@ -70,7 +70,7 @@ export default function Projects() {
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>FAIR-Robots</span></h1><br></br>
-            <p>
+            <p style={{paddingLeft: "3%"}}>
               FAIR-Robots (Future AI Research for Robots) project was launched in 2017 when w`e received initial funding from EPSRC and UKRI as part of the larger FAIR-SPACE Hub project. The project is a
               collaboration between leading experts from academia, industry, and governments, with the aim of pushing the boundaries of AI robotics and enabling robots to
               operate safely in hazardous and extreme environments such as space and nuclear plants. During this project, we developed novel control and navigation
@@ -92,7 +92,7 @@ export default function Projects() {
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>I-Aware</span></h1><br></br>
-            <p>
+            <p style={{paddingLeft: "3%"}}>
               I-Aware (Intelligent Situational Awareness for Safety Enhancement of Autonomous Vehicle)
               Situational awareness is crucial for safe autonomous driving as it allows the vehicle to perceive, understand, and respond to the environment and potential hazards
               around it. It involves the continuous monitoring and assessment of the road, traffic, weather, and other factors that may affect the vehicle's operation. With a
@@ -105,11 +105,12 @@ export default function Projects() {
           <br></br><br></br>
 
           <div class="grid-item">
-          <img style={{width:"22rem", height:"28rem", paddingRight: "2%"}} class="project-img" src={require('../../images/SatCAV.png')} />
+          <img style={{width:"22rem", height:"24rem", paddingRight: "4%"}} class="project-img" src={require('../../images/SatCAV.png')} />
           </div>
 
         <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>
         <h1><span className='orange_underline'>Research Funding</span></h1><br></br>
+
           <h5>EPSRC</h5>
 <ul style={{ listStyleType: "square" }}>
 
@@ -163,7 +164,8 @@ export default function Projects() {
 
 <li> Development of Regenerative Auxiliary Power Systems, Automotive Partnership Canada (APC) and Canada Foundation for Innovation (CFI).</li>
 </ul>
-        <br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br>        <br></br><br></br><br></br><br></br>
+
           </div>
         </div>
       </div>
