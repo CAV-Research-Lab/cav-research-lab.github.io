@@ -34,9 +34,11 @@ function Footer() {
                 <img id='footer-logo' src={cav_lab_logo}/>
               </Link>
             </div>
-            <div>
+            <div >
               <img id="UOS-logo" src={require('../images/UoS-Logo.png')}/>
             </div>
+            <p style={{color: "white", fontSize:"0.6rem",paddingTop: "1.2rem", paddingLeft:"0.5rem", justifySelf: "left"}}>CAV-Lab, School of Mechanical Engineering, Faculty of Engineering and Physical Sciences, University of Surrey, GU2 7XH, Guildford, Surrey, UK</p>
+
             <div>
               <div class='social-icons'>
                 <Link

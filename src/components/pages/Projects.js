@@ -37,7 +37,7 @@ export default function Projects() {
             </div>
           </div>
           <div class="grid-item">
-            <img style={{paddingTop: "2rem", paddingBottom: "3rem", height: "clamp(30rem, 70%, 43rem)", width: "clamp(20rem, 80%, 30rem)"}} class="project-img" src={require('../../images/CARMA2.png')} />
+            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 30rem)"}} class="project-img" src={require('../../images/CARMA2.png')} />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
@@ -58,7 +58,7 @@ export default function Projects() {
           </div>
 
           <div class="grid-item">
-            <img style={{width:"clamp(17rem, 70%, 25rem)", height: "clamp(16rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "3rem"}} class="project-img" src={require('../../images/carla.png')} />
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/carla.png')} />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
@@ -76,7 +76,7 @@ export default function Projects() {
           </div>
 
           <div class="grid-item">
-            <img style={{width:"clamp(20rem, 70%, 25rem)", height: "clamp(16rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "2rem"}} class="project-img" src={require('../../images/mujoco-arm.PNG')} />
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(20rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/mujoco-arm.PNG')} />
           </div>
 
 
@@ -94,7 +94,7 @@ export default function Projects() {
           </div>
 
           <div class="grid-item">
-            <img style={{width:"clamp(20rem, 70%, 25rem)", height: "clamp(16rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "2rem"}} class="project-img" src={require('../../images/SatCAV.png')} />
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2.4rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/SatCAV.png')} />
           </div>
         </div>
 
@@ -109,7 +109,7 @@ export default function Projects() {
             <li> End-to-End Deep Learning Control for Connected Autonomous Vehicles (£70K), Sept. 2017 – Sept. 2021.</li>
             <li> Secure Cloud-based Distributed Control Systems for Connected Autonomous Cars (£4M), June 2015 – March 2022.</li>
           </ul>
-          <h5>InnovateUK</h5>
+          <h5><b>InnovateUK</b></h5>
           <ul style={{ listStyleType: "square" }}>
             <li> Research to Consider the Future UK Opportunities in Active Debris Removal and in Orbit Servicing, Jan. 2022 – June 2022.</li>
             <li> GPR for Localisation of Autonomous Vehicles (£100K) , Oct. 2018 – May 2019.</li>
