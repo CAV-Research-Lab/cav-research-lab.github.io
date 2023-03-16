@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.27baa7a3.chunk.css",
-    "main.js": "/static/js/main.c0db783f.chunk.js",
-    "main.js.map": "/static/js/main.c0db783f.chunk.js.map",
+    "main.css": "/static/css/main.1ba0156f.chunk.css",
+    "main.js": "/static/js/main.1bc4f6f1.chunk.js",
+    "main.js.map": "/static/js/main.1bc4f6f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d84520.js",
     "runtime-main.js.map": "/static/js/runtime-main.67d84520.js.map",
-    "static/js/2.12848bf8.chunk.js": "/static/js/2.12848bf8.chunk.js",
-    "static/js/2.12848bf8.chunk.js.map": "/static/js/2.12848bf8.chunk.js.map",
+    "static/js/2.cb7f4465.chunk.js": "/static/js/2.cb7f4465.chunk.js",
+    "static/js/2.cb7f4465.chunk.js.map": "/static/js/2.cb7f4465.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bd6404f3631898c98bab747ae8f15bfe.js": "/precache-manifest.bd6404f3631898c98bab747ae8f15bfe.js",
+    "precache-manifest.8c90d6ec71786c6f03ec0f1ec7049238.js": "/precache-manifest.8c90d6ec71786c6f03ec0f1ec7049238.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.27baa7a3.chunk.css.map": "/static/css/main.27baa7a3.chunk.css.map",
-    "static/js/2.12848bf8.chunk.js.LICENSE.txt": "/static/js/2.12848bf8.chunk.js.LICENSE.txt",
+    "static/css/main.1ba0156f.chunk.css.map": "/static/css/main.1ba0156f.chunk.css.map",
+    "static/js/2.cb7f4465.chunk.js.LICENSE.txt": "/static/js/2.cb7f4465.chunk.js.LICENSE.txt",
     "static/media/CARMA2.png": "/static/media/CARMA2.37cb2c64.png",
     "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
     "static/media/CW.png": "/static/media/CW.ea830f08.png",
@@ -20,6 +20,7 @@
     "static/media/background_video.mp4": "/static/media/background_video.43139eb7.mp4",
     "static/media/barkin_dagda.png": "/static/media/barkin_dagda.fc7f4f20.png",
     "static/media/carla.png": "/static/media/carla.09d81489.png",
+    "static/media/erfan_aminhatamy.jpg": "/static/media/erfan_aminhatamy.81a6ac2f.jpg",
     "static/media/glen_mason.jpg": "/static/media/glen_mason.a5d56aaf.jpg",
     "static/media/iman_sharifi.jpg": "/static/media/iman_sharifi.065cc3db.jpg",
     "static/media/img-1.jpg": "/static/media/img-1.cd1d1c97.jpg",
@@ -32,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.67d84520.js",
-    "static/js/2.12848bf8.chunk.js",
-    "static/css/main.27baa7a3.chunk.css",
-    "static/js/main.c0db783f.chunk.js"
+    "static/js/2.cb7f4465.chunk.js",
+    "static/css/main.1ba0156f.chunk.css",
+    "static/js/main.1bc4f6f1.chunk.js"
   ]
 }
