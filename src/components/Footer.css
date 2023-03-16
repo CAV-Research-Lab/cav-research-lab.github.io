@@ -180,7 +180,12 @@
   margin-bottom: 16px;
 }
 
-@media screen and (max-width: 820px) {
+#location {
+  width: 200px;
+  height: 93px;
+}
+
+@media screen and (max-width: 900px) {
   .contact-grid {
     display: grid;
     grid-template-columns: 20% 80%;
@@ -216,14 +221,14 @@
     display: flex;
     justify-content: center;
   }
+
   #UOS-logo {
     width: 9rem;
     height: 2.7rem;
     padding-right: 0%;
     justify-self: center;
-  }}
+  }
 
-@media screen and (max-width: 650px) {
   .logo-grid-container {
     grid-template-columns: 100%;
     grid-template-rows: 33% 33% 33%;
@@ -233,5 +238,6 @@
     width: 12rem;
     height: 9rem;
   }
-
 }
+
+

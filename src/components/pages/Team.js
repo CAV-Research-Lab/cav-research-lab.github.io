@@ -75,7 +75,7 @@ export default function Team() {
                         </p>
                     </div>
                     <div className='team-card'>
-                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <img class="circular--square" src={require('../../images/erfan_aminhatamy.jpg')}/>
                         <h3 className='team-name'>Erfan <br/>Aminhatamy</h3>
                         <p class="teamText">
                             Learning-based Robust Model Predictive Control using 
