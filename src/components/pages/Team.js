@@ -47,8 +47,7 @@ export default function Team() {
                         <h3 className='team-name'>Maxim Tyshkovsky</h3>
                         <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
-                            Focused on applying state-of-the-art Reinforcement  
-                            algorithms to the task of teleoperated control.
+                            Perception Uncertainties Management for Robust Decision-making in Autonomous Vehicles.
                         </p>
                     </div>
                 </div>
