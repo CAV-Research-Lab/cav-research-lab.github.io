@@ -64,7 +64,7 @@ export default function Projects() {
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
             <h1><span className='orange_underline'>FAIR-Robots</span></h1><br></br>
             <p style={{paddingLeft: "3%", paddingRight: "3%"}}>
-              FAIR-Robots (Future AI Research for Robots) project was launched in 2017 when w`e received initial funding from EPSRC and UKRI as part of the larger FAIR-SPACE Hub project. The project is a
+              FAIR-Robots (Future AI Research for Robots) project was launched in 2017 when we received initial funding from EPSRC and UKRI as part of the larger FAIR-SPACE Hub project. The project is a
               collaboration between leading experts from academia, industry, and governments, with the aim of pushing the boundaries of AI robotics and enabling robots to
               operate safely in hazardous and extreme environments such as space and nuclear plants. During this project, we developed novel control and navigation
               algorithms using state-of-the-art machine learning and AI techniques, to empower the next generation of robots to perform tasks autonomously and safely.

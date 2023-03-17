@@ -60,6 +60,7 @@ a {
 .team-name {
     padding-top: 2%;
     color: black;
+    font-size: 1.5rem;
 
 }
 
@@ -183,7 +184,7 @@ h5 {
       }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .team-body {
         display: grid;
         grid-template-rows: 25rem 100rem 75rem;

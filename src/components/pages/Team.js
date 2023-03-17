@@ -18,14 +18,16 @@ export default function Team() {
                 <div className='phd-first-row'>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/luc_mccutcheon.jpg')}/>
-                        <h3 className='team-name'>Luc <br/>McCutcheon</h3>
+                        <h3 className='team-name'>Luc McCutcheon</h3>
+                        <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
                         Reinforcement Learning Control for time-delayed local-remote systems
                         </p>
                     </div>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/vinal_asodia.png')}/>
-                        <h3 className='team-name'>Vinal <br/>Asodia</h3>
+                        <h3 className='team-name'>Vinal Asodia</h3>
+                        <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
                             End-to-End Decision Making for Emergency Braking using 
                             Deep Reinforcement Learning.
@@ -33,7 +35,8 @@ export default function Team() {
                     </div>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/mustafa_yildirim.png')}/>
-                        <h3 className='team-name'>Mustafa <br/>Yildirim</h3>
+                        <h3 className='team-name'>Mustafa Yildirim</h3>
+                        <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
                             Intelligent Decision-Making Method for Autonomous Driving Using 
                             Reinforcement Learning.
@@ -41,7 +44,8 @@ export default function Team() {
                     </div>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
-                        <h3 className='team-name'>Maxim <br/>Tyshkovsky</h3>
+                        <h3 className='team-name'>Maxim Tyshkovsky</h3>
+                        <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
                             Focused on applying state-of-the-art Reinforcement  
                             algorithms to the task of teleoperated control.
@@ -51,7 +55,8 @@ export default function Team() {
                 <div className='phd-second-row'>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/barkin_dagda.png')}/>
-                        <h3 className='team-name'>Barkin <br/>Dagda</h3>
+                        <h3 className='team-name'>Barkin Dagda</h3>
+                        <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
                             Self-Supervised Vision Based Localization of Autonomous 
                             Vehicles using Satellite Imagery.
@@ -59,7 +64,8 @@ export default function Team() {
                     </div>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/glen_mason.jpg')}/>
-                        <h3 className='team-name'>Glen <br/>Mason</h3>
+                        <h3 className='team-name'>Glen Mason</h3>
+                        <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
                             Analysis of Cooperative Adaptive Cruise 
                             Control Controller in Connected and Automated Vehicles under 
@@ -68,7 +74,8 @@ export default function Team() {
                     </div>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/iman_sharifi.jpg')}/>
-                        <h3 className='team-name'>Iman <br/>Sharifi</h3>
+                        <h3 className='team-name'>Iman Sharifi</h3>
+                        <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
                         Social compliant behavioural decision-making for autonomous 
                         driving using explainable AI.
@@ -76,7 +83,8 @@ export default function Team() {
                     </div>
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/erfan_aminhatamy.jpg')}/>
-                        <h3 className='team-name'>Erfan <br/>Aminhatamy</h3>
+                        <h3 className='team-name'>Erfan Aminhatamy</h3>
+                        <p className='team-role'>(Visiting Researcher)</p>
                         <p class="teamText">
                             Learning-based Robust Model Predictive Control using 
                             Safe Reinforcement Learning.
