@@ -43,7 +43,7 @@ export default function Team() {
                         </p>
                     </div>
                     <div className='team-card'>
-                        <img class="circular--square" src={require('../../images/old_images/img-1.jpg')}/>
+                        <img class="circular--square" src={require('../../images/maxim_tyshkovsky.JPG')}/>
                         <h3 className='team-name'>Maxim Tyshkovsky</h3>
                         <p className='team-role'>(PhD Student)</p>
                         <p class="teamText">
