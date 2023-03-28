@@ -10,7 +10,7 @@
     max-width:80vw;
 } */
 .team-body {
-    background-color: #f8f8ff;
+    background-color: #ffffff;
     text-align: center;
     display: grid;
     grid-template-rows: 25rem 25rem 25rem;
@@ -65,7 +65,7 @@ a {
 }
 
 .alumni {
-    background-color: #f8f8ff;
+    background-color: #ffffff;
     text-align: left;
     padding-top: 2%;
     padding-left: 3%;

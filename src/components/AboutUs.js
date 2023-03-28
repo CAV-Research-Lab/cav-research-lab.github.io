@@ -29,7 +29,7 @@ function AboutUs() {
                     of research on connected and autonomous robotics 
                     and vehicles. Based in the UK, the team collaborates 
                     with national and international companies and academia
-                     on projects that advance this field globally. <br></br>
+                     on projects that advance this field globally. <br></br><br></br>
                 </p>
             </div>
             </ScrollAnimation>

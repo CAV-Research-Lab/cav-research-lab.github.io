@@ -130,11 +130,14 @@
       	color: white;
       	background-color: #333333;/*"#1C1B1B",*/
       	grid-template-columns: 100%;
-    	grid-template-rows: .5fr 1fr;
+    	grid-template-rows: .8fr 1fr;
 	}
 
 	.posts-media-wrapper {
 		width: clamp(19rem, 80%, 25rem);
     	height: clamp(14rem, 70%, 15rem);
+	}
+	.post-info {
+		text-align: left;
 	}
 }
