@@ -15,7 +15,7 @@ function AboutUs() {
         <h1 style={{ color: "black", textAlign: "left", marginLeft: "3%" }}><span class="orange_underline">About Us</span></h1>
         <div class="about-us-container">
             <ScrollAnimation animateIn="fadeIn">
-            <div class="about-us-content">
+            <div class="about-us-content" style={{paddingBottom:"0.1rem"}}>
                 <h1 class="about-us-titles">Who We Are</h1>
                 <br></br>
                 <p>CAV-Lab was established in 2016 by Dr Saber Fallah and since 

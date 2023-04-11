@@ -11,6 +11,10 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const toggleBtn = document.getElementById("menu-icon");
+  const myList = document.getElementById("nav-menu");
+  
+
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -28,7 +32,13 @@ function Navbar() {
   // const logoStyle = {
   //   marginTop: "-1.2%"
   // };
-
+  // toggleBtn.addEventListener("click", function() {
+  //     if (myList.style.display === "none") {
+  //       myList.style.display = "block";
+  //     } else {
+  //       myList.style.display = "none";
+  //     }
+  //   });
 
   return (
     <>
