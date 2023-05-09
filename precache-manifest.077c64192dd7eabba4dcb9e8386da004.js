@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1838e4f7e0bbd7907307f05214fdb22e",
+    "revision": "ec26dd941bdbae03d9e6a84131ef0468",
     "url": "/index.html"
   },
   {
-    "revision": "d4ff05dd6deab810325a",
+    "revision": "441cd9b618d763c12241",
     "url": "/static/css/main.1b2f2387.chunk.css"
   },
   {
-    "revision": "501b77fd8c80408f7123",
-    "url": "/static/js/2.f9166c05.chunk.js"
+    "revision": "1d38bce35d4c347ff398",
+    "url": "/static/js/2.3fe565b0.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/static/js/2.f9166c05.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3fe565b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4ff05dd6deab810325a",
-    "url": "/static/js/main.cfe95fad.chunk.js"
+    "revision": "441cd9b618d763c12241",
+    "url": "/static/js/main.68b69451.chunk.js"
   },
   {
     "revision": "97c002b8f8a25334b102",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "988b50c91c36a185383e7ce881c8c871",
     "url": "/static/media/UoS-Logo.988b50c9.png"
+  },
+  {
+    "revision": "d4ab533d21d1c899530bb5ddaac46714",
+    "url": "/static/media/VECTOR.d4ab533d.jpg"
   },
   {
     "revision": "43139eb7b1347cfa6f01de3f54a52016",
