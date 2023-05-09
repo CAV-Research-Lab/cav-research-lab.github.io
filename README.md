@@ -22,7 +22,16 @@ To run locally:
 ```
 npm start
 ```
-To push changes to live site:
+
+To push to update everything:
 ```
+python ./update_server.py
+```
+If the above doesn't work try:
+```
+git add .
+git commit -m "Your message"
+git push
+
 npm run deploy
 ```
