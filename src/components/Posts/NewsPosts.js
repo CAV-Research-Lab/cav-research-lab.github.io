@@ -2,6 +2,14 @@
 const NewsPosts = () => {
 
 const newsPosts = [
+
+{
+	title: "Autonomous driving – are we nearly there yet?",
+	body: `One critical part of the effective deployment of autonomous vehicles is for them to be trusted by the public to make the right decisions in road traffic, properly balancing the system goals of efficiency and capacity with human values such as safety and legality. Without this being well understood, the potential benefits of autonomous vehicles could fail to materialise. In this talk, I will introduce the challenges towards trustworthy autonomous driving and novel solutions to address both human concerns and design requirements.`,
+	imgUrl: require('./PostMedia/VECTOR.jpg'),
+	videoUrl: "" ,
+	date: "27/04/2023"
+	},
 	
 
 {
