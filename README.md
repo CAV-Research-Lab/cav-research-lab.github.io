@@ -10,7 +10,7 @@ git clone https://github.com/CAV-Research-Lab/cav-research-lab.github.io.git
 
 3. Install required npm packages:
 ```
-npm install react-animate-on-scroll react-icons react-scripts gh-pages
+npm install react-scroll react-animate-on-scroll react-icons react-scripts gh-pages
 ```
 4. Download `cavlab_vision.mp4` to `/src/images/` directory.
 ```
