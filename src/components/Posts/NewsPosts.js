@@ -4,7 +4,7 @@ const NewsPosts = () => {
 const newsPosts = [
 
 {
-	title: "Challenges of AI for Autonomous Driving Were Explianed?",
+	title: "Challenges of AI for Autonomous Driving Explained",
 	body: `The use of AI in autonomous driving systems enables higher levels of autonomy. However, significant challenges remain associated with the use of AI for perception and decision-making in autonomous driving. One major challenge is ensuring that AI systems can accurately and reliably detect and interpret complex real-world driving scenarios. Another challenge is developing AI systems that can make ethical and moral decisions when faced with potential collisions or other dangerous situations, while also accounting for legal and regulatory requirements. Addressing these challenges will be critical to realising the full potential of AI for autonomous driving and ensuring its widespread adoption in the future. At the Software Defined Vehicle Conference, Dr. Fallah presented the challenges of AI for autonomous driving and potential solutions to address them to the UK automotive industry.`,
 	imgUrl: require('./PostMedia/VECTOR.jpg'),
 	videoUrl: "" ,
@@ -40,7 +40,7 @@ const newsPosts = [
 	},
 	
 {
-	title: "CAV-Lab Expertise Introduced in Commercialising CAM event",
+	title: "CAV-Lab Expertise Introduced in Commercialising CAM Event",
 	body: `Advances in automation, connectivity, and electrification – together – can make journeys safer, fairer, cleaner, more efficient and more productive, unlocking significant social and economic benefits. In commercialising connected and automated mobility event organised by Innovate UK and Centre for Connected Autonomous Vehicles (CCAV), Dr Fallah presented the expertise and skills that CAV-Lab can offer to the UK CCAM industry`,
 	videoUrl:'dckVZYyQEa8', // only include the url after https://youtu.be/ e.g. this video is https://youtu.be/
 	date: "24/05/2022"
