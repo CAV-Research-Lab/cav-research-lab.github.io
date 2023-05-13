@@ -22,8 +22,8 @@
 
 .post-grid-container {
 	display: grid;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;/*"#1C1B1B",*/
+    /* color: rgb(0, 0, 0);
+    background-color: #ffffff; */
     grid-template-columns: 30% 70%;
 }
 

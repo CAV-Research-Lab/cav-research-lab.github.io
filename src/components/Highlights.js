@@ -10,7 +10,7 @@ import Highlight from "./Post";
 
 function Highlights() {
     const mystyle = {
-        color: "black",
+        color: "white",
         backgroundColor: "#333333",/*"#1C1B1B",*/
         width: "100%"
         };
@@ -24,7 +24,7 @@ function Highlights() {
 
         <div id="posts-container">
             {newsPosts.map((post, index) => (
-            <Highlight key={index} index={index} post={post} />
+            <Highlight key={index} index={index} post={post} className="greyBackground"/>
             ))}
 
 	    </div>
