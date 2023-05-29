@@ -25,11 +25,12 @@
     /* color: rgb(0, 0, 0);
     background-color: #ffffff; */
     grid-template-columns: 30% 70%;
+	gap: 1rem;
 }
 
 .posts-media-wrapper {
 	width: clamp(21rem, 80%, 25rem);
-    height: clamp(14rem, 70%, 22rem);
+    height: clamp(14rem, 50%, 22rem);
 	position: relative;
 	overflow: hidden;
 	background-color: #ffffff;
@@ -76,7 +77,7 @@
 	text-align: justify;
     /* padding-top: 7%; */
     padding-bottom: 1.5rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     padding-right: 5rem;
     font-size: 1.2rem;
 	animation-duration: 0.1s; /* don't forget to set a duration! */
