@@ -4,6 +4,19 @@ const NewsPosts = () => {
 const newsPosts = [
 
 {
+	title: "Autonomous Vehicles - Trends, Outlook and Forecast",
+	body: `What is the market outlook for autonomous vehicles in the coming years? Who are the major players, and what is the anticipation on the emergence of new competitors or the potential decline of existing ones? How is the development of autonomous vehicle testing and deployment in Europe compared to the USA and China? Will companies from the US and China expand into Europe or focus on their home markets? Will autonomous vehicles be deployed first in Europe? Which countries are the most mature in terms of autonomous vehicle development? What are the most relevant use-cases in Europe? What are the next major challenge to scaling autonomous vehicles after reaching significant technology milestones? Specifically, how important are issues such as public acceptance, data privacy, infrastructure readiness, and legislation?
+In light of recent advancements in core autonomous vehicle technology, what are the most crucial areas that need immediate attention and action? Is it public acceptance, data privacy, infrastructure development, legislation, or something else?
+Dr Fallah discussed these important questions with colleagues Christian Bering Pedersen (Holo), Mirko Reuter (Sr. Director AD Europe at NIO GmbH), and Marvin Ruf (Sr. Account Executive at HERE Technologies) at the ICA Summit 2023.`,
+	imgUrl: require('./PostMedia/ICA-001-2.jpg'),
+	videoUrl: "" ,
+	date: "15/05/2023"
+	},
+
+
+
+
+{
 	title: "Challenges of AI for Autonomous Driving Explained",
 	body: `The use of AI in autonomous driving systems enables higher levels of autonomy. However, significant challenges remain associated with the use of AI for perception and decision-making in autonomous driving. One major challenge is ensuring that AI systems can accurately and reliably detect and interpret complex real-world driving scenarios. Another challenge is developing AI systems that can make ethical and moral decisions when faced with potential collisions or other dangerous situations, while also accounting for legal and regulatory requirements. Addressing these challenges will be critical to realising the full potential of AI for autonomous driving and ensuring its widespread adoption in the future. At the Software Defined Vehicle Conference, Dr. Fallah presented the challenges of AI for autonomous driving and potential solutions to address them to the UK automotive industry.`,
 	imgUrl: require('./PostMedia/VECTOR.jpg'),
