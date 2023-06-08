@@ -30,7 +30,7 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   // const logoStyle = {
-  //   marginTop: "-0.8%"
+  //   marginTop: "-0.08%"
   // };
   // toggleBtn.addEventListener("click", function() {
   //     if (myList.style.display === "none") {
