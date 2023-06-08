@@ -146,8 +146,7 @@ export default function Team() {
 		    </ul>
                     <h4>Visiting Scholars:</h4>
                     <ul className='alumni-list'>
-                        <li>Arian Merati, University of Edinburgh, “Implementation and validation of an end-to-end deep reinforcement learning on an autonomous mobile robot”, 
-                            June 2023-Sept. 2023,</li>
+                        <li>Arian Merati, University of Edinburgh, June 2023-Sept. 2023,</li>
                     </ul>
                 </div>
             </div>
