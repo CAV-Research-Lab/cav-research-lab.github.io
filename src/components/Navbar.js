@@ -49,7 +49,6 @@ function Navbar() {
               {/* <i class='fab fa-typo3' /> */}
             </Link>
           </div>
-
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
@@ -77,7 +76,6 @@ function Navbar() {
                 Innovations
               </Link>
             </li>
-   
             <li className='nav-item'>
               <Link
                 to='/publications'
