@@ -47,7 +47,6 @@ function Navbar() {
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
               <img src={cav_lab_logo}/><br></br>
               {/* <i class='fab fa-typo3' /> */}
-
             </Link>
           </div>
 
@@ -71,11 +70,11 @@ function Navbar() {
             </li>
  	    <li className='nav-item'>
               <Link
-                to='/Innovation'
+                to='/Innovations'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Innovation
+                Innovations
               </Link>
             </li>
    
