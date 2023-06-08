@@ -74,7 +74,7 @@ export default function Team() {
                     <div className='team-card'>
                         <img class="circular--square" src={require('../../images/iman_sharifi.jpg')}/>
                         <h3 className='team-name'>Iman Sharifi</h3>
-                        <p className='team-role'>(PhD Student)</p>
+                        <p className='team-role'>(Visiting Researcher)</p>
                         <p class="teamText">
                         Social compliant behavioural decision-making for autonomous 
                         driving using explainable AI.
@@ -142,6 +142,12 @@ export default function Team() {
                             2019-2020</li>
                         <li>Tatiana Farcas, “Autonomous Decision Support for Space System Monitoring”, 
                             2019 - 2020</li>
+
+		    </ul>
+                    <h4>Visiting Scholars:</h4>
+                    <ul className='alumni-list'>
+                        <li>Arian Merati, University of Edinburgh, “Implementation and validation of an end-to-end deep reinforcement learning on an autonomous mobile robot”, 
+                            June 2023-Sept. 2023,</li>
                     </ul>
                 </div>
             </div>
