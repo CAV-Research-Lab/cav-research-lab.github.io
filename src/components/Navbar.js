@@ -16,7 +16,7 @@ function Navbar() {
   
 
   const showButton = () => {
-    if (window.innerWidth <= 960) {
+    if (window.innerWidth <= 800) {
       setButton(false);
     } else {
       setButton(true);
@@ -30,7 +30,7 @@ function Navbar() {
   window.addEventListener('resize', showButton);
 
   // const logoStyle = {
-  //   marginTop: "-5%"
+  //   marginTop: "-1.2%"
   // };
   // toggleBtn.addEventListener("click", function() {
   //     if (myList.style.display === "none") {
