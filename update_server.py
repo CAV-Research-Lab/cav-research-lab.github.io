@@ -4,10 +4,12 @@ print("-> Make sure you have npm and git installed before running this script, s
 print("-> npm version 9.1.1")
 print("-> https://github.com/CAV-Research-Lab/cav-research-lab.github.io.git\n")
 
+x = input("Commit Message: ")
+
 # Update github
 os.system("git pull")
 os.system("git add .")
-os.system("git commit -m \"Automated Update\"")
+os.system(f"git commit -m \"{x}\"")
 os.system("git push")
 
 # Update live website
