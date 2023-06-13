@@ -17,8 +17,8 @@ function Footer() {
 
             <h1><a style={mystyle} href="https://www.linkedin.com/in/msfallah/"><IoMdContact /></a></h1>
             <p className='contact-info'>Dr. Saber <br></br> Fallah</p>
-            <h1><a style={mystyle} href="mailto:s.fallah@surrey.ac.uk"><AiOutlineMail /></a></h1>
-            <p className='contact-info'><b>Email:</b> <br></br> s.fallah@surrey.ac.uk</p>
+            <h1><a style={mystyle} href="mailto:s.fallah@cav-lab.io"><AiOutlineMail /></a></h1>
+            <p className='contact-info'><b>Email:</b> <br></br> s.fallah@cav-lab.io</p>
             <h1><a style={mystyle} href="tel:+01483686528"><AiOutlinePhone /></a></h1>
             <p className='contact-info'><b>Office:</b> <br></br> 01483686528</p>
             <h1><a style={mystyle} href="https://www.youtube.com/@cavresearchlab"><AiOutlineYoutube /></a></h1>
