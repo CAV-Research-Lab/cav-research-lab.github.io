@@ -6,31 +6,32 @@ const newsPosts = [
 
 {
 	title: "Autonomous Vehicles - Trends, Outlook and Forecast",
-	body: `What is the market outlook for autonomous vehicles in the coming years? Who are the major players, and what is the anticipation on the emergence of new competitors or the potential decline of existing ones? How is the development of autonomous vehicle testing and deployment in Europe compared to the USA and China? Will companies from the US and China expand into Europe or focus on their home markets? Will autonomous vehicles be deployed first in Europe? Which countries are the most mature in terms of autonomous vehicle development? What are the most relevant use-cases in Europe? What are the next major challenge to scaling autonomous vehicles after reaching significant technology milestones? Specifically, how important are issues such as public acceptance, data privacy, infrastructure readiness, and legislation?
-In light of recent advancements in core autonomous vehicle technology, what are the most crucial areas that need immediate attention and action? Is it public acceptance, data privacy, infrastructure development, legislation, or something else?
-Dr Fallah discussed these important questions with colleagues Christian Bering Pedersen (Holo), Mirko Reuter (Sr. Director AD Europe at NIO GmbH), and Marvin Ruf (Sr. Account Executive at HERE Technologies) at the ICA Summit 2023.`,
+	body: `At the ICA Summit 2023, Dr Fallah with  key industry leaders - Christian Bering Pedersen, Mirko Reuter, and Marvin Ruf, engaged in a stimulating dialogue on the future landscape of autonomous vehicles. They explored key issues from market trends and emerging players, to comparisons of development between Europe, USA, and China. The discussion extended to the prospect of initial deployments in Europe, countries leading in autonomous technology, and pertinent use-cases in the region. They emphasised on challenges that extend beyond technology, like public acceptance, data privacy, cyber security, infrastructure, and legislation, underlining the immediate need to address these for the successful evolution of the autonomous vehicle sector.`,
 	imgUrl: require('./PostMedia/ICA-001-2.jpg'),
 	videoUrl: "" ,
 	date: "15/05/2023"
 	},
 
 
+
 {
 	title: "Challenges of AI for Autonomous Driving Explained",
-	body: `The use of AI in autonomous driving systems enables higher levels of autonomy. However, significant challenges remain associated with the use of AI for perception and decision-making in autonomous driving. One major challenge is ensuring that AI systems can accurately and reliably detect and interpret complex real-world driving scenarios. Another challenge is developing AI systems that can make ethical and moral decisions when faced with potential collisions or other dangerous situations, while also accounting for legal and regulatory requirements. Addressing these challenges will be critical to realising the full potential of AI for autonomous driving and ensuring its widespread adoption in the future. At the Software Defined Vehicle Conference, Dr. Fallah presented the challenges of AI for autonomous driving and potential solutions to address them to the UK automotive industry.`,
+	body: `Dr. Fallah, at the Software Defined Vehicle Conference, shed light on the challenges associated with AI in autonomous driving. He highlighted the need for AI systems to accurately interpret complex real-world scenarios and to make ethical decisions under potential risk situations, all while complying with legal and regulatory requirements. Addressing these challenges, he emphasised, is essential for the full potential of AI to be realised in autonomous driving, thereby ensuring its future widespread adoption. The insights delivered by Dr. Fallah are significant for progressing the UK automotive industry's understanding of AI in autonomous vehicles.`,
 	imgUrl: require('./PostMedia/VECTOR.jpg'),
 	videoUrl: "" ,
 	date: "27/04/2023"
 	},
+
 	
 
 {
 	title: "Autonomous Driving – Are We Nearly There Yet?",
-	body: `One critical part of the effective deployment of autonomous vehicles is for them to be trusted by the public to make the right decisions in road traffic, properly balancing the system goals of efficiency and capacity with human values such as safety and legality. Without this being well understood, the potential benefits of autonomous vehicles could fail to materialise. In this talk, I will introduce the challenges towards trustworthy autonomous driving and novel solutions to address both human concerns and design requirements.`,
+	body: `During a Cambridge Wireless event, Dr Fallah highlighted the criticality of public trust in autonomous vehicles, emphasising their need to balance system efficiency and capacity with safety and legality. He argued that without a solid understanding of these factors, the potential benefits of autonomous vehicles may not come to fruition. His presentation explored the challenges associated with establishing this trust and introduced innovative solutions designed to address both human apprehensions and technical design requirements. This insightful discussion underscored the intersection of human values and technological advancement in autonomous driving.`,
 	imgUrl: require('./PostMedia/CW.png'),
 	videoUrl: "" ,
 	date: "07/12/2022"
 	},
+
 
 
 {
@@ -41,12 +42,14 @@ Dr Fallah discussed these important questions with colleagues Christian Bering P
 	},
 
 
+
 {
 	title: "Vision-based Reinforcement Learning for Emergency Braking",
 	body: `Our PhD student at CAV-Lab, Vinal Asodia, designed an emergency braking system using a vision-based reinforcement learning technique. However, during testing, the car exhibited an unexpected behavior: it brakes twice in emergency scenarios when a pedestrian is detected. This is likely a feature that was unintentionally learned by the vehicle. It is important to investigate why the car is braking twice and determine if this behavior is beneficial or detrimental before implementing AI-powered autonomous vehicles in real-world applications. This highlights the need to address such questions and challenges to ensure the technology is trustworthy.`,
 	videoUrl:'I_eGm44ncg8', // only include the url after https://youtu.be/ e.g. this video is https://youtu.be/I_eGm44ncg8
 	date: "17/07/2022"
 	},
+
 
 	
 {
@@ -57,13 +60,14 @@ Dr Fallah discussed these important questions with colleagues Christian Bering P
 	},
 
 
+
 {
 	title: "CARMA Project Closing Event",
-	body: `The Cloud Assisted Real-time Methods for Autonomy (CARMA) project, is part of the £11m TASCC programme funded by the Engineering and Physical Sciences Research Council (EPSRC) and Jaguar Land Rover. Supported by WMG’s Centre High Value Manufacturing Catapult, the CARMA project was established with the intention to create secure and resilient cloud-based platforms to enable safe and robust semi-autonomous functions on future cars in the short term, and with the vision of achieving fully autonomous vehicles.
-Dr Saber Fallah, Director of the Connected Autonomous Research Lab at the University of Surrey commented: “This technology enables new business models for the transportation system in alignment with the rise of shared mobility. In addition, autonomous vehicle technology also highlights the potential for how elderly people or disabled people can benefit from the joy of driving from point A to point B safely.”`,
+	body: `The Cloud Assisted Real-time Methods for Autonomy (CARMA) project, is part of the £11m TASCC programme funded by the Engineering and Physical Sciences Research Council (EPSRC) and Jaguar Land Rover. Supported by WMG’s Centre High Value Manufacturing Catapult, the CARMA project was established with the intention to create secure and resilient cloud-based platforms to enable safe and robust semi-autonomous functions on future cars in the short term, and with the vision of achieving fully autonomous vehicles. Dr Saber Fallah, Director of the Connected Autonomous Research Lab at the University of Surrey commented: “This technology enables new business models for the transportation system in alignment with the rise of shared mobility. In addition, autonomous vehicle technology also highlights the potential for how elderly people or disabled people can benefit from the joy of driving from point A to point B safely.”`,
 	videoUrl:'_PG4HWLiBXM', // only include the url after https://youtu.be/ e.g. this video is https://youtu.be/
 	date: "24/05/2022"
 	},
+
 
 
 {
@@ -75,6 +79,7 @@ Dr Saber Fallah, Director of the Connected Autonomous Research Lab at the Univer
 	},
 
 
+
 {
 	title: "CAV-Lab's Innovations Presented at NASA",
 	body: `On March 27th and 28th, a delegation of UK researchers was invited to Houston, Texas to attend an Automation, AI & Robotics Workshop. The workshop was hosted by NASA and organized by the Houston Technology Collaboration Center and UK Science & Innovation Network. During the event, Dr. Fallah presented the audience with the latest advancements in autonomous mobile robots and AI developed at CAV-Lab.`,
@@ -82,6 +87,7 @@ Dr Saber Fallah, Director of the Connected Autonomous Research Lab at the Univer
 	videoUrl: "" ,
 	date: "18/03/2019"
 	},
+
 
 
 {
