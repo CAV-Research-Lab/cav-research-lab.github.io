@@ -25,7 +25,7 @@
     /* color: rgb(0, 0, 0);
     background-color: #ffffff; */
     grid-template-columns: 30% 70%;
-	gap: 1rem;
+	gap: 2rem;
 }
 
 .posts-media-wrapper {

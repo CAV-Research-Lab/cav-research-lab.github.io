@@ -3,6 +3,8 @@
     grid-template-columns: 33% 0.5% 33% 0.5% 33%;  
     padding-top: 3%;
     padding-bottom: 3%;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 * {

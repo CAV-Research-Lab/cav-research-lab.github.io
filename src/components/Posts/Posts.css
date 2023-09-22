@@ -4,7 +4,8 @@
 	/* display: flex; */
 	justify-content: center;
 	align-items: center;
-	padding: 0%;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 .image {
 	padding-left: 3rem;
