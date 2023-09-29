@@ -28,6 +28,14 @@
 	gap: 2rem;
 }
 
+.innovations-post-grid-container {
+	display: grid;
+	  color: rgb(0, 0, 0);
+	  background-color: #ffffff;/*"#1C1B1B",*/
+	  grid-template-columns: 100%;
+	grid-template-rows: 1fr 1fr;
+}
+
 .posts-media-wrapper {
 	width: clamp(21rem, 80%, 25rem);
     height: clamp(14rem, 50%, 22rem);

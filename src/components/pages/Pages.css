@@ -158,6 +158,17 @@ h5 {
 
   }
 
+  .innovations-container {
+    display: flex;
+    /* grid-template-rows: 50% 50%; */
+    align-items: left;
+    grid-gap: 0.7%; /* set gap between the columns */
+    padding-bottom: 5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+  }
+
   .grid-item {
     display: flex;
     justify-content: center;

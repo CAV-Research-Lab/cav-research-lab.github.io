@@ -6,7 +6,7 @@ import NewsPosts from "./NewsPosts"
 
 /* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
 
-const Posts = () => {
+const NPosts = () => {
 const newsPosts = NewsPosts();
 return (
 	<div className="posts-container">
@@ -17,4 +17,4 @@ return (
 );
 };
 
-export default Posts;
+export default NPosts;

@@ -1,5 +1,5 @@
 import React from 'react';
-import Posts from "../Posts/Posts";
+import NPosts from "../Posts/Posts";
 import '../../App.css';
 import './Pages.css';
 
@@ -14,7 +14,7 @@ export default function News() {
         {/*<h1 style={{ color: "white", textAlign: "left", marginLeft: "3%" }}><span class="underline">News</span></h1>
           <br></br><br></br> */}
 
-        <Posts />
+        <NPosts />
       </div>
     </div>
     <Footer/>
