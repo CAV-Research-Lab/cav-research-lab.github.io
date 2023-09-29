@@ -99,7 +99,7 @@ export default function Projects() {
         </div>
 
         <br></br><br></br><br></br><br></br>
-        <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%" }}>
+        <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%", paddingBottom: "3rem"}}>
           <h1><span className='orange_underline'>Research Funding</span></h1><br></br>
           <h5><b>EPSRC</b></h5>
           <ul style={{ listStyleType: "square" }}>
@@ -133,12 +133,8 @@ export default function Projects() {
             <li> Development of Pre-emptive Optimal Control for Active Suspension Systems (£170K), Jaguar Land Rover, Jan. 2013 – Jan. 2015.</li>
             <li> Development of Regenerative Auxiliary Power Systems, Automotive Partnership Canada (APC) and Canada Foundation for Innovation (CFI).</li>
           </ul>
-          <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
           </div>
         </div>
-      {/* Add some blank vertical space to the bottom of page */}
-      <br></br><br></br><br></br><br></br><br></br>
-
       <Footer />
     </>
   );

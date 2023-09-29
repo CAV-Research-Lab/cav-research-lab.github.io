@@ -26,19 +26,23 @@
     background-color: #ffffff; */
     grid-template-columns: 30% 70%;
 	gap: 2rem;
+	padding-bottom: 1rem;
+	padding-top: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 .innovations-post-grid-container {
 	display: grid;
-	  color: rgb(0, 0, 0);
-	  background-color: #ffffff;/*"#1C1B1B",*/
-	  grid-template-columns: 100%;
+	color: rgb(0, 0, 0);
+	background-color: #ffffff;/*"#1C1B1B",*/
+	grid-template-columns: 100%;
 	grid-template-rows: 1fr 1fr;
 }
 
 .posts-media-wrapper {
 	width: clamp(21rem, 80%, 25rem);
-    height: clamp(14rem, 50%, 22rem);
+    height: clamp(14rem, 50%, 20rem);
 	position: relative;
 	overflow: hidden;
 	background-color: #ffffff;
@@ -55,7 +59,7 @@
 	margin-left: 7%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .posts-image {
@@ -83,10 +87,8 @@
 
 .post-info {
 	text-align: justify;
-    /* padding-top: 7%; */
-    padding-bottom: 1.5rem;
-    /* padding-left: 2rem; */
-    padding-right: 5rem;
+	padding-left: 2rem;
+    padding-right: 6rem;
     font-size: 1.2rem;
 	animation-duration: 0.1s; /* don't forget to set a duration! */
 }
@@ -94,10 +96,9 @@
 @media screen and (max-width: 1200px) {
     .post-grid-container {
 		display: grid;
-      	color: rgb(0, 0, 0);
-      	background-color: #ffffff;/*"#1C1B1B",*/
       	grid-template-columns: 100%;
     	grid-template-rows: 1fr 1fr;
+		gap: 0;
 	}
 
 	.heading {
@@ -131,7 +132,7 @@
 
 	.posts-media-wrapper {
 		width: clamp(21rem, 80%, 25rem);
-    	height: clamp(14rem, 70%, 22rem);
+    	height: clamp(14rem, 70%, 17rem);
 	}
   }
 
