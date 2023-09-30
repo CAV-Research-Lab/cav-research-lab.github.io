@@ -103,6 +103,15 @@ function Navbar() {
                 News
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/blog'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Blog
+              </Link>
+            </li>
           </ul>
       </nav>
     </>

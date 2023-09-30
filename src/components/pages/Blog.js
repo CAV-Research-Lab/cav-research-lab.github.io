@@ -6,13 +6,26 @@ import Footer from '../Footer';
 export default function Blog() {
   return (
     <>
-    <div class="BlogBody" style={{height: "100%"}}>
-      <div className="main-container">
-        <br></br><br></br>
-        <h1 className="main-heading">CAV-Lab Blog </h1>
-          <br></br><br></br>
-
-        <Posts />
+    <div class="blog-body" style={{height: "100%"}}>
+      <div class="blog-item">
+        <h1>Blog 1</h1>
+        <a href="url">Read More</a>
+      </div>
+      <div class="blog-item">
+        <h1>Blog 2</h1>
+        <a href="url">Read More</a>
+      </div>
+      <div class="blog-item">
+        <h1>Blog 3</h1>
+        <a href="url">Read More</a>
+      </div>
+      <div class="blog-item">
+        <h1>Blog 4</h1>
+        <a href="url">Read More</a>
+      </div>
+      <div class="blog-item">
+        <h1>Blog 5</h1>
+        <a href="url">Read More</a>
       </div>
     </div>
     <Footer/>
