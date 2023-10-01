@@ -15,85 +15,72 @@ export default function Innovations() {
       <div class="innovations-body">
         <br></br><br></br>
         <div class="innovations-container">
-          <h1><span className="orange_underline">CARMA</span></h1>
+          <h1><span className="orange_underline">Introducing "Agility" – The Future of Autonomous Robotics at CAV-Lab</span></h1>
           <div class="grid-item">
-            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 30rem)"}} class="project-img" src={require('../../images/CARMA2.png')} />
+            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 75rem)"}} class="project-img" src={require('../../images/agility_car.JPG')} />
           </div>
 
           <div class="grid-item">
             <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
               <p style={{paddingLeft: "3%", paddingRight: "3%", paddingBottom: "2rem", paddingTop: "1rem"}}>
-                CARMA (Secure Cloud-based Distributed Control Systems for Connected Autonomous Cars) research project was initiated in 2016 with initial funding from EPSRC and Jaguar Land Rover.
-                The project aims to integrate off-board vehicle information into on-board vehicle control systems using cloud,
-                5G communication technologies, AI, and distributed optimal control theories. The goal is to improve vehicle perception and expand the information horizon,
-                while addressing issues such as sensor limitations, real-time decision-making, and line of sight. The expected outcome is the development of safer and faster
-                autonomous vehicles, which will represent the next generation of autonomous technologies. To achieve this goal, the research team of CAV-Lab designed a novel
-                distributed control architecture that combines the power of AI and distributed control systems, with the notion of autonomous systems. We developed a new control
-                platform, which enables the cost-effective deployment of autonomous features and ultimately the realisation of connected and fully autonomous cars. Additionally,
-                we created a cloud-assisted learning control system, which allows the next generation of autonomous cars to perform challenging manoeuvres, such as overtaking,
-                in high-speed and uncertain conditions. We also developed an AI-enabled interactive decision-making system to improve the safe operation of autonomous vehicles
-                in highly dynamic and interactive driving scenarios. Overall, this research project seeks to advance the state-of-the-art in autonomous vehicle technology by
-                leveraging cloud computing, 5G communication technologies, and cutting-edge AI and distributed optimal control theories. The ultimate goal is to create safer
-                and faster autonomous vehicles that can operate in a variety of challenging driving scenarios.
+              At CAV-Lab, we are thrilled to introduce our latest innovation, a mobile robot named "Agility". 
+              Developed to stand at the forefront of robotics and artificial intelligence, Agility is engineered 
+              to redefine the boundaries of autonomous driving and navigation. 
               </p>
 
+              <h3 style={{textAlign: "left"}}><b>Why Agility?</b></h3>
+              <ul>
+                <li><b>Seamless Integration:</b> Agility seamlessly integrates state-of-the-art hardware and software, 
+                  creating a harmonious synergy that takes robotics to the next level.</li>
+              </ul>
+              <ul>
+                <li><b>Remote Operation:</b> Functioning both remotely and autonomously, this robot is versatile enough 
+                to adapt to a multitude of environments and applications.</li>
+              </ul>
+              <ul>
+                <li><b>High-End Components:</b> Equipped with lidar, camera, RTK-GPS, and a high-resolution IMU, Agility
+                 is poised to capture detailed, real-world data with unparalleled precision.</li>
+              </ul>
+              <ul>
+                <li><b>Powerful Computing:</b> With its Nvidia Jetson T2Xi computing platform, Agility possesses the
+                 computational power to implement intricate algorithms, making it not just a robot but a highly
+                  intelligent agent.</li>
+              </ul>
+
+              <h3 style={{textAlign: "left"}}><b>Core Features</b></h3>
+              <ul>
+                <li><b>Advanced Lidar Technology:</b> Provides a 360-degree environmental awareness, crucial for
+                 precise navigation and collision avoidance.</li>
+              </ul>
+              <ul>
+                <li><b>High-Resolution Camera:</b> Equipped for detailed visual capture and analysis, supporting
+                 intricate image-based tasks and machine learning capabilities.</li>
+              </ul>
+              <ul>
+                <li><b>RTK-GPS:</b> Real-Time Kinematic GPS ensures accurate positional data, even in the most
+                 challenging terrains.</li>
+              </ul>
+              <ul>
+                <li><b>IMU (Inertial Measurement Unit):</b> Offers real-time orientation and accelerations,
+                 crucial for dynamic manoeuvring and stability.</li>
+              </ul>
+
+              <h3 style={{textAlign: "left"}}><b>AI-Ready Platform</b></h3>
+              <p>
+              Agility is designed to be the ideal testbed for CAV-Lab's cutting-edge AI algorithms. Our
+               researchers are ceaselessly working on next-gen solutions for autonomous navigation, and Agility
+                offers the perfect platform for real-world trials and implementation.
+              </p>
+
+              <h3 style={{textAlign: "left"}}><b>Get Involved</b></h3>
+              <p>
+              For enquiries and partnership opportunities, please reach out to us. We're always eager to 
+              collaborate and push the frontiers of what's possible.
+              </p>
+
+
+
             </div>
-          </div>
-
-          <h1><span className='orange_underline'>Socio-Drive</span></h1>
-          <div class="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/carla.png')} />
-          </div>
-
-          <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
-            <p style={{paddingLeft: "3%", paddingRight: "3%", paddingBottom: "2rem", paddingTop: "1rem"}}>
-              Socio-Drive (Cognitive Learning of Scoial Norms for Human-like Autonomous Driving) research project was launched in 2017 with initial funding from EPSRC and Jaguar Land Rover. The aim here is to enhance the trust of AI-enabled autonomous
-              vehicles by public. In this project, the backbone of our research is Deep Reinforcement Learning (DRL) which combines artificial neural networks with a framework of
-              reinforcement learning. DRL offers a comprehensive framework for studying the interplay among learning, representation, and decision making, offering to the sciences
-              and researchers a new set of research tools and a wide range of novel research hypotheses. DRL borrows ideas not only from nature but also from our psychology
-              making a bridge between technology and humans. However, there is a concern about the trustworthiness and interpretability of DRL and its application to autonomous
-              vehicles from society. A precise answer to this concern will require understanding both what responsibility and trust mean for autonomous vehicles and its makers
-              and operators, and of how the design and operation of an autonomous vehicle can be undertaken to enable responsibility and trust. I have recently built a core
-              research team at the University of Surrey to answer these questions. The team includes colleagues from the Faculty of Arts and Human Sciences who are experts
-              in interpreting human values (e.g. legality, ethics and privacy) and phycology as well as the Faculty of Engineering and Physical Sciences who are experts in
-              artificial intelligence and robotic systems. The ultimate goal of this project is to enable DRL to learn how to make decisions for autonomous driving as a
-              responsible human driver does.
-            </p>
-          </div>
-
-          <h1><span className='orange_underline'>FAIR-Robots</span></h1>
-          <div class="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(20rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/mujoco-arm.PNG')} />
-          </div>
-
-          <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
-            <p style={{paddingLeft: "3%", paddingRight: "3%", paddingBottom: "2rem", paddingTop: "1rem"}}>
-              FAIR-Robots (Future AI Research for Robots) project was launched in 2017 when we received initial funding from EPSRC and UKRI as part of the larger FAIR-SPACE Hub project. The project is a
-              collaboration between leading experts from academia, industry, and governments, with the aim of pushing the boundaries of AI robotics and enabling robots to
-              operate safely in hazardous and extreme environments such as space and nuclear plants. During this project, we developed novel control and navigation
-              algorithms using state-of-the-art machine learning and AI techniques, to empower the next generation of robots to perform tasks autonomously and safely.
-              Our work focused specifically on addressing the challenges of safe and resilient operation of tele-operated robotic systems under random communication
-              time-delays, autonomous operation of manipulators in free-gravity conditions, and energy management of robotic systems with limited energy resources for
-              remote exploration. The outcome of FAIR-Robots is reliable and robust robotic systems capable of operating effectively in hazardous and extreme environments,
-              where human access is restricted.`
-            </p>
-          </div>
-
-          <h1><span className='orange_underline'>I-Aware</span></h1>
-          <div class="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2.4rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/SatCAV.png')} />
-          </div>
-
-          <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
-            <p style={{paddingLeft: "3%", paddingRight: "3%", paddingBottom: "2rem", paddingTop: "1rem"}}>
-              I-Aware (Intelligent Situational Awareness for Safety Enhancement of Autonomous Vehicle)
-              Situational awareness is crucial for safe autonomous driving as it allows the vehicle to perceive, understand, and respond to the environment and potential hazards
-              around it. It involves the continuous monitoring and assessment of the road, traffic, weather, and other factors that may affect the vehicle's operation. With a
-              high level of situational awareness, an autonomous vehicle can make informed decisions and adjust its behaviour to ensure the safety of its passengers and other
-              road users. Without situational awareness, an autonomous vehicle may not be able to accurately identify and respond to hazards, increasing the risk of accidents
-              and injuries. Therefore, it is essential to develop advanced sensor systems and algorithms that enable autonomous vehicles to achieve a high degree of situational
-              awareness and operate safely in complex environments.
-            </p>
           </div>
 
           
