@@ -17,7 +17,7 @@ const newsPosts = [
 {
 	title: "Challenges of AI for Autonomous Driving Explained",
 	body: `Dr. Fallah, at the Software Defined Vehicle Conference, shed light on the challenges associated with AI in autonomous driving. He highlighted the need for AI systems to accurately interpret complex real-world scenarios and to make ethical decisions under potential risk situations, all while complying with legal and regulatory requirements. Addressing these challenges, he emphasised, is essential for the full potential of AI to be realised in autonomous driving, thereby ensuring its future widespread adoption. The insights delivered by Dr. Fallah are significant for progressing the UK automotive industry's understanding of AI in autonomous vehicles.`,
-	imgUrl: require('./PostMedia/VECTOR.jpg'),
+	imgUrl: require('./PostMedia/VECTOR_2.jpg'),
 	videoUrl: "" ,
 	date: "27/04/2023"
 	},
