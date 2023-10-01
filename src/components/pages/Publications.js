@@ -23,7 +23,7 @@ export default function Publications() {
     <>
       <br></br>
       <nav>
-        <div style={{ textAlign: "center", fontSize: "1.5rem"}}>
+        <div style={{ textAlign: "center", fontSize: "1.5rem", paddingLeft: "2rem", paddingRight: "2rem"}}>
           <p> <a className="black" onClick={() => scrollTo("2023")} >2023</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2020")} >2020</a> - <a className="black" onClick={() => scrollTo("2019")} >2019</a> - <a className="black" onClick={() => scrollTo("2018")} >2018</a> - <a className="black" onClick={() => scrollTo("2017")} >2017</a></p>
           <p><a onClick={() => scroll.scrollToBottom()}><AiOutlineArrowDown/></a></p>
         </div>
