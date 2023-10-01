@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0da9c23.chunk.css",
-    "main.js": "/static/js/main.65b5a094.chunk.js",
-    "main.js.map": "/static/js/main.65b5a094.chunk.js.map",
+    "main.css": "/static/css/main.1ac86db4.chunk.css",
+    "main.js": "/static/js/main.5b388899.chunk.js",
+    "main.js.map": "/static/js/main.5b388899.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d84520.js",
     "runtime-main.js.map": "/static/js/runtime-main.67d84520.js.map",
-    "static/js/2.b3090ba4.chunk.js": "/static/js/2.b3090ba4.chunk.js",
-    "static/js/2.b3090ba4.chunk.js.map": "/static/js/2.b3090ba4.chunk.js.map",
+    "static/js/2.1cdf79fc.chunk.js": "/static/js/2.1cdf79fc.chunk.js",
+    "static/js/2.1cdf79fc.chunk.js.map": "/static/js/2.1cdf79fc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f8162d78e02b0b22a22a37202907b7c1.js": "/precache-manifest.f8162d78e02b0b22a22a37202907b7c1.js",
+    "precache-manifest.e06f52ac6ced6faf67c85e4ea5301db1.js": "/precache-manifest.e06f52ac6ced6faf67c85e4ea5301db1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e0da9c23.chunk.css.map": "/static/css/main.e0da9c23.chunk.css.map",
-    "static/js/2.b3090ba4.chunk.js.LICENSE.txt": "/static/js/2.b3090ba4.chunk.js.LICENSE.txt",
+    "static/css/main.1ac86db4.chunk.css.map": "/static/css/main.1ac86db4.chunk.css.map",
+    "static/js/2.1cdf79fc.chunk.js.LICENSE.txt": "/static/js/2.1cdf79fc.chunk.js.LICENSE.txt",
     "static/media/CARMA2.png": "/static/media/CARMA2.37cb2c64.png",
     "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
     "static/media/CW.png": "/static/media/CW.ea830f08.png",
@@ -21,6 +21,7 @@
     "static/media/SatCAV.png": "/static/media/SatCAV.aa9c343c.png",
     "static/media/UoS-Logo.png": "/static/media/UoS-Logo.988b50c9.png",
     "static/media/VECTOR.jpg": "/static/media/VECTOR.d4ab533d.jpg",
+    "static/media/agility_car.JPG": "/static/media/agility_car.ef8eecd9.JPG",
     "static/media/background_video.mp4": "/static/media/background_video.43139eb7.mp4",
     "static/media/barkin_dagda.png": "/static/media/barkin_dagda.fc7f4f20.png",
     "static/media/carla.png": "/static/media/carla.09d81489.png",
@@ -38,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.67d84520.js",
-    "static/js/2.b3090ba4.chunk.js",
-    "static/css/main.e0da9c23.chunk.css",
-    "static/js/main.65b5a094.chunk.js"
+    "static/js/2.1cdf79fc.chunk.js",
+    "static/css/main.1ac86db4.chunk.css",
+    "static/js/main.5b388899.chunk.js"
   ]
 }
