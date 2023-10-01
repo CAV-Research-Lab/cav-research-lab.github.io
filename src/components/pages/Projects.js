@@ -12,7 +12,7 @@ export default function Projects() {
 
   return (
     <>
-      <div class="projects-body" style={{ height: "100%", width: "97%", fontSize: "1.2rem"}}>
+      <div class="projects-body">
         <br></br><br></br>
         <div class="research-grid-container">
 

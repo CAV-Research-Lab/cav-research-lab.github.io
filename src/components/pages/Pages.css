@@ -152,22 +152,22 @@ h5 {
 }
 .research-grid-container {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 1.25fr 0.75fr;
     align-items: left;
     grid-gap: 0.7%; /* set gap between the columns */
   }
 
 .projects-body {
     height: 100%;
-    width: 97%;
+    width: 100%;
     font-size: 1.2rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .innovations-body {
     height: 100%;
-    width: 97%;
+    width: 100%;
     font-size: 1.2rem;
     padding-left: 7rem;
     padding-right: 7rem;
@@ -223,7 +223,7 @@ h5 {
     font-size: 2.5rem;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1150px) {
     .research-grid-container {
         display: inline;
     
