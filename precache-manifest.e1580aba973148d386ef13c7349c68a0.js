@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "324761b82205bd9e3df986fd060bf00f",
+    "revision": "37c52f6c84a4788ecd3a2b1989706662",
     "url": "/index.html"
   },
   {
-    "revision": "05e0ed4520590851e231",
+    "revision": "49837fc6254060faaa91",
     "url": "/static/css/main.1ac86db4.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1cdf79fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05e0ed4520590851e231",
-    "url": "/static/js/main.5b388899.chunk.js"
+    "revision": "49837fc6254060faaa91",
+    "url": "/static/js/main.f0458d4f.chunk.js"
   },
   {
     "revision": "97c002b8f8a25334b102",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/UoS-Logo.988b50c9.png"
   },
   {
-    "revision": "d4ab533d21d1c899530bb5ddaac46714",
-    "url": "/static/media/VECTOR.d4ab533d.jpg"
+    "revision": "32eadbe26d62e1218f615fcf5616def6",
+    "url": "/static/media/VECTOR_2.32eadbe2.jpg"
   },
   {
     "revision": "ef8eecd9aa0a6750c7e924c1e230572a",
