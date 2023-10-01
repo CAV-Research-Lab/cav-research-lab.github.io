@@ -155,8 +155,23 @@ h5 {
     grid-template-columns: 70% 30%;
     align-items: left;
     grid-gap: 0.7%; /* set gap between the columns */
-
   }
+
+.projects-body {
+    height: 100%;
+    width: 97%;
+    font-size: 1.2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.innovations-body {
+    height: 100%;
+    width: 97%;
+    font-size: 1.2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
 
   .innovations-container {
     display: flex;
@@ -194,6 +209,13 @@ h5 {
     padding-bottom: 1rem;
 }
 
+.publication-body {
+    height: 100%;
+    font-size: 1.2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
 #sponsor-title {
     color: black;
     text-align: left;
@@ -223,6 +245,26 @@ h5 {
         display: grid;
         grid-template-rows: 25rem 25rem 25rem;
         grid-template-columns: 100%;
+    }
+
+    .blog-body {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .publication-body {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .projects-body {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .innovations-body {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     #sponsor-title {

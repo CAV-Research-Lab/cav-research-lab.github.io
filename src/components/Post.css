@@ -113,8 +113,8 @@
 		text-align: justify;
 		padding-top: 0;
 		padding-bottom: 1rem;
-		padding-left: 3rem;
-		padding-right: 3rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 		font-size: 1rem;
 		animation-duration: 0.1s;
 		margin-top: 0; /* add this to reduce space above the text */

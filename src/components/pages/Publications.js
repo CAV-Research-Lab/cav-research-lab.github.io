@@ -29,7 +29,7 @@ export default function Publications() {
         </div>
       </nav>
 
-      <div class="black" style={{ height: "100%", fontSize: "1.2rem", paddingLeft: "7rem", paddingRight: "7rem"}}>
+      <div class="publication-body">
         <div className="2023" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 

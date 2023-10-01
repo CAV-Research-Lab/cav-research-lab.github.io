@@ -12,7 +12,7 @@ export default function Innovations() {
 
   return (
     <>
-      <div class="black" style={{ height: "100%", width: "97%", fontSize: "1.2rem" , paddingLeft: "7rem", paddingRight: "7rem"}}>
+      <div class="innovations-body">
         <br></br><br></br>
         <div class="innovations-container">
           <h1><span className="orange_underline">CARMA</span></h1>
