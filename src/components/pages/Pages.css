@@ -68,8 +68,8 @@ a {
     background-color: #ffffff;
     text-align: left;
     padding-top: 2%;
-    padding-left: 3%;
-    padding-right: 2%;
+    padding-left: 5rem;
+    padding-right: 4rem;
     padding-bottom: 3%;
 }
 
@@ -230,7 +230,7 @@ h5 {
       }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
     .team-body {
         display: grid;
         grid-template-rows: 25rem 100rem 75rem;
@@ -263,6 +263,11 @@ h5 {
     }
 
     .innovations-body {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .alumni {
         padding-left: 2rem;
         padding-right: 2rem;
     }

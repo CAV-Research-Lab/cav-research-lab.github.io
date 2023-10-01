@@ -15,7 +15,9 @@ export default function Innovations() {
       <div class="innovations-body">
         <br></br><br></br>
         <div class="innovations-container">
-          <h1><span className="orange_underline">Introducing "Agility" – The Future of Autonomous Robotics at CAV-Lab</span></h1>
+          <div style={{textAlign: "center"}}>
+            <h1><span className="orange_underline">Introducing "Agility" – The Future of Autonomous Robotics at CAV-Lab</span></h1>
+          </div>
           <div class="grid-item">
             <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 75rem)"}} class="project-img" src={require('../../images/agility_car.JPG')} />
           </div>
