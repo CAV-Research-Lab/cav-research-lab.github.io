@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe0691d8.chunk.css",
-    "main.js": "/static/js/main.3e1e186f.chunk.js",
-    "main.js.map": "/static/js/main.3e1e186f.chunk.js.map",
+    "main.css": "/static/css/main.3b9953b9.chunk.css",
+    "main.js": "/static/js/main.de520e36.chunk.js",
+    "main.js.map": "/static/js/main.de520e36.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d84520.js",
     "runtime-main.js.map": "/static/js/runtime-main.67d84520.js.map",
-    "static/js/2.1cdf79fc.chunk.js": "/static/js/2.1cdf79fc.chunk.js",
-    "static/js/2.1cdf79fc.chunk.js.map": "/static/js/2.1cdf79fc.chunk.js.map",
+    "static/js/2.3e587de8.chunk.js": "/static/js/2.3e587de8.chunk.js",
+    "static/js/2.3e587de8.chunk.js.map": "/static/js/2.3e587de8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0c5aa569b413d200ff93b4d05407767e.js": "/precache-manifest.0c5aa569b413d200ff93b4d05407767e.js",
+    "precache-manifest.41a91d9ad295c9ceac105d990f94b36e.js": "/precache-manifest.41a91d9ad295c9ceac105d990f94b36e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fe0691d8.chunk.css.map": "/static/css/main.fe0691d8.chunk.css.map",
-    "static/js/2.1cdf79fc.chunk.js.LICENSE.txt": "/static/js/2.1cdf79fc.chunk.js.LICENSE.txt",
+    "static/css/main.3b9953b9.chunk.css.map": "/static/css/main.3b9953b9.chunk.css.map",
+    "static/js/2.3e587de8.chunk.js.LICENSE.txt": "/static/js/2.3e587de8.chunk.js.LICENSE.txt",
     "static/media/CARMA2.png": "/static/media/CARMA2.37cb2c64.png",
     "static/media/CAV-LAB_logo_white.png": "/static/media/CAV-LAB_logo_white.b57b1a7e.png",
     "static/media/CW.png": "/static/media/CW.ea830f08.png",
     "static/media/China-UK.jpeg": "/static/media/China-UK.340f1c4e.jpeg",
+    "static/media/FISITA-CHINA.jpeg": "/static/media/FISITA-CHINA.42b71c59.jpeg",
     "static/media/Guildford Innovation Award.jpeg": "/static/media/Guildford Innovation Award.0daf6d7b.jpeg",
     "static/media/ICA-001-2.jpg": "/static/media/ICA-001-2.a820fe3a.jpg",
+    "static/media/LUC-IROS.jpg": "/static/media/LUC-IROS.835aa865.jpg",
     "static/media/SatCAV.png": "/static/media/SatCAV.aa9c343c.png",
     "static/media/UoS-Logo.png": "/static/media/UoS-Logo.988b50c9.png",
     "static/media/VECTOR_2.jpg": "/static/media/VECTOR_2.32eadbe2.jpg",
@@ -35,12 +37,13 @@
     "static/media/nasa.JPG": "/static/media/nasa.de2e1ba5.JPG",
     "static/media/saber_fallah.jpeg": "/static/media/saber_fallah.77e698c4.jpeg",
     "static/media/sponsors.PNG": "/static/media/sponsors.b30fc4ce.PNG",
+    "static/media/surrey_2023_showcase-180.jpg": "/static/media/surrey_2023_showcase-180.71edbcd0.jpg",
     "static/media/vinal_asodia.png": "/static/media/vinal_asodia.bf005533.png"
   },
   "entrypoints": [
     "static/js/runtime-main.67d84520.js",
-    "static/js/2.1cdf79fc.chunk.js",
-    "static/css/main.fe0691d8.chunk.css",
-    "static/js/main.3e1e186f.chunk.js"
+    "static/js/2.3e587de8.chunk.js",
+    "static/css/main.3b9953b9.chunk.css",
+    "static/js/main.de520e36.chunk.js"
   ]
 }
