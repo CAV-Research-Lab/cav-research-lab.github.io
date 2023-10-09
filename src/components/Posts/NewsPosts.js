@@ -3,6 +3,35 @@ const NewsPosts = () => {
 
 const newsPosts = [
 
+{
+	title: "CAV-LAB Research Was Presented in IROS 2023",
+	body: `Local-remote (tele-operated) systems enable robots to carry out complex tasks in hazardous environments, such as space and nuclear power stations. These systems have also been adopted for remote surgery and driving applications. However, a primary challenge for reliable operation is the presence of time delays in these local-remote teleoperation systems. Such delays can compromise the accuracy of positional mapping between the local and remote devices which can negatively impact the performance and stability of the system. CAV-Lab researcher, Luc McCutcheon, has presented his research work on addressing the challenge of synchronising the actions of the local and remote devices despite the presence of stochastic time delays in IROS 2023.`,
+	imgUrl: require('./PostMedia/LUC-IROS.jpg'),
+	videoUrl: "" ,
+	date: "07/10/2023"
+	},
+
+
+
+{
+	title: "Safe Autonomous Driving for Future Cities",
+	body: `How can we ensure the safety of our future transportation systems? How can we develop or augment existing standards to guarantee the safety of highly automated vehicles? Is SOTIF a good alternative standard for safety assurance of future highly automated vehicles? What are the expert opinions on the imminent deployment of level 3+ automated vehicles? What are the challenges and barriers in verification and validation of autonomous vehicles using simulations? At the Intelligent Safety Conference China, Prof Fallah and other experts experts worldwide convened to answer these critical questions.`,
+	imgUrl: require('./PostMedia/FISITA-CHINA.jpeg'),
+	videoUrl: "" ,
+	date: "27/07/2023"
+	},
+
+
+{
+	title: "Introducing 'Agility' – The Future of Autonomous Robotics at CAV-Lab",
+	body: `For the first time, CAV-Lab's researchers publicly demonstrated the Agility Car and its AI algorithms real-time performance at the University of Surrey demonstration day. The current and former researchers and students of CAV-Lab have worked tirelessly over the last three years to design and assemble the hardware, as well as develop the software for the Agility Car, which is a tele-operated mobile robot. Even though the Agility Car is remote-operated, it has the ability to drive itself to its station in the event of a communication failure. Agility car is a perfect solution for surveillance, remote inspection, reaching hazardous/extreme environments.`,
+	imgUrl: require('./PostMedia/surrey_2023_showcase-180.jpg'),
+	videoUrl: "" ,
+	date: "30/06/2023"
+	},
+
+
+
 
 {
 	title: "Autonomous Vehicles - Trends, Outlook and Forecast",
