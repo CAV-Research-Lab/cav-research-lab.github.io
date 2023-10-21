@@ -4,7 +4,18 @@ const NewsPosts = () => {
 const newsPosts = [
 
 {
-	title: "CAV-LAB Research Was Presented in IROS 2023",
+	title: "CAV-Lab Contributes to Government Report on Location Data for Safe Self-Driving Vehicles",
+	body: `Autonomous and highly automated vehicles will rely on location data to know where they are in relation to their surroundings, including the kerbside, other vehicles and pedestrians. Innovative location technologies could enable vehicles to communicate with other road users and smart infrastructure, improving traffic flow and congestion as well as making it safer and easier for drivers. Location data and technology will have a key role in the sector, but there are challenges around data discoverability, accessibility and quality. The recent report published by Geospatial Commission highlights the role location data in the safe deployment of self-driving road vehicles. Prof Fallah contributed to this report by sharing the outcome of CAV-Lab's research on vehicle localisation and control in last 10 years.`,
+	imgUrl: require('./PostMedia/Report.png'),
+	videoUrl: "" ,
+	date: "20/10/2023"
+	},
+
+
+
+
+{
+	title: "CAV-LAB Presents Its Research on Remote-Local Robots in IROS 2023",
 	body: `Local-remote (tele-operated) systems enable robots to carry out complex tasks in hazardous environments, such as space and nuclear power stations. These systems have also been adopted for remote surgery and driving applications. However, a primary challenge for reliable operation is the presence of time delays in these local-remote teleoperation systems. Such delays can compromise the accuracy of positional mapping between the local and remote devices which can negatively impact the performance and stability of the system. CAV-Lab researcher, Luc McCutcheon, has presented his research work on addressing the challenge of synchronising the actions of the local and remote devices despite the presence of stochastic time delays in IROS 2023.`,
 	imgUrl: require('./PostMedia/LUC-IROS.jpg'),
 	videoUrl: "" ,
