@@ -35,12 +35,18 @@ export default function Publications() {
 
           <h1><span className="orange_underline">2023</span></h1><br></br>
           <ul style={{ listStyleType: "square" }}>
-            <li>Explainable Traffic Sign Detection for Safe Autonomous Driving: an Inductive Logic Programming Approach, under review.</li> 
+            
+	    <li>Symbolic Imitation Learning: From Black-Box to Explainable Driving Policies. <a href="https://arxiv.org/pdf/2309.16025.pdf"><GrDocumentPdf /></a></li>
+	    <li>Explainable and Trustworthy Traffic Sign Detection for Safe Autonomous Driving: An Inductive Logic Programming Approach. <a href="https://arxiv.org/pdf/2309.03215.pdf"><GrDocumentPdf /></a></li>
+	    <li>Towards Safe Autonomous Driving Policies using a Neuro-Symbolic Deep Reinforcement Learning Approach. <a href="https://arxiv.org/pdf/2307.01316.pdf"><GrDocumentPdf /></a></li> 
+            <li>A Logic-based Compositional Generalisation Approach for Robust Traffic Sign Detection. <a href="https://openreview.net/pdf?id=jfU2Xv84_O"><GrDocumentPdf /></a></li>
+            <li>Adaptive PID Control using Deep Reinforcement Learning for Local-Remote Teleoperation with Stochastic Time Delays. <a href="https://arxiv.org/pdf/2305.16979.pdf"><GrDocumentPdf /></a></li>
+            <li>Decision Making for Autonomous Driving in Interactive Merge Scenarios via Learning-based Prediction. <a href="https://arxiv.org/pdf/2303.16821.pdf"><GrDocumentPdf /> </a> </li>
+            <li>Value Summation: A Novel Scoring Function for MPC-based Model-based Reinforcement Learning. <a href="https://arxiv.org/pdf/2209.08169.pdf"><GrDocumentPdf /></a></li>
+	    <li>Hybrid fleet capacitated vehicle routing problem with flexible Monte–Carlo Tree search. <a href="https://www.tandfonline.com/doi/epdf/10.1080/23302674.2022.2102265?needAccess=true"><GrDocumentPdf /> </a> </li>
+	    </ul></div>
 
-            <li>A Resilient Traffic Sign Detection Method for Safe Autonomous Driving Using Logic-Based Learning, IEEE/RSJ International Conference on Intelligent Robots and Systems, under review. </li>
-            <li>Adaptive PID Control using Deep Reinforcement Learning for Local-Remote Teleoperation with Stochastic Time Delays, IEEE/RSJ International Conference on Intelligent Robots and Systems, under review. </li>
-            <li>Value Summation: A Novel Scoring Function for MPC-based Model-based Reinforcement Learning, under review. <a href="https://arxiv.org/pdf/2209.08169.pdf"><GrDocumentPdf /> </a> </li>
-          </ul></div>
+
 
 
         <div className="2022" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>

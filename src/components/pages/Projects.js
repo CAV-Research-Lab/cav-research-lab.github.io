@@ -111,7 +111,8 @@ export default function Projects() {
           </ul>
           <h5><b>InnovateUK</b></h5>
           <ul style={{ listStyleType: "square" }}>
-            <li> Research to Consider the Future UK Opportunities in Active Debris Removal and in Orbit Servicing, Jan. 2022 – June 2022.</li>
+            <li> A Digital Twin Simulation Platform for an AI-powered AMR for Warehousing, Aug. 2023 – Dec. 2023.</li>
+	    <li> Research to Consider the Future UK Opportunities in Active Debris Removal and in Orbit Servicing, Jan. 2022 – June 2022.</li>
             <li> GPR for Localisation of Autonomous Vehicles (£100K) , Oct. 2018 – May 2019.</li>
             <li> Holistic Energy Management Software Tool for a Fleet of Connected Electric Vehicles (£260K), Principal Investigator, Sept. 2018 – Sept. 2021.</li>
             <li> 5G Above the Cloud (£270K), Innovate UK, Sept. 2018 – Sept. 2021.</li>
