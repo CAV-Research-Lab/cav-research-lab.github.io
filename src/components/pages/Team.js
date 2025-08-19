@@ -71,24 +71,8 @@ export default function Team() {
                             Communication Disruption.
                         </p>
                     </div>
-                    <div className='team-card'>
-                        <img class="circular--square" src={require('../../images/iman_sharifi.jpg')}/>
-                        <h3 className='team-name'>Iman Sharifi</h3>
-                        <p className='team-role'>(Visiting Researcher)</p>
-                        <p class="teamText">
-                        Social compliant behavioural decision-making for autonomous 
-                        driving using explainable AI.
-                        </p>
-                    </div>
-                    <div className='team-card'>
-                        <img class="circular--square" src={require('../../images/erfan_aminhatamy.jpg')}/>
-                        <h3 className='team-name'>Erfan Aminhatamy</h3>
-                        <p className='team-role'>(Visiting Researcher)</p>
-                        <p class="teamText">
-                            Learning-based Robust Model Predictive Control using 
-                            Safe Reinforcement Learning.
-                        </p>
-                    </div>
+
+                    
                 </div>
                 <div className='alumni'>
                     <h2 id='alumni-title'>Alumni</h2>
