@@ -1,22 +1,17 @@
 import React from 'react';
-import Posts from "../Projects/Posts";
 import '../../App.css';
 import './Pages.css';
-
 import Footer from '../Footer';
-
-
-
 
 export default function Projects() {
 
   return (
     <>
-      <div class="projects-body">
+      <div className="projects-body">
         <br></br><br></br>
-        <div class="research-grid-container">
+        <div className="research-grid-container">
 
-          <div class="grid-item">
+          <div className="grid-item">
             <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
               <h1><span className="orange_underline">CARMA</span></h1><br></br>
               <p style={{paddingLeft: "3%", paddingRight: "3%"}}>
@@ -36,8 +31,8 @@ export default function Projects() {
 
             </div>
           </div>
-          <div class="grid-item">
-            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 30rem)"}} class="project-img" src={require('../../images/CARMA2.png')} />
+          <div className="grid-item">
+            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 30rem)"}} className="project-img" src={require('../../images/CARMA2.png')} alt="CARMA project visual" />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
@@ -57,8 +52,8 @@ export default function Projects() {
             </p>
           </div>
 
-          <div class="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/carla.png')} />
+          <div className="grid-item">
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} className="project-img" src={require('../../images/carla.png')} alt="Socio-Drive simulation visual" />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
@@ -75,8 +70,8 @@ export default function Projects() {
             </p>
           </div>
 
-          <div class="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(20rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/mujoco-arm.PNG')} />
+          <div className="grid-item">
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(20rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} className="project-img" src={require('../../images/mujoco-arm.PNG')} alt="FAIR-Robots manipulator visual" />
           </div>
 
 
@@ -93,13 +88,13 @@ export default function Projects() {
             </p>
           </div>
 
-          <div class="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2.4rem", paddingBottom: "1rem"}} class="project-img" src={require('../../images/SatCAV.png')} />
+          <div className="grid-item">
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2.4rem", paddingBottom: "1rem"}} className="project-img" src={require('../../images/SatCAV.png')} alt="I-Aware project visual" />
           </div>
         </div>
 
         <br></br><br></br><br></br><br></br>
-        <div class="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%", paddingBottom: "3rem"}}>
+        <div className="funding" style={{ color: "black", textAlign: "justify", marginLeft: "2%", paddingBottom: "3rem"}}>
           <h1><span className='orange_underline'>Research Funding</span></h1><br></br>
           <h5><b>EPSRC</b></h5>
           <ul style={{ listStyleType: "square" }}>

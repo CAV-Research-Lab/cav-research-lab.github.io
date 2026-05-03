@@ -1,120 +1,61 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from './Button';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import cav_lab_logo from '../images/CAV-LAB_logo_white.png'
+import cavLabLogo from '../images/CAV-LAB_logo_white.png';
+
+const NAV_ITEMS = [
+  { label: 'Home', path: '/' },
+  { label: 'Research', path: '/research' },
+  { label: 'Innovations', path: '/Innovations' },
+  { label: 'Publications', path: '/publications' },
+  { label: 'Team', path: '/team' },
+  { label: 'News', path: '/news' },
+  { label: 'Blog', path: '/blog' },
+];
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const toggleBtn = document.getElementById("menu-icon");
-  const myList = document.getElementById("nav-menu");
-  
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
   useEffect(() => {
-    showButton();
+    const handleResize = () => {
+      if (window.innerWidth > 960) {
+        closeMobileMenu();
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  window.addEventListener('resize', showButton);
-
-  // const logoStyle = {
-  //   marginTop: "-1.2%"
-  // };
-  // toggleBtn.addEventListener("click", function() {
-  //     if (myList.style.display === "none") {
-  //       myList.style.display = "block";
-  //     } else {
-  //       myList.style.display = "none";
-  //     }
-  //   });
-
   return (
-    <>
-      <nav className='navbar'>
-          <div>
-            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <img src={cav_lab_logo}/><br></br>
-              {/* <i class='fab fa-typo3' /> */}
+    <nav className='navbar'>
+      <div>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src={cavLabLogo} alt='CAV-Lab logo' />
+        </Link>
+      </div>
+      <button
+        className='menu-icon'
+        type='button'
+        onClick={handleClick}
+        aria-label={click ? 'Close navigation menu' : 'Open navigation menu'}
+        aria-expanded={click}
+      >
+        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+      </button>
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        {NAV_ITEMS.map(({ label, path }) => (
+          <li className='nav-item' key={path}>
+            <Link to={path} className='nav-links' onClick={closeMobileMenu}>
+              {label}
             </Link>
-          </div>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/research'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Research
-              </Link>
-            </li>
- 	    <li className='nav-item'>
-              <Link
-                to='/Innovations'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Innovations
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/publications'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Publications
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/team'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Team
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/news'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                News
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/blog'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Blog
-              </Link>
-            </li>
-          </ul>
-      </nav>
-    </>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }
 

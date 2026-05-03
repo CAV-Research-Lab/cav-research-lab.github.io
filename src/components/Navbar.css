@@ -83,7 +83,11 @@
 }
 
 .menu-icon {
+  background: transparent;
+  border: 0;
+  color: #fff;
   display: none;
+  padding: 0;
 }
 
 @media screen and (max-width: 960px) {

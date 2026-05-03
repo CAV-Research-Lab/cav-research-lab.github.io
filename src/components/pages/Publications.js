@@ -1,14 +1,28 @@
 import React from 'react';
 import '../../App.css';
 import './Pages.css'
-import Posts from "../Publications/Posts";
 import { GrDocumentPdf } from 'react-icons/gr'
 import { AiOutlineArrowDown,AiOutlineArrowUp } from 'react-icons/ai'
-
-import { useRef } from 'react';
 import { scroller, animateScroll as scroll } from 'react-scroll'
-
 import Footer from '../Footer';
+
+const PUBLICATION_YEARS = ['2023', '2022', '2021', '2020', '2019', '2018', '2017'];
+
+const YearNav = ({ onScrollTo, children }) => (
+  <div style={{ textAlign: "center", fontSize: "1.5rem", paddingLeft: "2rem", paddingRight: "2rem"}}>
+    <p>
+      {PUBLICATION_YEARS.map((year, index) => (
+        <React.Fragment key={year}>
+          {index > 0 && ' - '}
+          <button className="black year-nav-button" type="button" onClick={() => onScrollTo(year)}>
+            {year}
+          </button>
+        </React.Fragment>
+      ))}
+    </p>
+    {children}
+  </div>
+);
 
 export default function Publications() {
   function scrollTo(year) {
@@ -23,13 +37,14 @@ export default function Publications() {
     <>
       <br></br>
       <nav>
-        <div style={{ textAlign: "center", fontSize: "1.5rem", paddingLeft: "2rem", paddingRight: "2rem"}}>
-          <p> <a className="black" onClick={() => scrollTo("2023")} >2023</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2020")} >2020</a> - <a className="black" onClick={() => scrollTo("2019")} >2019</a> - <a className="black" onClick={() => scrollTo("2018")} >2018</a> - <a className="black" onClick={() => scrollTo("2017")} >2017</a></p>
-          <p><a onClick={() => scroll.scrollToBottom()}><AiOutlineArrowDown/></a></p>
-        </div>
+        <YearNav onScrollTo={scrollTo}>
+          <button className="black year-nav-button" type="button" onClick={() => scroll.scrollToBottom()} aria-label="Scroll to bottom">
+            <AiOutlineArrowDown/>
+          </button>
+        </YearNav>
       </nav>
 
-      <div class="publication-body">
+      <div className="publication-body">
         <div className="2023" style={{ color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" }}>
           <br></br><br></br>
 
@@ -148,20 +163,20 @@ export default function Publications() {
         <br></br><br></br>
 
       </div>
-      <div style={{ textAlign: "center", fontSize: "1.5rem" }}>
-          <p> <a className="black" onClick={() => scrollTo("2023")} >2023</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2022")} >2022</a> - <a className="black" onClick={() => scrollTo("2021")} >2021</a> - <a className="black" onClick={() => scrollTo("2020")} >2020</a> - <a className="black" onClick={() => scrollTo("2019")} >2019</a> - <a className="black" onClick={() => scrollTo("2018")} >2018</a> - <a className="black" onClick={() => scrollTo("2017")} >2017</a></p>
-          <p><a onClick={() => scroll.scrollToTop()}><AiOutlineArrowUp/></a></p>
-
-        </div>
+      <YearNav onScrollTo={scrollTo}>
+        <button className="black year-nav-button" type="button" onClick={() => scroll.scrollToTop()} aria-label="Scroll to top">
+          <AiOutlineArrowUp/>
+        </button>
+      </YearNav>
       <Footer />
     </>
   );
 }
 /*
-      <div class="PublicationsBody">
+      <div className="PublicationsBody">
 
 
-        <div class="info">
+        <div className="info">
           <ul>
             <li>
               M. Raisi, A. Noohian, L. Mccutcheon, and S. Fallah,

@@ -87,6 +87,14 @@ a {
     color: black;
     background-color: #ffffff;
 }
+
+.year-nav-button {
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    text-decoration: underline;
+}
 h3, h2 {
     text-align: center;
 }

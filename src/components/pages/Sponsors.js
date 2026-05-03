@@ -18,10 +18,10 @@ function Sponsors() {
             <br></br><br></br>
             </div>
     <div style={mystyle}>
-        <h1 id="sponsor-title"><span class="orange_underline">Industrial Partners</span></h1>
+        <h1 id="sponsor-title"><span className="orange_underline">Industrial Partners</span></h1>
         <br></br>
         <ScrollAnimation animateIn="fadeIn">
-        <img width="100%" src={require('../../images/sponsors.PNG')}></img>
+        <img width="100%" src={require('../../images/sponsors.PNG')} alt="CAV-Lab industrial partners" />
         </ScrollAnimation>
     </div>
     </>

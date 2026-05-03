@@ -5,18 +5,18 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function AboutUs() {
-    const mystyle = {
+    const sectionStyle = {
     color: "black",
     backgroundColor: "#FFFFFF",/*"#1C1B1B",*/};
   
     return (
-    <div style={mystyle}>
+    <div style={sectionStyle}>
         <br></br><br></br>
-        <h1 style={{ color: "black", textAlign: "left", marginLeft: "3%" }}><span class="orange_underline">About Us</span></h1>
-        <div class="about-us-container">
+        <h1 style={{ color: "black", textAlign: "left", marginLeft: "3%" }}><span className="orange_underline">About Us</span></h1>
+        <div className="about-us-container">
             <ScrollAnimation animateIn="fadeIn">
-            <div class="about-us-content" style={{paddingBottom:"0.1rem"}}>
-                <h1 class="about-us-titles">Who We Are</h1>
+            <div className="about-us-content" style={{paddingBottom:"0.1rem"}}>
+                <h1 className="about-us-titles">Who We Are</h1>
                 <br></br>
                 <p>CAV-Lab was established in 2016 by Professor Saber Fallah and since 
                     then has received several research funding 
@@ -33,10 +33,10 @@ function AboutUs() {
                 </p>
             </div>
             </ScrollAnimation>
-            <div class="splitter"></div>
+            <div className="splitter"></div>
             <ScrollAnimation animateIn="fadeIn">
-            <div class="about-us-content">
-                <h1 class="about-us-titles">What We Do</h1>
+            <div className="about-us-content">
+                <h1 className="about-us-titles">What We Do</h1>
                 <br></br>
                 <p>Our team at CAV-Lab is working on creating innovative 
                     and human-centred features for autonomous systems that 
@@ -52,10 +52,10 @@ function AboutUs() {
                 </p>
             </div>
             </ScrollAnimation>
-            <div class="splitter"></div>
+            <div className="splitter"></div>
             <ScrollAnimation animateIn="fadeIn">
-            <div class="about-us-content">
-                <h1 class="about-us-titles">What We Offer</h1>
+            <div className="about-us-content">
+                <h1 className="about-us-titles">What We Offer</h1>
                 <br></br>
                 <p>At CAV-Lab, we offer a range of knowledge and expertise in the 
                     field of autonomous robotics and vehicles, including expertise 

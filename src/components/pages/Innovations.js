@@ -1,28 +1,23 @@
 import React from 'react';
-import Posts from "../Projects/Posts";
 import '../../App.css';
 import './Pages.css';
-
 import Footer from '../Footer';
-
-
-
 
 export default function Innovations() {
 
   return (
     <>
-      <div class="innovations-body">
+      <div className="innovations-body">
         <br></br><br></br>
-        <div class="innovations-container">
+        <div className="innovations-container">
           <div style={{textAlign: "center"}}>
             <h1><span className="orange_underline">Introducing "Agility" – The Future of Autonomous Robotics at CAV-Lab</span></h1>
           </div>
-          <div class="grid-item">
-            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 75rem)"}} class="project-img" src={require('../../images/agility_car.JPG')} />
+          <div className="grid-item">
+            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 75rem)"}} className="project-img" src={require('../../images/agility_car.JPG')} alt="Agility autonomous robot" />
           </div>
 
-          <div class="grid-item">
+          <div className="grid-item">
             <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
               <p style={{paddingLeft: "3%", paddingRight: "3%", paddingBottom: "2rem", paddingTop: "1rem"}}>
               At CAV-Lab, we are thrilled to introduce our latest innovation, a mobile robot named "Agility". 
@@ -92,4 +87,3 @@ export default function Innovations() {
     </>
   );
 }
-

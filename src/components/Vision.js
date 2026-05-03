@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import './Vision.css';
-import YoutubeEmbed from "./YoutubeEmbed";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 function Vision() {
