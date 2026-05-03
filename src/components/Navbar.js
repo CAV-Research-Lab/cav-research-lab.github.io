@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import cavLabLogo from '../images/CAV-LAB_logo_white.png';
 
@@ -49,9 +49,9 @@ function Navbar() {
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         {NAV_ITEMS.map(({ label, path }) => (
           <li className='nav-item' key={path}>
-            <Link to={path} className='nav-links' onClick={closeMobileMenu}>
+            <NavLink exact={path === '/'} to={path} className='nav-links' activeClassName='active-nav-link' onClick={closeMobileMenu}>
               {label}
-            </Link>
+            </NavLink>
           </li>
         ))}
       </ul>

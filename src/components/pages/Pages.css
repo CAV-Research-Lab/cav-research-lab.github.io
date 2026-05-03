@@ -1,91 +1,109 @@
-
-#team-title {
-    text-align: left;
-    display: block;
-    width: 13.5rem;
-    padding-bottom: 0.75%;
-    border-bottom: 4px solid;
+.team-body,
+.projects-body,
+.innovations-body,
+.blog-body,
+.publication-body,
+.sponsors-section,
+.NewsBody {
+    background: var(--color-subtle);
 }
-/* body {
-    max-width:80vw;
-} */
+
 .team-body {
-    background-color: #ffffff;
+    display: grid;
+    gap: 2rem;
+    padding: 5rem max(1.5rem, calc((100vw - var(--container)) / 2));
     text-align: center;
-    display: grid;
-    grid-template-rows: 25rem 25rem 25rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
 }
 
-.phd-first-row {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    /* padding-top: 1%; */
-    padding-bottom: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-
+.phd-first-row,
 .phd-second-row {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.team-card {
+.team-card,
+.founder-card {
     align-items: center;
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1.4rem;
 }
 
 .founder-card {
-    align-items: center;
-    padding-top: 5%;
-    padding-left: 2%;
-    padding-right: 2%;
+    justify-self: center;
+    max-width: 520px;
+    width: 100%;
 }
 
-a {
-    color: blue; /* Set the color of the link */
-    text-decoration: underline; /* Underline the link */
-    cursor: pointer; /* Change cursor on hover */
-  }
-
-  .grid-item {
-    /* style for the items within the grid */
-  }
-  
 .team-name {
-    padding-top: 2%;
-    color: black;
-    font-size: 1.5rem;
+    color: var(--color-ink);
+    font-size: 1.35rem;
+    margin-top: 1rem;
+}
 
+.team-role {
+    color: var(--color-accent-dark);
+    font-size: 0.92rem;
+    font-weight: 800;
+    margin-top: 0.25rem;
+}
+
+.teamText {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    font-weight: normal;
+    margin-top: 0.8rem;
+}
+
+.circular--square {
+    border: 4px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 10px 24px rgba(20, 32, 51, 0.16);
+    height: 9.5rem;
+    object-fit: cover;
+    width: 9.5rem;
 }
 
 .alumni {
-    background-color: #ffffff;
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    margin-top: 1rem;
+    padding: 2.5rem;
     text-align: left;
-    padding-top: 2%;
-    padding-left: 5rem;
-    padding-right: 4rem;
-    padding-bottom: 3%;
-}
-
-.alumni-list {
-    list-style-type: square;
 }
 
 #alumni-title {
+    border-bottom: 4px solid var(--color-accent);
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.25rem;
     text-align: left;
-    width: 7rem;
-    padding-bottom: 0.75%;
-    border-bottom: 4px solid;
 }
+
+.alumni h4 {
+    color: var(--color-ink);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 1rem;
+    margin: 1.5rem 0 0.5rem;
+    text-align: left;
+}
+
+.alumni-list {
+    color: var(--color-muted);
+    list-style-type: square;
+    padding-left: 1.25rem;
+}
+
 .black {
-    color: black;
-    background-color: #ffffff;
+    background: transparent;
+    color: var(--color-ink);
 }
 
 .year-nav-button {
@@ -94,213 +112,260 @@ a {
     font: inherit;
     padding: 0;
     text-decoration: underline;
+    text-underline-offset: 0.2em;
 }
-h3, h2 {
-    text-align: center;
-}
-.circular--square { 
-    border-radius: 50%; 
-    width: 10rem;
-    height: 10rem;
-}
-
-tr, th, span, table{
-    text-align: center;
-    vertical-align: middle;
-}
-
-.teamText {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 1rem;
-    font-weight: normal;
-    color: black;
-}
-h5 {
-    font-weight: bold;
-}
-* {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#orange_underline {
-    padding-bottom: 0.75%;
-    border-bottom: 4px solid #E4572E;
-   }
 
 .underline {
-    padding-bottom: 0.75%;
-    border-bottom: 4px solid;
-   }
-/* h3, h4, ul, p {
-    text-align: left; /* Center the list items horizontally
-    display: block; /*Display the image as a block element
-    float: left; /* Float the image to the left
-} */
-
-
-.image {
-	margin-left: 10%;
-	display: block;
+    border-bottom: 4px solid currentColor;
+    padding-bottom: 0.22em;
 }
 
-/* .project-img {
-    height: 35rem;
-    width: 30rem;
-    aspect-ratio: auto;
+h3,
+h2 {
+    text-align: center;
+}
 
-} */
+h5 {
+    color: var(--color-ink);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 800;
+    margin-top: 1.25rem;
+}
 
 .container {
     display: grid;
-    grid-template-columns: 41% 41% 41%;
-    align-items: left;
-    margin-left: 1.5%;
-    /* grid-template-rows: 3em 1.6em 1.6em; */
-
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0 auto;
+    max-width: var(--container);
 }
+
+.projects-body,
+.innovations-body,
+.blog-body,
+.publication-body {
+    font-size: 1.03rem;
+    min-height: 100%;
+    padding: 4.5rem max(1.5rem, calc((100vw - var(--container)) / 2));
+}
+
 .research-grid-container {
+    align-items: center;
     display: grid;
-    grid-template-columns: 1.25fr 0.75fr;
-    align-items: left;
-    grid-gap: 0.7%; /* set gap between the columns */
-  }
-
-.projects-body {
-    height: 100%;
-    width: 100%;
-    font-size: 1.2rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    gap: 4rem 3rem;
+    grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.75fr);
 }
 
-.innovations-body {
-    height: 100%;
-    width: 100%;
-    font-size: 1.2rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+.projects-body p,
+.innovations-body p,
+.publication-body li,
+.blog-item p {
+    color: var(--color-muted);
 }
 
-  .innovations-container {
-    display: flex;
-    /* grid-template-rows: 50% 50%; */
-    align-items: left;
-    grid-gap: 0.7%; /* set gap between the columns */
-    padding-bottom: 5rem;
-    flex-direction: column;
-    justify-content: space-evenly;
+.projects-body h1,
+.innovations-body h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+}
 
-  }
-
-  .grid-item {
+.grid-item {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
-  }
-
-.overline {
-    padding-top: 0.75%;
-    border-top: 4px solid;
-   }
-
-.blog-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-
 }
 
-.blog-item {
-    padding-top: 1rem;
+.project-img {
+    background: #fff;
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    object-fit: cover;
+}
+
+.funding {
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    margin-top: 4rem;
+    padding: 2.5rem;
+}
+
+.funding ul,
+.publication-body ul {
+    padding-left: 1.25rem;
+}
+
+.innovations-container {
+    display: grid;
+    gap: 2.25rem;
+    margin: 0 auto;
+    max-width: var(--container);
     padding-bottom: 1rem;
 }
 
+.page-hero {
+    margin: 0 auto 1.25rem;
+    max-width: 920px;
+    text-align: center;
+}
+
+.page-eyebrow {
+    color: var(--color-accent-dark);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+}
+
+.page-hero h1 {
+    color: var(--color-ink);
+    font-size: clamp(2.8rem, 5vw, 4.8rem);
+    line-height: 1.02;
+    margin-bottom: 0.8rem;
+}
+
+.page-hero p:last-child {
+    color: var(--color-muted);
+    font-size: clamp(1.05rem, 1.7vw, 1.25rem);
+}
+
+.innovation-media {
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+}
+
+.innovation-hero-image {
+    aspect-ratio: 16 / 9;
+    display: block;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.innovation-content {
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    padding: clamp(1.5rem, 4vw, 3rem);
+    text-align: left;
+}
+
+.innovations-container h3 {
+    color: var(--color-ink);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 1.75rem 0 0.5rem;
+    text-align: left;
+}
+
+.innovations-container ul {
+    color: var(--color-muted);
+    margin: 0.5rem 0;
+    padding-left: 1.2rem;
+}
+
+.blog-body {
+    display: grid;
+    gap: 1.2rem;
+}
+
+.blog-item {
+    background: var(--color-panel);
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    padding: 1.8rem 2rem;
+}
+
+.blog-item h4 {
+    font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+    margin-bottom: 0.8rem;
+}
+
 .publication-body {
-    height: 100%;
-    font-size: 1.2rem;
-    padding-left: 7rem;
-    padding-right: 7rem;
+    background: var(--color-panel);
+}
+
+.publication-body > div {
+    border-bottom: 1px solid var(--color-line);
+    padding: 2.5rem 0;
+}
+
+.publication-body h1 {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
+
+.publication-body a {
+    display: inline-flex;
+    margin-left: 0.25rem;
+    vertical-align: middle;
+}
+
+.sponsors-section {
+    background: var(--color-panel);
+    padding: 5rem max(1.5rem, calc((100vw - var(--container)) / 2));
 }
 
 #sponsor-title {
-    color: black;
+    color: var(--color-ink);
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0 auto 2.5rem;
+    max-width: var(--container);
     text-align: left;
-    margin-left: 3%;
-    font-size: 2.5rem;
+}
+
+.sponsors-image {
+    background: #fff;
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    box-shadow: var(--shadow-card);
+    display: block;
+    margin: 0 auto;
+    max-width: var(--container);
+    padding: 1rem;
+    width: 100%;
+}
+
+.NewsBody {
+    padding: 4.5rem 1.5rem;
 }
 
 @media screen and (max-width: 1150px) {
     .research-grid-container {
-        display: inline;
-    
-      }
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 950px) {
-    .team-body {
-        display: grid;
-        grid-template-rows: 25rem 100rem 75rem;
-    }
-    .phd-first-row {
-        display: grid;
-        grid-template-rows: 25rem 25rem 25rem 25rem;
-        grid-template-columns: 100%;
+    .phd-first-row,
+    .phd-second-row,
+    .container {
+        grid-template-columns: 1fr;
     }
 
-    .phd-second-row {
-        display: grid;
-        grid-template-rows: 25rem 25rem 25rem;
-        grid-template-columns: 100%;
+    .projects-body,
+    .innovations-body,
+    .blog-body,
+    .publication-body,
+    .team-body,
+    .sponsors-section {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
     }
 
-    .blog-body {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .publication-body {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .projects-body {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .innovations-body {
-        padding-left: 2rem;
-        padding-right: 2rem;
-    }
-
-    .alumni {
-        padding-left: 2rem;
-        padding-right: 2rem;
+    .alumni,
+    .funding,
+    .blog-item {
+        padding: 1.5rem;
     }
 
     #sponsor-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
-    
 }
-/* .container div:nth-child(1), div:nth-child(6) {
-    background-color: #B8336A;
-}
-
-.container div:nth-child(2), div:nth-child(7) {
-    background-color: #726DA8;
-}
-
-.container div:nth-child(3), div:nth-child(8) {
-    background-color: #7D8CC4;
-}
-
-.container div:nth-child(4) {
-    background-color: #A0D2DB;
-}
-
-.container div:nth-child(5) {
-    background-color: #C490D1;
-} */

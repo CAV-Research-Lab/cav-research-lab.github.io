@@ -5,17 +5,12 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function AboutUs() {
-    const sectionStyle = {
-    color: "black",
-    backgroundColor: "#FFFFFF",/*"#1C1B1B",*/};
-  
     return (
-    <div style={sectionStyle}>
-        <br></br><br></br>
-        <h1 style={{ color: "black", textAlign: "left", marginLeft: "3%" }}><span className="orange_underline">About Us</span></h1>
+    <section className="about-us-section">
+        <h1 className="section-title"><span className="orange_underline">About Us</span></h1>
         <div className="about-us-container">
             <ScrollAnimation animateIn="fadeIn">
-            <div className="about-us-content" style={{paddingBottom:"0.1rem"}}>
+            <div className="about-us-content">
                 <h1 className="about-us-titles">Who We Are</h1>
                 <br></br>
                 <p>CAV-Lab was established in 2016 by Professor Saber Fallah and since 
@@ -70,7 +65,7 @@ function AboutUs() {
             </div>
             </ScrollAnimation>
         </div>
-    </div>        
+    </section>        
     );
   }
 

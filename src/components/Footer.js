@@ -4,23 +4,20 @@ import { Link } from 'react-router-dom';
 import cavLabLogo from '../images/CAV-LAB_logo_white.png'
 import {AiOutlineMail, AiOutlinePhone, AiOutlineYoutube} from 'react-icons/ai'
 import {IoMdContact} from 'react-icons/io'
+import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 function Footer() {
-  const iconLinkStyle = {
-  color: "white",
-  backgroundColor: "#242424",/*"#1C1B1B",*/
-  padding: "2%"};
   return (
       <div className='footer-container'>
         <div className='contact-grid'>
 
-            <h1><a style={iconLinkStyle} href="https://www.linkedin.com/in/msfallah/" aria-label="Saber Fallah LinkedIn"><IoMdContact /></a></h1>
+            <h1><a className='footer-contact-icon' href="https://www.linkedin.com/in/msfallah/" aria-label="Saber Fallah LinkedIn"><IoMdContact /></a></h1>
             <p className='contact-info'>Professor Saber <br></br> Fallah</p>
-            <h1><a style={iconLinkStyle} href="mailto:s.fallah@surrey.ac.uk" aria-label="Email Saber Fallah"><AiOutlineMail /></a></h1>
+            <h1><a className='footer-contact-icon' href="mailto:s.fallah@surrey.ac.uk" aria-label="Email Saber Fallah"><AiOutlineMail /></a></h1>
             <p className='contact-info'><b>Email:</b> <br></br> s.fallah@surrey.ac.uk</p>
-            <h1><a style={iconLinkStyle} href="tel:+01483686528" aria-label="Call CAV-Lab"><AiOutlinePhone /></a></h1>
+            <h1><a className='footer-contact-icon' href="tel:+01483686528" aria-label="Call CAV-Lab"><AiOutlinePhone /></a></h1>
             <p className='contact-info'><b>Office:</b> <br></br> 01483686528</p>
-            <h1><a style={iconLinkStyle} href="https://www.youtube.com/@cavresearchlab" aria-label="CAV-Lab YouTube"><AiOutlineYoutube /></a></h1>
+            <h1><a className='footer-contact-icon' href="https://www.youtube.com/@cavresearchlab" aria-label="CAV-Lab YouTube"><AiOutlineYoutube /></a></h1>
             <p className='contact-info'><b>Youtube:</b> <br></br> @cavresearchlab</p>
 
         </div>
@@ -41,46 +38,33 @@ function Footer() {
             </div>
             <div>
               <div className='social-icons'>
-                <Link
-                  className='social-icon-link facebook'
-                  to='/'
-                  target='_blank'
-                  aria-label='Facebook'
-                >
-                  <i className='fab fa-facebook-f' />
-                </Link>
-                <Link
+                <a
                   className='social-icon-link instagram'
-                  to='https://www.instagram.com/_saber_fallah_/'
+                  href='https://www.instagram.com/_saber_fallah_/'
                   target='_blank'
+                  rel='noopener noreferrer'
                   aria-label='Instagram'
                 >
-                  <i className='fab fa-instagram' />
-                </Link>
-                <Link
+                  <FaInstagram />
+                </a>
+                <a
                   className='social-icon-link youtube'
-                  to='/'
+                  href='https://www.youtube.com/@cavresearchlab'
                   target='_blank'
+                  rel='noopener noreferrer'
                   aria-label='Youtube'
                 >
-                  <i className='fab fa-youtube' />
-                </Link>
-                <Link
-                  className='social-icon-link twitter'
-                  to='/'
+                  <AiOutlineYoutube />
+                </a>
+                <a
+                  className='social-icon-link linkedin'
+                  href='https://www.linkedin.com/in/msfallah/'
                   target='_blank'
-                  aria-label='Twitter'
-                >
-                  <i className='fab fa-twitter' />
-                </Link>
-                <Link
-                  className='social-icon-link twitter'
-                  to='/'
-                  target='_blank'
+                  rel='noopener noreferrer'
                   aria-label='LinkedIn'
                   >
-                  <i className='fab fa-linkedin' />
-                </Link>
+                  <FaLinkedinIn />
+                </a>
               </div>
             </div>
           </div>

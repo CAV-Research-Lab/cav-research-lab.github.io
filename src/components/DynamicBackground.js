@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 import './DynamicBackground.css';
 import backgroundVideo from '../images/background_video.mp4';
@@ -6,10 +7,19 @@ import backgroundVideo from '../images/background_video.mp4';
 function DynamicBackground() {
   return (
     <div className='hero-container'>
-      <video src={backgroundVideo} autoPlay loop muted />
+      <video className='hero-video' src={backgroundVideo} autoPlay loop muted playsInline />
       <div id='company-name'>
-        <h1>CONNECTED AND AUTONOMOUS VEHICLES LAB</h1>
-        <h3>AUTOMOTIVE AND ROBOTICS AI RESEARCH</h3>
+        <p className='hero-eyebrow'>Connected Autonomous Research Lab</p>
+        <h1>Connected and Autonomous Vehicles Lab</h1>
+        <h3>Safe, trustworthy AI for autonomous vehicles and robotics.</h3>
+        <div className='hero-actions'>
+          <Link className='hero-button hero-button-primary' to='/research'>
+            Explore Research
+          </Link>
+          <Link className='hero-button hero-button-secondary' to='/publications'>
+            View Publications
+          </Link>
+        </div>
       </div>
     </div>
   );

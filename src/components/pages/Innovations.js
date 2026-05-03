@@ -8,24 +8,26 @@ export default function Innovations() {
   return (
     <>
       <div className="innovations-body">
-        <br></br><br></br>
         <div className="innovations-container">
-          <div style={{textAlign: "center"}}>
-            <h1><span className="orange_underline">Introducing "Agility" – The Future of Autonomous Robotics at CAV-Lab</span></h1>
-          </div>
-          <div className="grid-item">
-            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 75rem)"}} className="project-img" src={require('../../images/agility_car.JPG')} alt="Agility autonomous robot" />
+          <header className="page-hero">
+            <p className="page-eyebrow">Innovation Platform</p>
+            <h1>Introducing Agility</h1>
+            <p>The future of autonomous robotics at CAV-Lab.</p>
+          </header>
+
+          <div className="innovation-media">
+            <img className="innovation-hero-image" src={require('../../images/agility_car.JPG')} alt="Agility autonomous robot" />
           </div>
 
-          <div className="grid-item">
-            <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
-              <p style={{paddingLeft: "3%", paddingRight: "3%", paddingBottom: "2rem", paddingTop: "1rem"}}>
+          <div className="innovation-content">
+            <div>
+              <p>
               At CAV-Lab, we are thrilled to introduce our latest innovation, a mobile robot named "Agility". 
               Developed to stand at the forefront of robotics and artificial intelligence, Agility is engineered 
               to redefine the boundaries of autonomous driving and navigation. 
               </p>
 
-              <h3 style={{textAlign: "left"}}><b>Why Agility?</b></h3>
+              <h3><b>Why Agility?</b></h3>
               <ul>
                 <li><b>Seamless Integration:</b> Agility seamlessly integrates state-of-the-art hardware and software, 
                   creating a harmonious synergy that takes robotics to the next level.</li>
@@ -44,7 +46,7 @@ export default function Innovations() {
                   intelligent agent.</li>
               </ul>
 
-              <h3 style={{textAlign: "left"}}><b>Core Features</b></h3>
+              <h3><b>Core Features</b></h3>
               <ul>
                 <li><b>Advanced Lidar Technology:</b> Provides a 360-degree environmental awareness, crucial for
                  precise navigation and collision avoidance.</li>
@@ -62,14 +64,14 @@ export default function Innovations() {
                  crucial for dynamic manoeuvring and stability.</li>
               </ul>
 
-              <h3 style={{textAlign: "left"}}><b>AI-Ready Platform</b></h3>
+              <h3><b>AI-Ready Platform</b></h3>
               <p>
               Agility is designed to be the ideal testbed for CAV-Lab's cutting-edge AI algorithms. Our
                researchers are ceaselessly working on next-gen solutions for autonomous navigation, and Agility
                 offers the perfect platform for real-world trials and implementation.
               </p>
 
-              <h3 style={{textAlign: "left"}}><b>Get Involved</b></h3>
+              <h3><b>Get Involved</b></h3>
               <p>
               For enquiries and partnership opportunities, please reach out to us. We're always eager to 
               collaborate and push the frontiers of what's possible.
@@ -79,8 +81,6 @@ export default function Innovations() {
 
             </div>
           </div>
-
-          
         </div>
         </div>
       <Footer />

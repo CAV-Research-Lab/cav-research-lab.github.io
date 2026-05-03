@@ -1,19 +1,23 @@
-/* .post-container {
-	background: #bebebe;
-	display: flex;
-	flex-direction: column;
-	padding: 3%;
-	margin: 0 2%;
-	align-self: center;
+.highlights-section {
+	background: var(--color-dark);
+	color: #fff;
+	padding: 5rem 1.5rem;
+}
 
-} */
-/* .heading {
-	height: 126px;
-	text-align: center;
-	display: flex;
-	align-items: center;15
-	align-self: center;
-} */
+.highlights-title {
+	color: #fff;
+	font-size: clamp(2rem, 4vw, 3rem);
+	margin: 0 auto 2.5rem;
+	max-width: var(--container);
+	text-align: left;
+}
+
+.posts-container {
+	display: grid;
+	gap: 1.5rem;
+	margin: 0 auto;
+	max-width: var(--container);
+}
 
 .highlight-container {
 	padding-top: 2rem;
@@ -21,15 +25,15 @@
 }
 
 .post-grid-container {
+	background: rgba(255, 255, 255, 0.96);
+	border: 1px solid rgba(255, 255, 255, 0.14);
+	border-radius: 6px;
+	box-shadow: var(--shadow-soft);
+	color: var(--color-ink);
 	display: grid;
-    /* color: rgb(0, 0, 0);
-    background-color: #ffffff; */
-    grid-template-columns: 30% 70%;
+    grid-template-columns: minmax(16rem, 0.42fr) minmax(0, 1fr);
 	gap: 2rem;
-	padding-bottom: 1rem;
-	padding-top: 1rem;
-	padding-left: 3rem;
-	padding-right: 3rem;
+	padding: 1.25rem;
 }
 
 .innovations-post-grid-container {
@@ -41,34 +45,31 @@
 }
 
 .posts-media-wrapper {
-	width: clamp(21rem, 80%, 25rem);
-    height: clamp(14rem, 50%, 20rem);
-	position: relative;
-	overflow: hidden;
 	background-color: #ffffff;
+	border-radius: 5px;
 	display: flex;
+	align-items: center;
+	aspect-ratio: 16 / 10;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
 }
 
 .post-media {
-	height: 100%;
-    width: 100%;
-    animation-duration: 0.1s;
-	margin-left: 7%;
+	animation-duration: 0.1s;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+	height: 100%;
+    justify-content: center;
+    width: 100%;
 }
 
 .posts-image {
-	/* ALL IMAGES ARE OF RATIO 2500pxH 6000pxW (25:60)*/
-	/* position: absolute; */
-	/* top: 0;
-	left: 0; */
+	height: 100%;
+	object-fit: cover;
 	width: 100%;
-	/* height: 100%; */
 }
 
 .posts-video {
@@ -82,23 +83,35 @@
 }
 
 .heading {
-	font-size: 1.7rem;
+	font-size: clamp(1.45rem, 2.6vw, 2rem);
+	margin-bottom: 0.85rem;
 }
 
 .post-info {
-	text-align: justify;
-	padding-left: 2rem;
-    padding-right: 6rem;
-    font-size: 1.2rem;
-	animation-duration: 0.1s; /* don't forget to set a duration! */
+	animation-duration: 0.1s;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.02rem;
+	justify-content: center;
+	padding: 0.75rem 1.5rem 0.75rem 0;
+	text-align: left;
+}
+
+.post-info p {
+	color: var(--color-muted);
+}
+
+.post-info h4 {
+	color: var(--color-accent-dark);
+	font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 0.9rem;
+	margin-top: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
     .post-grid-container {
-		display: grid;
       	grid-template-columns: 100%;
-    	grid-template-rows: 1fr 1fr;
-		gap: 0;
+		gap: 1rem;
 	}
 
 	.heading {
@@ -110,50 +123,22 @@
 	}
 
   	.post-info {
-		text-align: justify;
-		padding-top: 0;
-		padding-bottom: 1rem;
-		padding-left: 1rem;
-		padding-right: 1rem;
 		font-size: 1rem;
-		animation-duration: 0.1s;
-		margin-top: 0; /* add this to reduce space above the text */
-
+		padding: 0.5rem;
+		text-align: left;
 	}
 
 	.post-media {
-		margin-left: 0;
-		padding-bottom: 3%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		animation-duration: 0.1s; /* don't forget to set a duration! */
-	}
-
-	.posts-media-wrapper {
-		width: clamp(21rem, 80%, 25rem);
-    	height: clamp(14rem, 70%, 17rem);
+		animation-duration: 0.1s;
 	}
   }
 
 @media screen and (max-width: 480px) {
 	.post-grid-container {
-		display: grid;
-      	color: rgb(0, 0, 0);
-      	background-color: #ffffff;/*"#1C1B1B",*/
-      	grid-template-columns: 100%;
-    	grid-template-rows: .8fr 1fr;
-		
+		padding: 0.85rem;
 	}
 
-	.posts-media-wrapper {
-		width: clamp(19rem, 80%, 25rem);
-    	height: clamp(14rem, 70%, 15rem);
-		margin-top: -4rem;
-	}
 	.post-info {
 		text-align: left;
-		margin-top: -2rem; /* add this to reduce space above the text */
-		margin-bottom: -1rem;
 	}
 }

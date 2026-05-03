@@ -1,84 +1,61 @@
 #vision-grid-container {
-    display: grid;
+    align-items: center;
+    background: var(--color-dark);
     color: white;
-    background-color: #333333;/*"#1C1B1B",*/
-    grid-template-columns: 50% 50%;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: minmax(0, 1fr) minmax(22rem, 0.85fr);
+    padding: 5rem max(1.5rem, calc((100vw - var(--container)) / 2));
 }
   
 #vision-content {
-  text-align: center;
-  padding-top: 7%;
-  padding-bottom: 5%;
-  padding-left: 10%;
-  padding-right: 7%;
-  font-size: 1.2rem;
-  animation-duration: 0.1s; /* don't forget to set a duration! */
+  animation-duration: 0.1s;
+  font-size: clamp(1.08rem, 1.5vw, 1.24rem);
+  max-width: 620px;
+  text-align: left;
 }
 
-* {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+#vision-content p {
+  color: rgba(255, 255, 255, 0.84);
 }
   
-  /* .video_wrapper {
-      width: 400px;
-      height: 300px;
-      position: relative;
-      left: 100px;
-      down: 150px;
-  } */
-  
 #vision-media-content {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: center;
 }
 
 #video_wrapper {
-  width: clamp(20rem, 80%, 35rem);
-  height: clamp(13rem, 80%, 20rem);
-  position: relative;
-  overflow: hidden;
-  background-color: #333333;
+  aspect-ratio: 16 / 9;
+  background-color: #0b1220;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.32);
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: min(100%, 35rem);
 }
 
 .vision-video {
-  /* border: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: clamp(20rem, 30rem, 35rem);
-  height: clamp(13rem, 15rem, 20rem);
-  object-fit: cover;
-  z-index: 20; */
+  border: 0;
+  height: 100%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
 }
 
 @media screen and (max-width: 1170px) {
   #vision-grid-container {
-    display: grid;
-    color: white;
-    background-color: #333333;/*"#1C1B1B",*/
+    gap: 2.5rem;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 1fr;
   }
 
-  #video-wrapper {
-    width: clamp(20rem, 80%, 35rem);
-    height: clamp(13rem, 80%, 20rem);
+  #vision-media-content {
+    justify-content: flex-start;
   }
-
-  #vision-content {
-    padding-bottom: 0;
-  }
-
-
-
 }
