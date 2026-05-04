@@ -24,7 +24,7 @@
 }
 
 .about-us-container {
-    align-items: start;
+    align-items: stretch;
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -39,6 +39,7 @@
     border-radius: 6px;
     box-shadow: var(--shadow-card);
     font-size: 1.02rem;
+    height: 100%;
     padding: 1.75rem;
 }
 
