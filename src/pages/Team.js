@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
+import '../App.css';
 import './Pages.css';
-import Footer from '../Footer';
-import { alumniGroups, founder, phdResearchers } from '../../data/teamMembers';
+import Footer from '../components/layout/Footer';
+import { alumniGroups, founder, phdResearchers } from '../data/teamMembers';
 
 const TeamCard = ({ member, className = 'team-card', showRole = true }) => (
   <div className={className}>

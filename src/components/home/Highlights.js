@@ -1,8 +1,8 @@
 import React from 'react';
-import '../App.css';
-import "./Post.css"
-import NewsPosts from "./Posts/NewsPosts";
-import Highlight from "./Post";
+import '../../App.css';
+import "../shared/Post.css"
+import NewsPosts from "../news/NewsPosts";
+import Highlight from "../shared/Post";
 
 function Highlights() {
     const newsPosts = NewsPosts().slice(0, 2);

@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 import './Vision.css';
-import ScrollAnimation from './ScrollAnimation';
+import ScrollAnimation from '../shared/ScrollAnimation';
 
 function Vision() {
 

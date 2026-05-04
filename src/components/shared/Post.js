@@ -1,7 +1,7 @@
 import React from "react";
 import "./Post.css";
-import '../App.css';
-import './pages/Pages.css'
+import '../../App.css';
+import '../../pages/Pages.css'
 
 function mediaFormat(imgUrl, videoUrl, title) {
 	if (videoUrl) {

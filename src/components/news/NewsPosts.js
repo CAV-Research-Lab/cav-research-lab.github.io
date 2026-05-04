@@ -1,14 +1,14 @@
 
-import reportImage from './PostMedia/Report.jpg';
-import lucIrosImage from './PostMedia/LUC-IROS.jpg';
-import fisitaChinaImage from './PostMedia/FISITA-CHINA.jpeg';
-import surreyShowcaseImage from './PostMedia/surrey_2023_showcase-180.jpg';
-import icaImage from './PostMedia/ICA-001-2.jpg';
-import vectorImage from './PostMedia/VECTOR_2.jpg';
-import cambridgeWirelessImage from './PostMedia/CW.jpg';
-import guildfordAwardImage from './PostMedia/Guildford Innovation Award.jpeg';
-import nasaImage from './PostMedia/nasa.JPG';
-import chinaUkImage from './PostMedia/China-UK.jpeg';
+import reportImage from '../../assets/images/news/Report.jpg';
+import lucIrosImage from '../../assets/images/news/LUC-IROS.jpg';
+import fisitaChinaImage from '../../assets/images/news/FISITA-CHINA.jpeg';
+import surreyShowcaseImage from '../../assets/images/news/surrey_2023_showcase-180.jpg';
+import icaImage from '../../assets/images/news/ICA-001-2.jpg';
+import vectorImage from '../../assets/images/news/VECTOR_2.jpg';
+import cambridgeWirelessImage from '../../assets/images/news/CW.jpg';
+import guildfordAwardImage from '../../assets/images/news/Guildford Innovation Award.jpeg';
+import nasaImage from '../../assets/images/news/nasa.JPG';
+import chinaUkImage from '../../assets/images/news/China-UK.jpeg';
 
 const NewsPosts = () => {
 

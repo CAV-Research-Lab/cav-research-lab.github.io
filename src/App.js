@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/layout/Navbar';
 import './App.css';
-import Home from './components/pages/Home';
+import Home from './pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Publications from './components/pages/Publications';
-import Innovations from './components/pages/Innovations';
-import Projects from './components/pages/Projects';
-import News from './components/pages/News';
-import Team from './components/pages/Team';
-import Blog from './components/pages/Blog';
+import Publications from './pages/Publications';
+import Innovations from './pages/Innovations';
+import Projects from './pages/Projects';
+import News from './pages/News';
+import Team from './pages/Team';
+import Blog from './pages/Blog';
 
 
 function App() {

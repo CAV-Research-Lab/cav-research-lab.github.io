@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
+import '../App.css';
 import './Pages.css';
-import Footer from '../Footer';
-import { fundingGroups, researchProjects } from '../../data/researchProjects';
+import Footer from '../components/layout/Footer';
+import { fundingGroups, researchProjects } from '../data/researchProjects';
 
 const textColumnStyle = { color: 'black', textAlign: 'justify', marginLeft: '3%' };
 const paragraphStyle = { paddingLeft: '3%', paddingRight: '3%' };

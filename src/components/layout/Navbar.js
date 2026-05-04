@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import './Navbar.css';
-import cavLabLogo from '../images/CAV-LAB_logo_white.png';
+import cavLabLogo from '../../assets/images/brand/CAV-LAB_logo_white.png';
 
 const NAV_ITEMS = [
   { label: 'Home', path: '/' },

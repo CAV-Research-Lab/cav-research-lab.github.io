@@ -1,7 +1,7 @@
-import carmaImage from '../images/CARMA2.png';
-import socioDriveImage from '../images/carla.png';
-import fairRobotsImage from '../images/mujoco-arm.PNG';
-import iAwareImage from '../images/SatCAV.png';
+import carmaImage from '../assets/images/research/CARMA2.png';
+import socioDriveImage from '../assets/images/research/carla.png';
+import fairRobotsImage from '../assets/images/research/mujoco-arm.PNG';
+import iAwareImage from '../assets/images/research/SatCAV.png';
 
 export const researchProjects = [
   {

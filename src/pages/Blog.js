@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
+import '../App.css';
 import './Pages.css';
-import Footer from '../Footer';
-import blogPosts from '../../data/blogPosts';
+import Footer from '../components/layout/Footer';
+import blogPosts from '../data/blogPosts';
 
 export default function Blog() {
   return (

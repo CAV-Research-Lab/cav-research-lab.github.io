@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css';
+import '../../App.css';
 import './DynamicBackground.css';
-import backgroundVideo from '../images/background_video.m4v';
-import backgroundPoster from '../images/background_video_poster.jpg';
+import backgroundVideo from '../../assets/images/home/background_video.m4v';
+import backgroundPoster from '../../assets/images/home/background_video_poster.jpg';
 
 function DynamicBackground() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import cavLabLogo from '../images/CAV-LAB_logo_white.png'
-import uosLogo from '../images/UoS-Logo.png';
+import cavLabLogo from '../../assets/images/brand/CAV-LAB_logo_white.png'
+import uosLogo from '../../assets/images/brand/UoS-Logo.png';
 import {AiOutlineMail, AiOutlinePhone, AiOutlineYoutube} from 'react-icons/ai'
 import {IoMdContact} from 'react-icons/io'
 import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';

@@ -24,3 +24,4 @@ yarn-debug.log*
 yarn-error.log*
 
 /src/images/cavlab_vision.mp4
+/src/assets/images/archive/cavlab_vision.mp4

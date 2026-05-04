@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../App.css';
-import './Pages.css';
-import ScrollAnimation from '../ScrollAnimation';
-import sponsorsImage from '../../images/sponsors.PNG';
+import '../../pages/Pages.css';
+import ScrollAnimation from '../shared/ScrollAnimation';
+import sponsorsImage from '../../assets/images/home/sponsors.PNG';
 
 
 function Sponsors() {

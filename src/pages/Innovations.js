@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
+import '../App.css';
 import './Pages.css';
-import Footer from '../Footer';
-import agilityCar from '../../images/agility_car.JPG';
+import Footer from '../components/layout/Footer';
+import agilityCar from '../assets/images/home/agility_car.JPG';
 
 export default function Innovations() {
 

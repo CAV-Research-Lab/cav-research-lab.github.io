@@ -1,9 +1,9 @@
 import React from 'react';
-import NPosts from "../Posts/Posts";
-import '../../App.css';
+import NPosts from "../components/news/Posts";
+import '../App.css';
 import './Pages.css';
 
-import Footer from '../Footer';
+import Footer from '../components/layout/Footer';
 
 export default function News() {
   return (

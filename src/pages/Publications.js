@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../App.css';
+import '../App.css';
 import './Pages.css'
 import { GrDocumentPdf } from 'react-icons/gr'
 import { AiOutlineArrowDown,AiOutlineArrowUp } from 'react-icons/ai'
 import { scroller, animateScroll as scroll } from 'react-scroll'
-import Footer from '../Footer';
-import { publicationGroups } from '../../data/publications';
+import Footer from '../components/layout/Footer';
+import { publicationGroups } from '../data/publications';
 
 const PUBLICATION_YEARS = publicationGroups.map(({ year }) => year);
 
