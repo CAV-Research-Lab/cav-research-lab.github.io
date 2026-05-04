@@ -1,4 +1,4 @@
-import saberFallah from '../images/saber_fallah.jpeg';
+import saberFallah from '../images/saber_fallah.jpg';
 import lucMccutcheon from '../images/luc_mccutcheon.jpg';
 import vinalAsodia from '../images/vinal_asodia.jpg';
 import mustafaYildirim from '../images/mustafa_yildirim.jpg';
