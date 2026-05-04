@@ -36,7 +36,7 @@ const PublicationYear = ({ group }) => (
     <ul style={publicationListStyle}>
       {group.publications.map(({ title, url }) => (
         <li key={`${group.year}-${title}`}>
-          {title} <a href={url} aria-label={`Open publication PDF: ${title}`}><GrDocumentPdf /></a>
+          {title} <a href={url} aria-label={`Open PDF for ${title}`}><GrDocumentPdf /></a>
         </li>
       ))}
     </ul>
