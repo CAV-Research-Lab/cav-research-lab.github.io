@@ -16,13 +16,15 @@ const aboutCards = [
         body: [
             'We develop innovative, human-centred capabilities for autonomous systems using advanced reasoning, machine learning, and artificial intelligence.',
             'Our research strengthens the intelligence and decision-making capacity of autonomous systems, helping them make trustworthy, safe, and explainable decisions aligned with societal and human expectations.',
+            'This work spans perception, control, learning, simulation, verification, and human-system interaction, with an emphasis on methods that can be evaluated rigorously and transferred toward real-world autonomous platforms.',
         ],
     },
     {
         title: 'What We Offer',
         body: [
-            'CAV-Lab offers expertise in autonomous robotics and vehicles, safe and trustworthy AI, machine learning, explainable AI, and learning control systems.',
+            'CAV-Lab offers expertise in autonomous robotics and vehicles, safe and trustworthy AI, machine learning, explainable AI, learning control systems, and connected mobility technologies.',
             'We specialise in AI methods for situational awareness, prediction, decision-making, safety-critical operation, and cyber-threat detection and mitigation.',
+            'Our team supports research collaboration, technical development, experimental validation, and knowledge exchange with partners seeking robust autonomy solutions for transport, robotics, and safety-critical systems.',
         ],
     },
 ];
