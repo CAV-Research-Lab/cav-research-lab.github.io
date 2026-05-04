@@ -6,7 +6,7 @@ import { fundingGroups, researchProjects } from '../data/researchProjects';
 
 const textColumnStyle = { color: 'black', textAlign: 'justify', marginLeft: '3%' };
 const paragraphStyle = { paddingLeft: '3%', paddingRight: '3%' };
-const fundingStyle = { color: 'black', textAlign: 'justify', marginLeft: '2%', paddingBottom: '3rem' };
+const fundingStyle = { color: 'black', textAlign: 'left', marginLeft: '2%', paddingBottom: '3rem' };
 const listStyle = { listStyleType: 'square' };
 
 const ProjectText = ({ project }) => {

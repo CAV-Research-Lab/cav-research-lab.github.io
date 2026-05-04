@@ -190,11 +190,23 @@ h5 {
     box-shadow: var(--shadow-card);
     margin-top: 4rem;
     padding: 2.5rem;
+    text-align: left;
 }
 
 .funding ul,
 .publication-body ul {
     padding-left: 1.25rem;
+}
+
+.funding h5 {
+    font-size: 1.25rem;
+    margin: 2rem 0 0.65rem;
+}
+
+.funding li {
+    font-size: 1.12rem;
+    line-height: 1.75;
+    margin-bottom: 0.4rem;
 }
 
 .innovations-container {
@@ -363,6 +375,15 @@ h5 {
     .funding,
     .blog-item {
         padding: 1.5rem;
+    }
+
+    .funding h5 {
+        font-size: 1.35rem;
+    }
+
+    .funding li {
+        font-size: 1.2rem;
+        line-height: 1.85;
     }
 
     #sponsor-title {
