@@ -10,7 +10,7 @@ git clone https://github.com/CAV-Research-Lab/cav-research-lab.github.io.git
 
 3. Install required npm packages:
 ```
-npm install react-scroll react-animate-on-scroll react-icons react-scripts gh-pages
+npm install
 ```
 4. Download `cavlab_vision.mp4` to `/src/images/` directory.
 ```
@@ -20,7 +20,12 @@ https://drive.google.com/file/d/1rdM-qFGH8rLCgH96WuimZJYVF6251HEw/view?usp=shari
 # Running the website
 To run locally:
 ```
-npm start
+npm run dev
+```
+
+To create a production build:
+```
+npm run build
 ```
 
 To push to update everything:

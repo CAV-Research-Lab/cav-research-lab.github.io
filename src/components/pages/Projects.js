@@ -2,6 +2,10 @@ import React from 'react';
 import '../../App.css';
 import './Pages.css';
 import Footer from '../Footer';
+import carmaImage from '../../images/CARMA2.png';
+import socioDriveImage from '../../images/carla.png';
+import fairRobotsImage from '../../images/mujoco-arm.PNG';
+import iAwareImage from '../../images/SatCAV.png';
 
 export default function Projects() {
 
@@ -32,7 +36,7 @@ export default function Projects() {
             </div>
           </div>
           <div className="grid-item">
-            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 30rem)"}} className="project-img" src={require('../../images/CARMA2.png')} alt="CARMA project visual" />
+            <img style={{paddingTop: "4rem", paddingBottom: "1rem", height: "clamp(35rem, 70%, 43rem)", width: "clamp(25rem, 80%, 30rem)"}} className="project-img" src={carmaImage} alt="CARMA project visual" />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
@@ -53,7 +57,7 @@ export default function Projects() {
           </div>
 
           <div className="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} className="project-img" src={require('../../images/carla.png')} alt="Socio-Drive simulation visual" />
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} className="project-img" src={socioDriveImage} alt="Socio-Drive simulation visual" />
           </div>
 
           <div style={{ color: "black", textAlign: "justify", marginLeft: "3%" }}>
@@ -71,7 +75,7 @@ export default function Projects() {
           </div>
 
           <div className="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(20rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} className="project-img" src={require('../../images/mujoco-arm.PNG')} alt="FAIR-Robots manipulator visual" />
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(20rem, 70%, 21rem)", paddingTop: "2rem", paddingBottom: "1rem"}} className="project-img" src={fairRobotsImage} alt="FAIR-Robots manipulator visual" />
           </div>
 
 
@@ -89,7 +93,7 @@ export default function Projects() {
           </div>
 
           <div className="grid-item">
-            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2.4rem", paddingBottom: "1rem"}} className="project-img" src={require('../../images/SatCAV.png')} alt="I-Aware project visual" />
+            <img style={{width:"clamp(24rem, 70%, 25rem)", height: "clamp(25rem, 70%, 21rem)", paddingTop: "2.4rem", paddingBottom: "1rem"}} className="project-img" src={iAwareImage} alt="I-Aware project visual" />
           </div>
         </div>
 

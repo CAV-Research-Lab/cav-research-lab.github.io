@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './Vision.css';
-import ScrollAnimation from 'react-animate-on-scroll';
+import ScrollAnimation from './ScrollAnimation';
 
 function Vision() {
 

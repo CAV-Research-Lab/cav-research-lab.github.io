@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import cavLabLogo from '../images/CAV-LAB_logo_white.png'
+import uosLogo from '../images/UoS-Logo.png';
 import {AiOutlineMail, AiOutlinePhone, AiOutlineYoutube} from 'react-icons/ai'
 import {IoMdContact} from 'react-icons/io'
 import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
@@ -31,7 +32,7 @@ function Footer() {
               </Link>
             </div>
             <div >
-              <img id="UOS-logo" src={require('../images/UoS-Logo.png')} alt='University of Surrey logo' />
+              <img id="UOS-logo" src={uosLogo} alt='University of Surrey logo' />
             </div>
             <div id='location'>
               <p style={{color: "white", fontSize:"0.6rem",paddingTop: "1.2rem", paddingLeft:"0.5rem", justifySelf: "left"}}>CAV-Lab, School of Mechanical Engineering, Faculty of Engineering and Physical Sciences, University of Surrey, GU2 7XH, Guildford, Surrey, UK</p>

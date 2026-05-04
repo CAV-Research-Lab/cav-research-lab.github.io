@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './Pages.css';
 import Footer from '../Footer';
+import agilityCar from '../../images/agility_car.JPG';
 
 export default function Innovations() {
 
@@ -16,7 +17,7 @@ export default function Innovations() {
           </header>
 
           <div className="innovation-media">
-            <img className="innovation-hero-image" src={require('../../images/agility_car.JPG')} alt="Agility autonomous robot" />
+            <img className="innovation-hero-image" src={agilityCar} alt="Agility autonomous robot" />
           </div>
 
           <div className="innovation-content">

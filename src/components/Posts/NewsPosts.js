@@ -1,4 +1,15 @@
 
+import reportImage from './PostMedia/Report.png';
+import lucIrosImage from './PostMedia/LUC-IROS.jpg';
+import fisitaChinaImage from './PostMedia/FISITA-CHINA.jpeg';
+import surreyShowcaseImage from './PostMedia/surrey_2023_showcase-180.jpg';
+import icaImage from './PostMedia/ICA-001-2.jpg';
+import vectorImage from './PostMedia/VECTOR_2.jpg';
+import cambridgeWirelessImage from './PostMedia/CW.png';
+import guildfordAwardImage from './PostMedia/Guildford Innovation Award.jpeg';
+import nasaImage from './PostMedia/nasa.JPG';
+import chinaUkImage from './PostMedia/China-UK.jpeg';
+
 const NewsPosts = () => {
 
 const newsPosts = [
@@ -6,7 +17,7 @@ const newsPosts = [
 {
 	title: "CAV-Lab Contributes to Government Report on Location Data for Safe Self-Driving Vehicles",
 	body: `Autonomous and highly automated vehicles will rely on location data to know where they are in relation to their surroundings, including the kerbside, other vehicles and pedestrians. Innovative location technologies could enable vehicles to communicate with other road users and smart infrastructure, improving traffic flow and congestion as well as making it safer and easier for drivers. Location data and technology will have a key role in the sector, but there are challenges around data discoverability, accessibility and quality. The recent report published by Geospatial Commission highlights the role location data in the safe deployment of self-driving road vehicles. Prof Fallah contributed to this report by sharing the outcome of CAV-Lab's research on vehicle localisation and control in last 10 years.`,
-	imgUrl: require('./PostMedia/Report.png'),
+	imgUrl: reportImage,
 	videoUrl: "" ,
 	date: "20/10/2023"
 	},
@@ -17,7 +28,7 @@ const newsPosts = [
 {
 	title: "CAV-LAB Presents Its Research on Remote-Local Robots in IROS 2023",
 	body: `Local-remote (tele-operated) systems enable robots to carry out complex tasks in hazardous environments, such as space and nuclear power stations. These systems have also been adopted for remote surgery and driving applications. However, a primary challenge for reliable operation is the presence of time delays in these local-remote teleoperation systems. Such delays can compromise the accuracy of positional mapping between the local and remote devices which can negatively impact the performance and stability of the system. CAV-Lab researcher, Luc McCutcheon, has presented his research work on addressing the challenge of synchronising the actions of the local and remote devices despite the presence of stochastic time delays in IROS 2023.`,
-	imgUrl: require('./PostMedia/LUC-IROS.jpg'),
+	imgUrl: lucIrosImage,
 	videoUrl: "" ,
 	date: "07/10/2023"
 	},
@@ -27,7 +38,7 @@ const newsPosts = [
 {
 	title: "Safe Autonomous Driving for Future Cities",
 	body: `How can we ensure the safety of our future transportation systems? How can we develop or augment existing standards to guarantee the safety of highly automated vehicles? Is SOTIF a good alternative standard for safety assurance of future highly automated vehicles? What are the expert opinions on the imminent deployment of level 3+ automated vehicles? What are the challenges and barriers in verification and validation of autonomous vehicles using simulations? At the Intelligent Safety Conference China, Prof Fallah and other experts experts worldwide convened to answer these critical questions.`,
-	imgUrl: require('./PostMedia/FISITA-CHINA.jpeg'),
+	imgUrl: fisitaChinaImage,
 	videoUrl: "" ,
 	date: "27/07/2023"
 	},
@@ -36,7 +47,7 @@ const newsPosts = [
 {
 	title: "Introducing 'Agility' – The Future of Autonomous Robotics at CAV-Lab",
 	body: `For the first time, CAV-Lab's researchers publicly demonstrated the Agility Car and its AI algorithms real-time performance at the University of Surrey demonstration day. The current and former researchers and students of CAV-Lab have worked tirelessly over the last three years to design and assemble the hardware, as well as develop the software for the Agility Car, which is a tele-operated mobile robot. Even though the Agility Car is remote-operated, it has the ability to drive itself to its station in the event of a communication failure. Agility car is a perfect solution for surveillance, remote inspection, reaching hazardous/extreme environments.`,
-	imgUrl: require('./PostMedia/surrey_2023_showcase-180.jpg'),
+	imgUrl: surreyShowcaseImage,
 	videoUrl: "" ,
 	date: "30/06/2023"
 	},
@@ -47,7 +58,7 @@ const newsPosts = [
 {
 	title: "Autonomous Vehicles - Trends, Outlook and Forecast",
 	body: `At the ICA Summit 2023, Dr Fallah with  key industry leaders - Christian Bering Pedersen, Mirko Reuter, and Marvin Ruf, engaged in a stimulating dialogue on the future landscape of autonomous vehicles. They explored key issues from market trends and emerging players, to comparisons of development between Europe, USA, and China. The discussion extended to the prospect of initial deployments in Europe, countries leading in autonomous technology, and pertinent use-cases in the region. They emphasised on challenges that extend beyond technology, like public acceptance, data privacy, cyber security, infrastructure, and legislation, underlining the immediate need to address these for the successful evolution of the autonomous vehicle sector.`,
-	imgUrl: require('./PostMedia/ICA-001-2.jpg'),
+	imgUrl: icaImage,
 	videoUrl: "" ,
 	date: "15/05/2023"
 	},
@@ -57,7 +68,7 @@ const newsPosts = [
 {
 	title: "Challenges of AI for Autonomous Driving Explained",
 	body: `Dr. Fallah, at the Software Defined Vehicle Conference, shed light on the challenges associated with AI in autonomous driving. He highlighted the need for AI systems to accurately interpret complex real-world scenarios and to make ethical decisions under potential risk situations, all while complying with legal and regulatory requirements. Addressing these challenges, he emphasised, is essential for the full potential of AI to be realised in autonomous driving, thereby ensuring its future widespread adoption. The insights delivered by Dr. Fallah are significant for progressing the UK automotive industry's understanding of AI in autonomous vehicles.`,
-	imgUrl: require('./PostMedia/VECTOR_2.jpg'),
+	imgUrl: vectorImage,
 	videoUrl: "" ,
 	date: "27/04/2023"
 	},
@@ -67,7 +78,7 @@ const newsPosts = [
 {
 	title: "Autonomous Driving – Are We Nearly There Yet?",
 	body: `During a Cambridge Wireless event, Dr Fallah highlighted the criticality of public trust in autonomous vehicles, emphasising their need to balance system efficiency and capacity with safety and legality. He argued that without a solid understanding of these factors, the potential benefits of autonomous vehicles may not come to fruition. His presentation explored the challenges associated with establishing this trust and introduced innovative solutions designed to address both human apprehensions and technical design requirements. This insightful discussion underscored the intersection of human values and technological advancement in autonomous driving.`,
-	imgUrl: require('./PostMedia/CW.png'),
+	imgUrl: cambridgeWirelessImage,
 	videoUrl: "" ,
 	date: "07/12/2022"
 	},
@@ -113,7 +124,7 @@ const newsPosts = [
 {
 	title: "Innovation at CAV-Lab Recognised",
 	body: `Dr Saber Fallah and his team scooping the ‘Emerging Technologies Tomorrow's World’ award for their work on autonomous vehicles.  The team partnered with Technics Group and others to develop a novel and unique algorithm to locate autonomous vehicles in all weather conditions using ground penetrating radar. The algorithm can be used in variety of applications including connected autonomous cars, agricultural autonomous vehicles, military autonomous vehicles, and planetary autonomous rovers. Chris Burchell, Local Economy Manager at Guildford Borough Council says: The Innovation Awards celebrate the best and brightest that our borough has to offer. Congratulations to this year's winners and all who entered.`,
-	imgUrl: require('./PostMedia/Guildford Innovation Award.jpeg'),
+	imgUrl: guildfordAwardImage,
 	videoUrl: "" ,
 	date: "19/12/2019"
 	},
@@ -123,7 +134,7 @@ const newsPosts = [
 {
 	title: "CAV-Lab's Innovations Presented at NASA",
 	body: `On March 27th and 28th, a delegation of UK researchers was invited to Houston, Texas to attend an Automation, AI & Robotics Workshop. The workshop was hosted by NASA and organized by the Houston Technology Collaboration Center and UK Science & Innovation Network. During the event, Dr. Fallah presented the audience with the latest advancements in autonomous mobile robots and AI developed at CAV-Lab.`,
-	imgUrl: require('./PostMedia/nasa.JPG'),
+	imgUrl: nasaImage,
 	videoUrl: "" ,
 	date: "18/03/2019"
 	},
@@ -133,7 +144,7 @@ const newsPosts = [
 {
 	title: "CAV-Lab's Research Presented in 13th UK China Space Conference",
 	body: `Dr. Fallah delivered a presentation on the cutting-edge research conducted at CAV-Lab on intelligent and autonomous mobile robot systems for space exploration. The presentation took place during the 13th UK-China Workshop on Space Science and Technology, where British and Chinese delegates were in attendance. The primary objective of the workshop was to facilitate collaboration between space experts from academia and industry, promoting partnerships in capabilities, skills, and technologies within the UK and Chinese space sectors.`,
-	imgUrl: require('./PostMedia/China-UK.jpeg'),
+	imgUrl: chinaUkImage,
 	videoUrl: "" ,
 	date: "13/12/2018"
 	},
