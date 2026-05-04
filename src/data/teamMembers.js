@@ -68,7 +68,7 @@ export const alumniGroups = [
   {
     title: 'PhD Researchers:',
     people: [
-      'Zahra Chaghazardi, “Resilient Traffic Sign Detection Method for Safe Autonomous Driving Using Logic-Based Learning”, Jan 2022-present,',
+      'Zahra Chaghazardi, “Resilient Traffic Sign Detection Method for Safe Autonomous Driving Using Logic-Based Learning”, Jan 2022-Jan 2026,',
       'Thomas Babier, “State estimation for non-cooperative space robots used for active debris removal”, Jan. 2019-June 2022,',
       'Marco Visca, “Vision-based Reinforcement Learning Control of Autonomous Vehicles”, Oct. 2018-Dec. 2022,',
       'Eduardo Arnold, “Cooperative Visual Percetion at the Edge of Cloud”, Nov. 2017- Dec. 2021,',
