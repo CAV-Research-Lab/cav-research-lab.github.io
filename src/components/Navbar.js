@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import './Navbar.css';
 import cavLabLogo from '../images/CAV-LAB_logo_white.png';
 
@@ -44,7 +45,7 @@ function Navbar() {
         aria-label={click ? 'Close navigation menu' : 'Open navigation menu'}
         aria-expanded={click}
       >
-        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+        {click ? <AiOutlineClose aria-hidden='true' /> : <AiOutlineMenu aria-hidden='true' />}
       </button>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         {NAV_ITEMS.map(({ label, path }) => (
