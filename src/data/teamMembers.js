@@ -8,8 +8,8 @@ import glenMason from '../assets/images/team/glen_mason.jpg';
 
 export const founder = {
   name: 'Saber Fallah',
-  role: 'Director',
-  topic: 'The director of CAV-Lab and professor in safe AI and autonomy.',
+  role: 'Director of CAV-Lab',
+  topic: 'Professor in safe AI and autonomy.',
   image: saberFallah,
 };
 

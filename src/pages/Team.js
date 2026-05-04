@@ -31,7 +31,7 @@ export default function Team() {
   return (
     <>
       <div className='team-body'>
-        <TeamCard member={founder} className='founder-card' showRole={false} />
+        <TeamCard member={founder} className='founder-card' />
 
         <div className='phd-first-row'>
           {firstRow.map((member) => (
