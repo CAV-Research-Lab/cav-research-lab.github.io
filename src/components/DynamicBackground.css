@@ -11,8 +11,8 @@
 
 .hero-container::after {
   background:
-    linear-gradient(90deg, rgba(8, 13, 23, 0.52), rgba(8, 13, 23, 0.34)),
-    linear-gradient(0deg, rgba(8, 13, 23, 0.32), rgba(8, 13, 23, 0.08));
+    linear-gradient(90deg, rgba(8, 13, 23, 0.42), rgba(8, 13, 23, 0.26)),
+    linear-gradient(0deg, rgba(8, 13, 23, 0.24), rgba(8, 13, 23, 0.05));
   content: "";
   inset: 0;
   position: absolute;
