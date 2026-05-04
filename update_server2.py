@@ -21,7 +21,6 @@ pg.typewrite("CAV-Research-Lab")
 time.sleep(0.1)
 pg.press("enter")
 
-pg.press("enter")
 time.sleep(1.5)
 
 pg.typewrite("npm run deploy")
