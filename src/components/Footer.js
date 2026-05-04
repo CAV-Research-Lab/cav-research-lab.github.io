@@ -28,11 +28,11 @@ function Footer() {
           <div className='logo-grid-container'>
             <div>
               <Link to='/'>
-                <img id='footer-logo' src={cavLabLogo} alt='CAV-Lab logo' />
+                <img id='footer-logo' src={cavLabLogo} alt='CAV-Lab logo' loading='lazy' decoding='async' />
               </Link>
             </div>
             <div >
-              <img id="UOS-logo" src={uosLogo} alt='University of Surrey logo' />
+              <img id="UOS-logo" src={uosLogo} alt='University of Surrey logo' loading='lazy' decoding='async' />
             </div>
             <div id='location'>
               <p style={{color: "white", fontSize:"0.6rem",paddingTop: "1.2rem", paddingLeft:"0.5rem", justifySelf: "left"}}>CAV-Lab, School of Mechanical Engineering, Faculty of Engineering and Physical Sciences, University of Surrey, GU2 7XH, Guildford, Surrey, UK</p>

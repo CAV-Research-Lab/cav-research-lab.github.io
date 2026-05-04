@@ -2,7 +2,7 @@ import { defineConfig, transformWithEsbuild } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  assetsInclude: ['**/*.PNG', '**/*.JPG', '**/*.JPEG'],
+  assetsInclude: ['**/*.PNG', '**/*.JPG', '**/*.JPEG', '**/*.m4v'],
   plugins: [
     {
       name: 'load-js-files-as-jsx',

@@ -11,7 +11,7 @@ function Sponsors() {
     <div className="sponsors-section">
         <h1 id="sponsor-title"><span className="orange_underline">Industrial Partners</span></h1>
         <ScrollAnimation animateIn="fadeIn">
-        <img className="sponsors-image" src={sponsorsImage} alt="CAV-Lab industrial partners" />
+        <img className="sponsors-image" src={sponsorsImage} alt="CAV-Lab industrial partners" loading="lazy" decoding="async" />
         </ScrollAnimation>
     </div>
     </>

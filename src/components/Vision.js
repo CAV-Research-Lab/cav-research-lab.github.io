@@ -29,6 +29,7 @@ function Vision() {
                 src={`https://www.youtube.com/embed/gxI3J9OArMY`}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                loading="lazy"
                 title="Embedded youtube"/>
               </div>
             </div>

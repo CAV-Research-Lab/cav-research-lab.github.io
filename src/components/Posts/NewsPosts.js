@@ -1,11 +1,11 @@
 
-import reportImage from './PostMedia/Report.png';
+import reportImage from './PostMedia/Report.jpg';
 import lucIrosImage from './PostMedia/LUC-IROS.jpg';
 import fisitaChinaImage from './PostMedia/FISITA-CHINA.jpeg';
 import surreyShowcaseImage from './PostMedia/surrey_2023_showcase-180.jpg';
 import icaImage from './PostMedia/ICA-001-2.jpg';
 import vectorImage from './PostMedia/VECTOR_2.jpg';
-import cambridgeWirelessImage from './PostMedia/CW.png';
+import cambridgeWirelessImage from './PostMedia/CW.jpg';
 import guildfordAwardImage from './PostMedia/Guildford Innovation Award.jpeg';
 import nasaImage from './PostMedia/nasa.JPG';
 import chinaUkImage from './PostMedia/China-UK.jpeg';

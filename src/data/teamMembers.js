@@ -1,15 +1,15 @@
 import saberFallah from '../images/saber_fallah.jpeg';
 import lucMccutcheon from '../images/luc_mccutcheon.jpg';
-import vinalAsodia from '../images/vinal_asodia.png';
-import mustafaYildirim from '../images/mustafa_yildirim.png';
+import vinalAsodia from '../images/vinal_asodia.jpg';
+import mustafaYildirim from '../images/mustafa_yildirim.jpg';
 import maximTyshkovsky from '../images/maxim_tyshkovsky.JPG';
-import barkinDagda from '../images/barkin_dagda.png';
+import barkinDagda from '../images/barkin_dagda.jpg';
 import glenMason from '../images/glen_mason.jpg';
 
 export const founder = {
   name: 'Saber Fallah',
   role: 'Director',
-  topic: 'The director of CAV-Lab and associate professor in safe AI and autonomy.',
+  topic: 'The director of CAV-Lab and professor in safe AI and autonomy.',
   image: saberFallah,
 };
 

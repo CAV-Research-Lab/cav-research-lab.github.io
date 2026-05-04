@@ -30,7 +30,7 @@ const ProjectText = ({ project }) => {
 
 const ProjectImage = ({ project }) => (
   <div className="grid-item">
-    <img style={project.imageStyle} className="project-img" src={project.image} alt={project.imageAlt} />
+    <img style={project.imageStyle} className="project-img" src={project.image} alt={project.imageAlt} loading="lazy" decoding="async" />
   </div>
 );
 

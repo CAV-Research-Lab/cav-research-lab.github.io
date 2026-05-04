@@ -17,7 +17,7 @@ export default function Innovations() {
           </header>
 
           <div className="innovation-media">
-            <img className="innovation-hero-image" src={agilityCar} alt="Agility autonomous robot" />
+            <img className="innovation-hero-image" src={agilityCar} alt="Agility autonomous robot" loading="lazy" decoding="async" />
           </div>
 
           <div className="innovation-content">

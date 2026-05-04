@@ -6,7 +6,7 @@ import { alumniGroups, founder, phdResearchers } from '../../data/teamMembers';
 
 const TeamCard = ({ member, className = 'team-card', showRole = true }) => (
   <div className={className}>
-    <img className='circular--square' src={member.image} alt={member.name} />
+    <img className='circular--square' src={member.image} alt={member.name} loading='lazy' decoding='async' />
     <h3 className='team-name'>{member.name}</h3>
     {showRole && <p className='team-role'>({member.role})</p>}
     <p className='teamText'>{member.topic}</p>

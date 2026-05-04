@@ -2,12 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../App.css';
 import './DynamicBackground.css';
-import backgroundVideo from '../images/background_video.mp4';
+import backgroundVideo from '../images/background_video.m4v';
+import backgroundPoster from '../images/background_video_poster.jpg';
 
 function DynamicBackground() {
   return (
     <div className='hero-container'>
-      <video className='hero-video' src={backgroundVideo} autoPlay loop muted playsInline />
+      <video className='hero-video' src={backgroundVideo} poster={backgroundPoster} autoPlay loop muted playsInline />
       <div id='company-name'>
         <p className='hero-eyebrow'>Connected Autonomous Research Lab</p>
         <h1>Connected and Autonomous Vehicles Lab</h1>

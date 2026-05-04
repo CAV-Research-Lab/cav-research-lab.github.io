@@ -11,6 +11,7 @@ function mediaFormat(imgUrl, videoUrl, title) {
 		src={`https://www.youtube.com/embed/${videoUrl}`}
 		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 		allowFullScreen
+		loading="lazy"
 		title={title}
 				/>
 			</div>
@@ -20,7 +21,7 @@ function mediaFormat(imgUrl, videoUrl, title) {
 	if (imgUrl) {
 		return(
 			<div className="posts-media-wrapper">
-				<img className="posts-image" src={imgUrl} alt={title} />
+				<img className="posts-image" src={imgUrl} alt={title} loading="lazy" decoding="async" />
 			</div>
 		);
 	}
