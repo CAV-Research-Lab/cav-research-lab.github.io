@@ -88,13 +88,14 @@
 }
 
 .hero-button-primary {
-  background: var(--color-accent);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.58);
   color: #fff;
 }
 
 .hero-button-primary:hover,
 .hero-button-primary:focus-visible {
-  background: var(--color-accent-dark);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .hero-button-secondary {
