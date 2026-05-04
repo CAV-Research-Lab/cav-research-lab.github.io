@@ -10,8 +10,8 @@ function DynamicBackground() {
     <div className='hero-container'>
       <video className='hero-video' src={backgroundVideo} poster={backgroundPoster} autoPlay loop muted playsInline />
       <div id='company-name'>
-        <p className='hero-eyebrow'>Connected Autonomous Research Lab</p>
-        <h1>Connected and Autonomous Vehicles Lab</h1>
+        <p className='hero-eyebrow'>Connected Autonomous Vehicles Research Lab</p>
+        <h1>CAV-Lab</h1>
         <h3>Safe, trustworthy AI for autonomous vehicles and robotics.</h3>
         <div className='hero-actions'>
           <Link className='hero-button hero-button-primary' to='/research'>

@@ -57,7 +57,7 @@
 
 .hero-eyebrow {
   color: #f6b39d;
-  font-size: 0.82rem;
+  font-size: clamp(0.98rem, 1.18vw, 1.14rem);
   font-weight: 800;
   letter-spacing: 0.16em;
   margin-bottom: 1rem;
