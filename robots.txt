@@ -2,4 +2,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cav-research-lab.github.io/sitemap.xml
+Sitemap: https://www.cav-lab.io/sitemap.xml
