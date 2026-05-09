@@ -309,6 +309,13 @@ h5 {
     padding: 2.5rem 0;
 }
 
+.publication-year-group {
+    color: #000;
+    margin-left: 3%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
 .publication-body h1 {
     font-size: clamp(1.8rem, 3vw, 2.5rem);
 }
@@ -388,5 +395,11 @@ h5 {
 
     #sponsor-title {
         font-size: 1.8rem;
+    }
+
+    .publication-year-group {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
     }
 }

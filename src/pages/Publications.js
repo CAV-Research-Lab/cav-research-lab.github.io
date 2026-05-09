@@ -10,7 +10,6 @@ import { publicationGroups } from '../data/publications';
 const PUBLICATION_YEARS = publicationGroups.map(({ year }) => year);
 
 const yearNavStyle = { textAlign: "center", fontSize: "1.5rem", paddingLeft: "2rem", paddingRight: "2rem" };
-const publicationGroupStyle = { color: "black", textAlign: "justify", marginLeft: "3%", marginRight: "10%" };
 const publicationListStyle = { listStyleType: "square" };
 
 const YearNav = ({ onScrollTo, children }) => (
@@ -30,7 +29,7 @@ const YearNav = ({ onScrollTo, children }) => (
 );
 
 const PublicationYear = ({ group }) => (
-  <div className={group.year} style={publicationGroupStyle}>
+  <div className={`publication-year-group ${group.year}`}>
     <br></br><br></br>
     <h1><span className="orange_underline">{group.year}</span></h1><br></br>
     <ul style={publicationListStyle}>
