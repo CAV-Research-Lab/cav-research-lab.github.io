@@ -10,29 +10,16 @@ function Vision() {
       <div id="vision-grid-container">
         <ScrollAnimation animateIn="fadeIn">
           <div id="vision-content">
-            <p>CAV-Lab envisions a world in which 
-            humans and autonomous systems are capable of safely and harmoniously 
-            co-existing together. <br></br><br></br>
+            <p className="section-kicker">Research Vision</p>
+            <h2>Autonomous systems should be capable, explainable, and worthy of public trust.</h2>
+            <p>CAV-Lab envisions a world in which humans and autonomous systems can safely and harmoniously coexist. <br></br><br></br>
 
-            CAV-Lab pursue research that makes self-driving cars and robots operated 
-            by artificial intelligence understandable, predictable and acceptable to 
-            humans from both social and ethical perspective.  <br></br><br></br>
+            The lab pursues research that makes AI-operated vehicles and robots more understandable, predictable, and acceptable from technical, social, and ethical perspectives. <br></br><br></br>
 
-            Join us in building a brighter, smarter, and safer future with autonomous 
-            systems.
+            Our work combines rigorous engineering, machine learning, simulation, control, and human-centred evaluation to support safer autonomy in real-world environments.
             </p>
           </div>
         </ScrollAnimation>
-            <div id='vision-media-content'>
-              <div id="video_wrapper">
-                <iframe className="vision-video"
-                src={`https://www.youtube.com/embed/gxI3J9OArMY`}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                loading="lazy"
-                title="Embedded youtube"/>
-              </div>
-            </div>
         </div>
       </>
     );

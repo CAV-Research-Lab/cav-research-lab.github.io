@@ -1,61 +1,41 @@
 #vision-grid-container {
     align-items: center;
-    background: var(--color-dark);
+    background: linear-gradient(135deg, #0b1320 0%, #131d2e 100%);
     color: white;
-    display: grid;
-    gap: 3rem;
-    grid-template-columns: minmax(0, 1fr) minmax(22rem, 0.85fr);
+    display: block;
     padding: 5rem max(1.5rem, calc((100vw - var(--container)) / 2));
 }
   
 #vision-content {
   animation-duration: 0.1s;
   font-size: clamp(1.08rem, 1.5vw, 1.24rem);
-  max-width: 620px;
+  margin: 0 auto;
+  max-width: 880px;
   text-align: left;
+}
+
+#vision-content h2 {
+  color: #fff;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  margin: 0 0 1.35rem;
 }
 
 #vision-content p {
   color: rgba(255, 255, 255, 0.84);
 }
-  
-#vision-media-content {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
 
-#video_wrapper {
-  aspect-ratio: 16 / 9;
-  background-color: #0b1220;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 6px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.32);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-  width: min(100%, 35rem);
-}
-
-.vision-video {
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
+#vision-content .section-kicker {
+  color: var(--color-gold);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  margin-bottom: 0.85rem;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1170px) {
   #vision-grid-container {
-    gap: 2.5rem;
-    grid-template-columns: 100%;
-  }
-
-  #vision-media-content {
-    justify-content: flex-start;
+    padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
   }
 }

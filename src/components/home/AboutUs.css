@@ -15,6 +15,15 @@
     text-align: left;
 }
 
+.about-us-header .section-kicker {
+    color: var(--color-accent-dark);
+    font-size: 0.82rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+}
+
 .about-us-intro {
     color: var(--color-muted);
     font-size: clamp(1rem, 1.45vw, 1.15rem);
@@ -35,12 +44,21 @@
 .about-us-content {
     background: #ffffff;
     border: 1px solid var(--color-line);
-    border-top: 4px solid var(--color-accent);
+    border-top: 3px solid var(--color-gold);
     border-radius: 6px;
     box-shadow: var(--shadow-card);
     font-size: 1.02rem;
     height: 100%;
     padding: 1.75rem;
+}
+
+.about-card-label {
+    color: var(--color-accent-dark) !important;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
 }
 
 .about-us-content p {
@@ -60,7 +78,7 @@
 }
 
 .orange_underline {
-    border-bottom: 4px solid var(--color-accent);
+    border-bottom: 3px solid var(--color-gold);
     padding-bottom: 0.22em;
    }
 

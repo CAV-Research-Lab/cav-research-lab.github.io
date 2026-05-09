@@ -12,7 +12,7 @@ function DynamicBackground() {
       <div id='company-name'>
         <p className='hero-eyebrow'>Connected Autonomous Vehicles Research Lab</p>
         <h1>CAV-Lab</h1>
-        <h3>Safe, trustworthy AI for autonomous vehicles and robotics.</h3>
+        <h3>Advancing safe, trustworthy autonomy for intelligent vehicles and robotic systems.</h3>
         <div className='hero-actions'>
           <Link className='hero-button hero-button-primary' to='/research'>
             Explore Research
@@ -21,6 +21,20 @@ function DynamicBackground() {
             View Publications
           </Link>
         </div>
+        <dl className='hero-proof'>
+          <div>
+            <dt>2016</dt>
+            <dd>Established at the University of Surrey</dd>
+          </div>
+          <div>
+            <dt>£15M+</dt>
+            <dd>Research portfolio across public and industry programmes</dd>
+          </div>
+          <div>
+            <dt>70+</dt>
+            <dd>Selected publications in autonomy, AI safety, and robotics</dd>
+          </div>
+        </dl>
       </div>
     </div>
   );

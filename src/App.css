@@ -1,15 +1,16 @@
 :root {
-  --color-ink: #142033;
-  --color-muted: #5d6878;
-  --color-subtle: #f5f7fa;
+  --color-ink: #101827;
+  --color-muted: #596575;
+  --color-subtle: #f6f7f8;
   --color-panel: #ffffff;
-  --color-line: #dde3ea;
-  --color-dark: #111827;
-  --color-dark-2: #1f2937;
-  --color-accent: #e4572e;
-  --color-accent-dark: #bc3e1b;
-  --shadow-soft: 0 18px 45px rgba(20, 32, 51, 0.1);
-  --shadow-card: 0 12px 30px rgba(20, 32, 51, 0.08);
+  --color-line: #dfe5eb;
+  --color-dark: #0c1422;
+  --color-dark-2: #182234;
+  --color-accent: #b85c38;
+  --color-accent-dark: #8f3f24;
+  --color-gold: #c9a15c;
+  --shadow-soft: 0 18px 42px rgba(16, 24, 39, 0.08);
+  --shadow-card: 0 10px 28px rgba(16, 24, 39, 0.07);
   --container: 1180px;
 }
 
@@ -37,6 +38,12 @@ h5 {
   color: var(--color-ink);
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.15;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
 }
 
 p {

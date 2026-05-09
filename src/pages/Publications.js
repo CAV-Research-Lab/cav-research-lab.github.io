@@ -9,12 +9,11 @@ import { publicationGroups } from '../data/publications';
 
 const PUBLICATION_YEARS = publicationGroups.map(({ year }) => year);
 
-const yearNavStyle = { textAlign: "center", fontSize: "1.5rem", paddingLeft: "2rem", paddingRight: "2rem" };
 const publicationListStyle = { listStyleType: "square" };
 
 const YearNav = ({ onScrollTo, children }) => (
-  <div style={yearNavStyle}>
-    <p>
+  <div className="publication-year-nav">
+    <div className="publication-year-buttons">
       {PUBLICATION_YEARS.map((year, index) => (
         <React.Fragment key={year}>
           {index > 0 && ' - '}
@@ -23,7 +22,7 @@ const YearNav = ({ onScrollTo, children }) => (
           </button>
         </React.Fragment>
       ))}
-    </p>
+    </div>
     {children}
   </div>
 );
@@ -35,7 +34,8 @@ const PublicationYear = ({ group }) => (
     <ul style={publicationListStyle}>
       {group.publications.map(({ title, url }) => (
         <li key={`${group.year}-${title}`}>
-          {title} <a href={url} aria-label={`Open PDF for ${title}`}><GrDocumentPdf /></a>
+          <span>{title}</span>
+          <a className="publication-link" href={url} target="_blank" rel="noopener noreferrer" aria-label={`Open publication link for ${title}`}><GrDocumentPdf /></a>
         </li>
       ))}
     </ul>
@@ -53,24 +53,26 @@ export default function Publications() {
 
   return (
     <>
-      <br></br>
-      <YearNav onScrollTo={scrollTo}>
-        <button className="black year-nav-button" type="button" onClick={() => scroll.scrollToBottom()} aria-label="Scroll to bottom">
-          <AiOutlineArrowDown/>
-        </button>
-      </YearNav>
-
       <div className="publication-body">
+        <header className="page-hero">
+          <p className="page-eyebrow">Publications</p>
+          <h1>Peer-reviewed work in safe autonomy, AI reasoning, and robotic systems.</h1>
+          <p>Browse recent CAV-Lab publications by year, with links to papers, proceedings, and preprints where available.</p>
+        </header>
+        <YearNav onScrollTo={scrollTo}>
+          <button className="black year-nav-button year-nav-icon" type="button" onClick={() => scroll.scrollToBottom()} aria-label="Scroll to bottom">
+            <AiOutlineArrowDown/>
+          </button>
+        </YearNav>
         {publicationGroups.map((group) => (
           <PublicationYear key={group.year} group={group} />
         ))}
-        <br></br><br></br>
+        <YearNav onScrollTo={scrollTo}>
+          <button className="black year-nav-button year-nav-icon" type="button" onClick={() => scroll.scrollToTop()} aria-label="Scroll to top">
+            <AiOutlineArrowUp/>
+          </button>
+        </YearNav>
       </div>
-      <YearNav onScrollTo={scrollTo}>
-        <button className="black year-nav-button" type="button" onClick={() => scroll.scrollToTop()} aria-label="Scroll to top">
-          <AiOutlineArrowUp/>
-        </button>
-      </YearNav>
       <Footer />
     </>
   );
