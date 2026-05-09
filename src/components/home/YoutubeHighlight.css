@@ -1,0 +1,83 @@
+.youtube-highlight-card {
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 6px;
+    box-shadow: var(--shadow-soft);
+    color: var(--color-ink);
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: minmax(16rem, 0.55fr) minmax(0, 1fr);
+    padding: 1.25rem;
+}
+
+.youtube-highlight-media {
+    aspect-ratio: 16 / 9;
+    background: #0b1220;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.youtube-highlight-frame {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.youtube-highlight-copy {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.02rem;
+    justify-content: center;
+    padding: 0.75rem 1.5rem 0.75rem 0;
+    text-align: left;
+}
+
+.youtube-highlight-title {
+    color: var(--color-ink);
+    font-size: clamp(1.45rem, 2.6vw, 2rem);
+    margin-bottom: 0.85rem;
+}
+
+.youtube-highlight-copy p {
+    color: var(--color-muted);
+}
+
+.youtube-highlight-copy p + p {
+    margin-top: 0.85rem;
+}
+
+.youtube-highlight-link {
+    align-self: flex-start;
+    color: var(--color-accent-dark);
+    font-weight: 800;
+    margin-top: 0.85rem;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+}
+
+@media screen and (max-width: 1200px) {
+    .youtube-highlight-card {
+        gap: 1rem;
+        grid-template-columns: 100%;
+    }
+
+    .youtube-highlight-copy {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .youtube-highlight-title {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .youtube-highlight-card {
+        padding: 0.85rem;
+    }
+}

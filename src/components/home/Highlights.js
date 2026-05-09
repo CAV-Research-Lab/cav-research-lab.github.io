@@ -3,10 +3,11 @@ import '../../App.css';
 import "../shared/Post.css"
 import NewsPosts from "../news/NewsPosts";
 import Highlight from "../shared/Post";
+import LinkedInEmbed from './LinkedInEmbed';
+import YoutubeHighlight from './YoutubeHighlight';
 
 const highlightedNewsTitles = [
     "CAV-Lab Research on Trusted Automated Vehicles Presented at Defence Autonomy Event",
-    "Building Trust in AI and Autonomy at Autonomy Unleashed",
 ];
 
 function Highlights() {
@@ -21,6 +22,8 @@ function Highlights() {
         <h1 className="highlights-title"><span className="underline">Highlights</span></h1>
 
         <div className="posts-container">
+            <LinkedInEmbed />
+            <YoutubeHighlight />
             {newsPosts.map((post, index) => (
             <Highlight key={index} index={index} post={post} className="greyBackground"/>
             ))}

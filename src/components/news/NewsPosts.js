@@ -26,6 +26,16 @@ const NewsPosts = () => {
 const newsPosts = [
 
 {
+	title: "Embodied AI: Invisible Cues Webinar",
+	body: `This webinar, "Embodied AI: Invisible Cues", brings together experts from Waymo, Waye, Fusion Processing Ltd, ITS Leeds, RiDC, and TH Ingolstadt to explore how embodied artificial intelligence can enable safer, more inclusive, and more human-centred autonomous systems. The discussion covers technical foundations, human factors and inclusivity, and AI safety as part of an ongoing research dialogue on safe and trusted AI for autonomous mobility.`,
+	videoUrl: "nuHHnWmESXM",
+	links: [
+		{ label: "Watch on YouTube", url: "https://www.youtube.com/watch?v=nuHHnWmESXM" },
+	],
+	date: "10/2026"
+	},
+
+{
 	title: "Prof Fallah Featured on The Age of AI Podcast on Autonomous Vehicles",
 	body: `Autonomous vehicles are no longer a future promise; they are becoming a real-world, high-stakes systems challenge. In the latest episode of The Age of AI, Lara Lewington and Ben Clark unpack the technology, strategy, and ethics behind this shift, from Waymo's large-scale robotaxi deployment to Wayve's adaptive AI approach in the UK. Prof Saber Fallah contributes expert insight on one of the hardest challenges in autonomous driving: enabling AI systems to generalise safely in unpredictable situations they have never seen before. The episode explores why autonomous vehicles are not only a software problem, but also a societal one.`,
 	videoUrl: "K0z9QNTd6XA",
