@@ -36,6 +36,14 @@
 	padding: 1.25rem;
 }
 
+.post-grid-container-no-media {
+    grid-template-columns: 1fr;
+}
+
+.post-grid-container-no-media .post-info {
+    padding: 0.75rem 1.5rem;
+}
+
 .innovations-post-grid-container {
 	display: grid;
 	color: rgb(0, 0, 0);
@@ -99,6 +107,21 @@
 
 .post-info p {
 	color: var(--color-muted);
+}
+
+.post-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.55rem 1rem;
+	margin-top: 0.85rem;
+}
+
+.post-link {
+	align-self: flex-start;
+	color: var(--color-accent-dark);
+	font-weight: 800;
+	text-decoration: underline;
+	text-underline-offset: 0.18em;
 }
 
 .post-info h4 {

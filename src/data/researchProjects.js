@@ -83,7 +83,8 @@ export const fundingGroups = [
   {
     title: 'EU Commission:',
     items: [
-      'Powering EU Net Zero Future by Escalating Zero Emission HDVs and Logistic Intelligence (£350K), Jan. 2023 - present.',
+      'HARMO: Human-Aware Road Mobility Optimization (£220K), Jan. 2027 – present.',
+      'Powering EU Net Zero Future by Escalating Zero Emission HDVs and Logistic Intelligence (£350K), Jan. 2023 - Jan. 2026',
       'Optimization of scalable real-time models and functional testing for e-drive concepts (£250K), Oct. 2017 – Nov. 2020.',
       'Improved Trustworthiness and Weather-Independence of Conditionally Automated Vehicles in Mixed Traffic Scenarios (£350K), June 2017 – Oct. 2020.',
       'Integrated Control of Multiple-Motor and Multiple-Storage Fully Electric Vehicles (£300K), Oct. 2013 – Sept. 2016.',

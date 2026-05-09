@@ -55,13 +55,11 @@ export default function Publications() {
   return (
     <>
       <br></br>
-      <nav>
-        <YearNav onScrollTo={scrollTo}>
-          <button className="black year-nav-button" type="button" onClick={() => scroll.scrollToBottom()} aria-label="Scroll to bottom">
-            <AiOutlineArrowDown/>
-          </button>
-        </YearNav>
-      </nav>
+      <YearNav onScrollTo={scrollTo}>
+        <button className="black year-nav-button" type="button" onClick={() => scroll.scrollToBottom()} aria-label="Scroll to bottom">
+          <AiOutlineArrowDown/>
+        </button>
+      </YearNav>
 
       <div className="publication-body">
         {publicationGroups.map((group) => (

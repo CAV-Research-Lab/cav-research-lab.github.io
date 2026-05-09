@@ -1,5 +1,80 @@
 export const publicationGroups = [
   {
+    year: '2026',
+    publications: [
+      {
+        title: 'Reinforcement Learning Enhancement Using Vector Semantic Representation and Symbolic Reasoning for Human-Centered Autonomous Emergency Braking.',
+        url: 'https://arxiv.org/abs/2602.05079',
+      },
+      {
+        title: 'VLM-Guided Reinforcement Learning for Emergency Braking in Occluded Pedestrian Crossing.',
+        url: 'https://www.researchgate.net/search/publication?q=VLM-Guided%20Reinforcement%20Learning%20for%20Emergency%20Braking%20in%20Occluded%20Pedestrian%20Crossing',
+      },
+      {
+        title: 'Offline Reinforcement Learning using Human-Aligned Reward Labeling for Autonomous Emergency Braking in Occluded Pedestrian Crossing.',
+        url: 'https://doi.org/10.2139/ssrn.6441775',
+      },
+      {
+        title: 'Toward Safe Autonomous Highway Driving Policies using a Neuro-Symbolic Deep Reinforcement Learning Approach, Transportation Research Record.',
+        url: 'https://doi.org/10.1177/03611981251357006',
+      },
+    ],
+  },
+  {
+    year: '2025',
+    publications: [
+      {
+        title: 'Symbolic Imitation Learning: From Black-Box to Explainable Driving Policies, Applied Sciences.',
+        url: 'https://doi.org/10.3390/app152312464',
+      },
+      {
+        title: 'Leveraging Inductive Logic Programming and Deep Learning for Trustworthy Vision, Learning and Reasoning.',
+        url: 'https://doi.org/10.1007/978-3-032-09087-4_12',
+      },
+      {
+        title: 'HighwayLLM: Decision-making and navigation in highway driving with RL-informed language model, Robotics and Autonomous Systems.',
+        url: 'https://doi.org/10.1016/j.robot.2025.105114',
+      },
+      {
+        title: 'GeoVLM: Improving Automated Vehicle Geolocalisation Using Vision-Language Matching.',
+        url: 'https://arxiv.org/abs/2505.13669',
+      },
+      {
+        title: 'Neural Lyapunov Function Approximation with Self-Supervised Reinforcement Learning, IEEE International Conference on Robotics and Automation (ICRA).',
+        url: 'https://doi.org/10.1109/ICRA55743.2025.11128069',
+      },
+      {
+        title: 'Offline Reinforcement Learning using Human-Aligned Reward Labeling for Autonomous Emergency Braking in Occluded Pedestrian Crossing.',
+        url: 'https://arxiv.org/abs/2504.08704',
+      },
+      {
+        title: 'Neural Lyapunov Function Approximation with Self-Supervised Reinforcement Learning.',
+        url: 'https://arxiv.org/abs/2503.15629',
+      },
+    ],
+  },
+  {
+    year: '2024',
+    publications: [
+      {
+        title: 'Trustworthy Vision for Autonomous Vehicles: A Robust Logic-Infused Deep Learning Approach, IEEE International Conference on Intelligent Transportation Systems (ITSC).',
+        url: 'https://doi.org/10.1109/ITSC58415.2024.10919652',
+      },
+      {
+        title: 'Behavioral Cloning Models Reality Check for Autonomous Driving.',
+        url: 'https://arxiv.org/abs/2409.07218',
+      },
+      {
+        title: 'HighwayLLM: Decision-Making and Navigation in Highway Driving with RL-Informed Language Model.',
+        url: 'https://arxiv.org/abs/2405.13547',
+      },
+      {
+        title: 'Human-Aligned Longitudinal Control for Occluded Pedestrian Crossing With Visual Attention, IEEE International Conference on Robotics and Automation (ICRA).',
+        url: 'https://doi.org/10.1109/ICRA57147.2024.10611046',
+      },
+    ],
+  },
+  {
     year: '2023',
     publications: [
       {

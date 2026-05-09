@@ -4,8 +4,17 @@ import "../shared/Post.css"
 import NewsPosts from "../news/NewsPosts";
 import Highlight from "../shared/Post";
 
+const highlightedNewsTitles = [
+    "CAV-Lab Research on Trusted Automated Vehicles Presented at Defence Autonomy Event",
+    "Building Trust in AI and Autonomy at Autonomy Unleashed",
+];
+
 function Highlights() {
-    const newsPosts = NewsPosts().slice(0, 2);
+    const allNewsPosts = NewsPosts();
+    const newsPosts = highlightedNewsTitles
+        .map((title) => allNewsPosts.find((post) => post.title === title))
+        .filter(Boolean)
+        .map(({ imgUrl, videoUrl, ...post }) => post);
   
     return (
     <section className="highlights-section">
