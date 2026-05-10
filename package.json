@@ -17,6 +17,7 @@
     "start": "vite --host 0.0.0.0",
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
+    "postbuild": "node scripts/create-route-pages.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
