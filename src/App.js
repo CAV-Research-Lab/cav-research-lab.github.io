@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
 import { Blog, Home, Impact, Innovations, News, Projects, Team } from './pages';
 import { initializeAnalytics, trackPageView } from './utils/analytics';
+import { updatePageSeo } from './utils/seo';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -33,10 +34,21 @@ function AnalyticsTracker() {
   return null;
 }
 
+function SeoTracker() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    updatePageSeo(pathname);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <>
       <Router>
+        <SeoTracker />
         <AnalyticsTracker />
         <ScrollToTop />
         <Navbar />
