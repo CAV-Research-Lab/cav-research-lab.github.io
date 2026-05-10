@@ -1,7 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
-import cavLabLogo from '../../assets/images/brand/CAV-LAB_logo_white.png'
 import uosLogo from '../../assets/images/brand/UoS-Logo.png';
 import { AiOutlineMail, AiOutlineYoutube } from 'react-icons/ai'
 import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
@@ -11,9 +9,7 @@ function Footer() {
       <div className='footer-container'>
         <section className='footer-main'>
           <div className='footer-brand'>
-              <Link to='/'>
-                <img id='footer-logo' src={cavLabLogo} alt='CAV-Lab logo' loading='lazy' decoding='async' />
-              </Link>
+              <h2>CAV-Lab</h2>
               <p>Advancing safe, trustworthy autonomy for intelligent vehicles, robotics, and connected mobility.</p>
               <div className='social-icons'>
                 <a
@@ -53,17 +49,15 @@ function Footer() {
             <a className='footer-text-link' href="https://www.youtube.com/@cavresearchlab" target='_blank' rel='noopener noreferrer'><AiOutlineYoutube aria-hidden='true' /> @cavresearchlab</a>
           </div>
 
-          <div className='footer-column'>
-            <h2>Research</h2>
-            <Link to='/research'>Research programmes</Link>
-            <Link to='/impact'>Impact</Link>
-            <Link to='/team'>People</Link>
-            <Link to='/news'>News</Link>
-          </div>
-
           <div className='footer-affiliation'>
             <img id="UOS-logo" src={uosLogo} alt='University of Surrey logo' loading='lazy' decoding='async' />
-            <p>CAV-Lab, School of Mechanical Engineering, Faculty of Engineering and Physical Sciences, University of Surrey, GU2 7XH, Guildford, Surrey, UK</p>
+            <p>
+              CAV-Lab<br />
+              School of Engineering<br />
+              Faculty of Engineering and Physical Sciences<br />
+              University of Surrey<br />
+              Guildford, Surrey GU2 7XH, UK
+            </p>
           </div>
         </section>
         <div className='footer-bottom'>
