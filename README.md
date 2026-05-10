@@ -61,6 +61,13 @@ Then upload the generated `build/` folder in Cloudflare:
 
 The Cloudflare CLI deployment uses `wrangler.jsonc`, which points Cloudflare to the `build/` directory.
 
+Wrangler requires Node.js 22 or newer. Check your local version with:
+```
+node -v
+```
+
+If your Node.js version is older than 22, install a newer Node.js release before using the Cloudflare CLI deployment.
+
 First-time setup:
 ```
 npx wrangler login
