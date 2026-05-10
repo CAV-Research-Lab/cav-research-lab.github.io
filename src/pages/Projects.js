@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import './Pages.css';
 import Footer from '../components/layout/Footer';
-import { fundingGroups, researchProjects } from '../data/researchProjects';
+import { fundingGroups, researchProjects } from '../data/research';
 
 const listStyle = { listStyleType: 'square' };
 

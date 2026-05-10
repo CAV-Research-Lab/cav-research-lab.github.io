@@ -1,7 +1,7 @@
-import carmaImage from '../assets/images/research/carma.png';
-import cogniautoaiImage from '../assets/images/research/cogniautoai.png';
-import futureRobotsImage from '../assets/images/research/futurerobots.png';
-import iawareImage from '../assets/images/research/iaware.png';
+import carmaImage from '../../assets/images/research/carma.png';
+import cogniautoaiImage from '../../assets/images/research/cogniautoai.png';
+import futureRobotsImage from '../../assets/images/research/futurerobots.png';
+import iawareImage from '../../assets/images/research/iaware.png';
 
 export const researchProjects = [
   {

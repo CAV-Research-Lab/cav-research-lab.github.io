@@ -1,0 +1,88 @@
+.team-body,
+.projects-body,
+.innovations-body,
+.blog-body,
+.publication-body,
+.sponsors-section,
+.NewsBody {
+    background: var(--color-subtle);
+}
+
+.black {
+    background: transparent;
+    color: var(--color-ink);
+}
+
+.year-nav-button {
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    padding: 0;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.underline {
+    border-bottom: 4px solid currentColor;
+    padding-bottom: 0.22em;
+}
+
+h3,
+h2 {
+    text-align: center;
+}
+
+h5 {
+    color: var(--color-ink);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 800;
+    margin-top: 1.25rem;
+}
+
+.container {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0 auto;
+    max-width: var(--container);
+}
+
+.projects-body,
+.innovations-body,
+.blog-body,
+.publication-body {
+    font-size: 1.03rem;
+    min-height: 100%;
+    padding: 4.5rem max(1.5rem, calc((100vw - var(--container)) / 2));
+}
+
+.page-hero {
+    margin: 0 auto 1.5rem;
+    max-width: 860px;
+    text-align: center;
+}
+
+.page-eyebrow {
+    color: var(--color-accent-dark);
+    font-size: clamp(0.95rem, 1.35vw, 1.08rem);
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.9rem;
+    text-transform: uppercase;
+}
+
+.page-hero h1 {
+    color: var(--color-ink);
+    font-size: clamp(2.3rem, 4.1vw, 3.7rem);
+    line-height: 1.08;
+    margin-bottom: 1rem;
+}
+
+.page-hero p:last-child {
+    color: var(--color-muted);
+    font-size: clamp(1.05rem, 1.45vw, 1.18rem);
+    line-height: 1.65;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 760px;
+}

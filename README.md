@@ -40,3 +40,18 @@ git push
 
 npm run deploy
 ```
+
+# Source structure
+
+- `src/pages/`: route-level pages used by `src/App.js`.
+- `src/pages/styles/`: page styles split by area, with `src/pages/Pages.css` acting as the import map.
+- `src/components/layout/`: shared navigation and footer.
+- `src/components/home/`: homepage sections.
+- `src/components/news/`: news rendering components.
+- `src/components/shared/`: reusable UI helpers.
+- `src/data/research/`: research programme and funding content.
+- `src/data/impact/`: impact, publications, books, patents, policy, and engagement content.
+- `src/data/team/`: team and alumni content.
+- `src/data/blog/`: blog post summaries.
+- `src/assets/images/`: images and media grouped by purpose.
+- `src/archive/`: old or unused code/assets kept only for reference.

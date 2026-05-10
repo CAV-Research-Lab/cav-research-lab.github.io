@@ -1,14 +1,8 @@
 import React from 'react';
 import Navbar from './components/layout/Navbar';
 import './App.css';
-import Home from './pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Impact from './pages/Impact';
-import Innovations from './pages/Innovations';
-import Projects from './pages/Projects';
-import News from './pages/News';
-import Team from './pages/Team';
-import Blog from './pages/Blog';
+import { Blog, Home, Impact, Innovations, News, Projects, Team } from './pages';
 
 
 function App() {

@@ -1,0 +1,56 @@
+@media screen and (max-width: 950px) {
+    .phd-first-row,
+    .phd-second-row,
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-body,
+    .innovations-body,
+    .blog-body,
+    .publication-body,
+    .team-body,
+    .sponsors-section {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .alumni,
+    .funding,
+    .blog-item {
+        padding: 1.5rem;
+    }
+
+    .funding h5 {
+        font-size: 1.35rem;
+    }
+
+    .funding li {
+        font-size: 1.2rem;
+        line-height: 1.85;
+    }
+
+    #sponsor-title {
+        font-size: 1.8rem;
+    }
+
+    .publication-year-group {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+
+    .research-hero {
+        align-items: start;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .research-hero p:last-child {
+        max-width: 100%;
+    }
+
+    .research-card-media {
+        min-height: 14rem;
+    }
+}

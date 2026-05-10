@@ -1,10 +1,10 @@
-import saberFallah from '../assets/images/team/saber_fallah.jpg';
-import lucMccutcheon from '../assets/images/team/luc_mccutcheon.jpg';
-import vinalAsodia from '../assets/images/team/vinal_asodia.jpg';
-import mustafaYildirim from '../assets/images/team/mustafa_yildirim.jpg';
-import maximTyshkovsky from '../assets/images/team/maxim_tyshkovsky.JPG';
-import barkinDagda from '../assets/images/team/barkin_dagda.jpg';
-import glenMason from '../assets/images/team/glen_mason.jpg';
+import saberFallah from '../../assets/images/team/saber_fallah.jpg';
+import lucMccutcheon from '../../assets/images/team/luc_mccutcheon.jpg';
+import vinalAsodia from '../../assets/images/team/vinal_asodia.jpg';
+import mustafaYildirim from '../../assets/images/team/mustafa_yildirim.jpg';
+import maximTyshkovsky from '../../assets/images/team/maxim_tyshkovsky.JPG';
+import barkinDagda from '../../assets/images/team/barkin_dagda.jpg';
+import glenMason from '../../assets/images/team/glen_mason.jpg';
 
 export const founder = {
   name: 'Saber Fallah',
