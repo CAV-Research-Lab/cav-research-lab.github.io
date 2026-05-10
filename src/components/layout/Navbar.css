@@ -22,6 +22,7 @@
   color: #fff;
   cursor: pointer;
   display: flex;
+  font: inherit;
   height: 4.95rem;
   justify-content: center;
   overflow: hidden;
@@ -45,6 +46,61 @@
   height: 100%;
   mix-blend-mode: screen;
   object-fit: contain;
+  width: 100%;
+}
+
+.logo-preview-backdrop {
+  align-items: center;
+  background: rgba(3, 7, 18, 0.78);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 1.5rem;
+  position: fixed;
+  z-index: 1200;
+}
+
+.logo-preview-dialog {
+  background: #07101e;
+  border: 1px solid rgba(225, 189, 121, 0.38);
+  border-radius: 8px;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.45);
+  max-width: min(34rem, 92vw);
+  padding: clamp(1rem, 3vw, 1.4rem);
+  position: relative;
+  width: 100%;
+}
+
+.logo-preview-close {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 2.35rem;
+  justify-content: center;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.75rem;
+  width: 2.35rem;
+}
+
+.logo-preview-close:hover,
+.logo-preview-close:focus-visible {
+  background: rgba(225, 189, 121, 0.16);
+  border-color: rgba(225, 189, 121, 0.5);
+}
+
+.logo-preview-close svg {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+.logo-preview-image {
+  display: block;
+  height: auto;
   width: 100%;
 }
 
