@@ -6,6 +6,16 @@ import { fundingGroups, researchProjects } from '../data/researchProjects';
 
 const listStyle = { listStyleType: 'square' };
 
+const renderDescription = (description) => {
+  const paragraphs = Array.isArray(description) ? description : [description];
+
+  return paragraphs.map((paragraph) => (
+    <p className="research-description" key={paragraph}>
+      {paragraph}
+    </p>
+  ));
+};
+
 const ProjectCard = ({ project }) => (
   <article className={project.image ? 'research-card research-card-with-media' : 'research-card'}>
     <div className="research-card-content">
@@ -17,7 +27,7 @@ const ProjectCard = ({ project }) => (
           <img className="project-img" src={project.image} alt={project.imageAlt} loading="lazy" decoding="async" />
         </figure>
       )}
-      <p>{project.description}</p>
+      {renderDescription(project.description)}
       <div className="research-meta">
         <div>
           <span>Research themes</span>

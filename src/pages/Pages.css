@@ -213,6 +213,14 @@ h5 {
     line-height: 1.78;
 }
 
+.research-description {
+    margin-bottom: 0.9rem;
+}
+
+.research-description:last-of-type {
+    margin-bottom: 0;
+}
+
 .research-meta {
     border-top: 1px solid var(--color-line);
     margin-top: 1.35rem;
