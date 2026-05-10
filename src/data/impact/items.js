@@ -3,6 +3,10 @@ export const publicationGroups = [
     year: '2026',
     publications: [
       {
+        title: 'ANDRE: An Attention-based Neuro-symbolic Differentiable Rule Extractor.',
+        url: 'https://arxiv.org/abs/2605.04193',
+      },
+      {
         title: 'Reinforcement Learning Enhancement Using Vector Semantic Representation and Symbolic Reasoning for Human-Centered Autonomous Emergency Braking.',
         url: 'https://arxiv.org/abs/2602.05079',
       },

@@ -1,8 +1,9 @@
-import React, { useLayoutEffect } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import Navbar from './components/layout/Navbar';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
 import { Blog, Home, Impact, Innovations, News, Projects, Team } from './pages';
+import { initializeAnalytics, trackPageView } from './utils/analytics';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -18,10 +19,25 @@ function ScrollToTop() {
   return null;
 }
 
+function AnalyticsTracker() {
+  const { pathname, search } = useLocation();
+
+  useEffect(() => {
+    initializeAnalytics();
+  }, []);
+
+  useEffect(() => {
+    trackPageView(`${pathname}${search}`);
+  }, [pathname, search]);
+
+  return null;
+}
+
 function App() {
   return (
     <>
       <Router>
+        <AnalyticsTracker />
         <ScrollToTop />
         <Navbar />
         <Switch>
