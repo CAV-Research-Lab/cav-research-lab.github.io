@@ -111,7 +111,7 @@
     justify-content: center;
     margin: 1.5rem 0 1.6rem;
     overflow: hidden;
-    padding: clamp(0.65rem, 1.2vw, 1rem);
+    padding: 0;
 }
 
 .grid-item {
@@ -123,7 +123,7 @@
 
 .project-img {
     border: 0;
-    border-radius: 4px;
+    border-radius: 5px;
     box-shadow: none;
     display: block;
     height: auto;
