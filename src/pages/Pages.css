@@ -329,6 +329,10 @@ h5 {
     text-transform: uppercase;
 }
 
+.innovations-container .page-eyebrow {
+    color: var(--color-accent-dark);
+}
+
 .page-hero h1 {
     color: var(--color-ink);
     font-size: clamp(2.3rem, 4.1vw, 3.7rem);
@@ -442,7 +446,7 @@ h5 {
 }
 
 .publication-body > div {
-    border-bottom: 1px solid var(--color-line);
+    border-bottom: 2px solid #b8c0ca;
     padding: 2.5rem 0;
 }
 
@@ -491,6 +495,28 @@ h5 {
     line-height: 1.75;
     margin-bottom: 0.8rem;
     padding-left: 0.25rem;
+}
+
+.impact-category {
+    border-top: 1px solid var(--color-line);
+    margin-top: 1.75rem;
+    padding-top: 1.25rem;
+}
+
+.impact-category:first-of-type {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.impact-category h2 {
+    color: var(--color-accent-dark);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: clamp(0.9rem, 1.4vw, 1rem);
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.85rem;
+    text-transform: uppercase;
 }
 
 .publication-link {

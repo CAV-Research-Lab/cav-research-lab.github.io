@@ -9,7 +9,7 @@ import glenMason from '../assets/images/team/glen_mason.jpg';
 export const founder = {
   name: 'Saber Fallah',
   role: 'Director of CAV-Lab',
-  topic: 'Professor in Safe AI and Autonomy.',
+  topic: 'Professor in Safe AI and Autonomy',
   image: saberFallah,
 };
 
@@ -23,31 +23,31 @@ export const phdResearchers = [
   {
     name: 'Vinal Asodia',
     role: 'PhD Student',
-    topic: 'End-to-End Decision Making for Emergency Braking using Deep Reinforcement Learning.',
+    topic: 'End-to-End Decision Making for Emergency Braking using Deep Reinforcement Learning',
     image: vinalAsodia,
   },
   {
     name: 'Mustafa Yildirim',
     role: 'PhD Student',
-    topic: 'Intelligent Decision-Making Method for Autonomous Driving Using Reinforcement Learning.',
+    topic: 'Intelligent Decision-Making Method for Autonomous Driving Using Reinforcement Learning',
     image: mustafaYildirim,
   },
   {
     name: 'Maxim Tyshkovsky',
     role: 'PhD Student',
-    topic: 'Perception Uncertainties Management for Robust Decision-making in Autonomous Vehicles.',
+    topic: 'Perception Uncertainties Management for Robust Decision-making in Autonomous Vehicles',
     image: maximTyshkovsky,
   },
   {
     name: 'Barkin Dagda',
     role: 'PhD Student',
-    topic: 'Self-Supervised Vision Based Localization of Autonomous Vehicles using Satellite Imagery.',
+    topic: 'Self-Supervised Vision Based Localization of Autonomous Vehicles using Satellite Imagery',
     image: barkinDagda,
   },
   {
     name: 'Glen Mason',
     role: 'PhD Student',
-    topic: 'Analysis of Cooperative Adaptive Cruise Control Controller in Connected and Automated Vehicles under Communication Disruption.',
+    topic: 'Analysis of Cooperative Adaptive Cruise Control Controller in Connected and Automated Vehicles under Communication Disruption',
     image: glenMason,
   },
 ];

@@ -17,8 +17,8 @@ function DynamicBackground() {
           <Link className='hero-button hero-button-primary' to='/research'>
             Explore Research
           </Link>
-          <Link className='hero-button hero-button-secondary' to='/publications'>
-            View Publications
+          <Link className='hero-button hero-button-secondary' to='/impact'>
+            View Impact
           </Link>
         </div>
         <dl className='hero-proof'>
@@ -32,7 +32,7 @@ function DynamicBackground() {
           </div>
           <div>
             <dt>70+</dt>
-            <dd>Selected publications in autonomy, AI safety, and robotics</dd>
+            <dd>Selected publications, patents, books, and policy contributions</dd>
           </div>
         </dl>
       </div>

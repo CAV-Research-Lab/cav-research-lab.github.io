@@ -338,3 +338,145 @@ export const publicationGroups = [
     ],
   },
 ];
+
+const cvImpactItems = [
+  {
+    year: '2026',
+    category: 'Media and public engagement',
+    title: 'Featured expert on BBC News, discussing UK readiness for self-driving vehicle deployment.',
+    url: 'https://www.fleetnews.co.uk/news/self-driving-cars-not-expected-on-uk-roads-until-2027',
+  },
+  {
+    year: '2025',
+    category: 'Policy and standards',
+    title: 'Contributed to the UK CAM Research Agenda for connected and automated mobility research.',
+    url: 'https://aesin.org.uk/uk-cam-research-agenda-2025/',
+  },
+  {
+    year: '2025',
+    category: 'Policy and standards',
+    title: 'BridgeAI Independent Scientific Advisor at The Alan Turing Institute, shaping trustworthy AI adoption in transportation.',
+    url: 'https://www.turing.ac.uk/people/saber-fallah',
+  },
+  {
+    year: '2025',
+    category: 'Public engagement',
+    title: 'Speaker at the Global Higher Education Forum 2025 forum, "AI Dreams and Our Creative Future Together".',
+    url: 'https://ghef2025.com/',
+  },
+  {
+    year: '2025',
+    category: 'Public engagement',
+    title: 'Speaker at Autonomy Unleashed 2025 on building trust through verification and validation for autonomous systems.',
+    url: 'https://events.d3ip.net/autonomyunleashed/agenda',
+  },
+  {
+    year: '2024',
+    category: 'Policy and standards',
+    title: 'Contributed to ISO/DIS 23793-1 on Minimal Risk Manoeuvre requirements for automated driving.',
+    url: 'https://www.iso.org/standard/81711.html',
+  },
+  {
+    year: '2024',
+    category: 'Public engagement',
+    title: 'Led MASSDRIVE, a UK network supporting robust methods for approving and certifying self-driving vehicles.',
+    url: 'https://www.surrey.ac.uk/news/massdrive-pioneering-network-safe-self-driving-cars-uk',
+  },
+  {
+    year: '2024',
+    category: 'Public engagement',
+    title: 'Speaker at FISITA Intelligent Safety Conference China 2024 on safety certification of AI-driven vehicles.',
+    url: 'https://www.bagevent.com/event/ISC-2024',
+  },
+  {
+    year: '2023',
+    category: 'Policy and standards',
+    title: 'Contributed to the UK Geospatial Commission report on location data for safe self-driving road vehicle deployment.',
+    url: 'https://www.gov.uk/government/publications/finding-the-way-forward-location-data-to-enable-connected-and-automated-mobility',
+  },
+  {
+    year: '2023',
+    category: 'Public engagement',
+    title: 'Invited speaker at the Software Defined Vehicle Conference on verification, validation, and safety challenges for AI-enabled vehicle systems.',
+  },
+  {
+    year: '2022',
+    category: 'Public engagement',
+    title: 'Keynote speaker at Automotive IQ and invited speaker at Cambridge Wireless on assurance, validation, and trustworthy AI-enabled autonomous driving.',
+  },
+  {
+    year: '2021',
+    category: 'Patents',
+    title: 'U. Montanaro, S. Fallah, M. Dianati, T. Mizutani, D. Oxtoby, A. Mouzakitis, A Controller for Adaptive Communication Systems in Vehicles, UKIPO Patent GB1810437.2.',
+  },
+  {
+    year: '2021',
+    category: 'Patents',
+    title: 'U. Montanaro, S. Fallah, M. Dianati, T. Mizutani, D. Oxtoby, A. Mouzakitis, Cloud-Assisted Distributed Control System Architecture for Platooning, UKIPO Patent GB1804663.1.',
+  },
+  {
+    year: '2021',
+    category: 'Public engagement',
+    title: 'Invited speaker at the Autonomous Driving Summit on predictive fault detection and safety-critical AI for autonomous driving.',
+  },
+  {
+    year: '2020',
+    category: 'Patents',
+    title: 'S. Dixit, S. Fallah, U. Montanaro, M. Dianati, T. Mizutani, D. Oxtoby, A. Mouzakitis, Framework for Collision-Free Trajectory Planning for Autonomous High-Speed Overtaking, UKIPO Patent GB1801968.7.',
+  },
+  {
+    year: '2019',
+    category: 'Books',
+    title: 'Deep Learning for Autonomous Vehicle Control, ISBN: 978-3-031-00374-5.',
+  },
+  {
+    year: '2019',
+    category: 'Patents',
+    title: 'S. Fallah, L. Biddle, Sensor Fault Prediction Method and Apparatus, UK Patent GB1919198.0 / WO2021130486.',
+  },
+  {
+    year: '2019',
+    category: 'Public engagement',
+    title: 'Presented UK-EU research outcomes at international policy and research workshops, including NASA Johnson Space Center and UK-China bilateral forums.',
+  },
+  {
+    year: '2017',
+    category: 'Books',
+    title: 'Towards Autonomous Robotic Systems, ISBN: 9783319641065.',
+  },
+];
+
+const impactCategoryOrder = [
+  'Research publications',
+  'Books',
+  'Patents',
+  'Policy and standards',
+  'Public engagement',
+  'Media and public engagement',
+];
+
+const impactYears = Array.from(new Set([
+  ...publicationGroups.map(({ year }) => year),
+  ...cvImpactItems.map(({ year }) => year),
+])).sort((a, b) => Number(b) - Number(a));
+
+export const impactGroups = impactYears.map((year) => {
+  const publicationGroup = publicationGroups.find((group) => group.year === year);
+  const items = [
+    ...(publicationGroup?.publications || []).map((publication) => ({
+      ...publication,
+      category: 'Research publications',
+    })),
+    ...cvImpactItems.filter((item) => item.year === year),
+  ];
+
+  return {
+    year,
+    categories: impactCategoryOrder
+      .map((category) => ({
+        title: category,
+        items: items.filter((item) => item.category === category),
+      }))
+      .filter((category) => category.items.length > 0),
+  };
+});

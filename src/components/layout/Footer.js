@@ -56,7 +56,7 @@ function Footer() {
           <div className='footer-column'>
             <h2>Research</h2>
             <Link to='/research'>Research programmes</Link>
-            <Link to='/publications'>Publications</Link>
+            <Link to='/impact'>Impact</Link>
             <Link to='/team'>People</Link>
             <Link to='/news'>News</Link>
           </div>

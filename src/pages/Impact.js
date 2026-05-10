@@ -1,20 +1,20 @@
 import React from 'react';
 import '../App.css';
 import './Pages.css'
-import { GrDocumentPdf } from 'react-icons/gr'
+import { FiExternalLink } from 'react-icons/fi'
 import { AiOutlineArrowDown,AiOutlineArrowUp } from 'react-icons/ai'
 import { scroller, animateScroll as scroll } from 'react-scroll'
 import Footer from '../components/layout/Footer';
-import { publicationGroups } from '../data/publications';
+import { impactGroups } from '../data/impact';
 
-const PUBLICATION_YEARS = publicationGroups.map(({ year }) => year);
+const IMPACT_YEARS = impactGroups.map(({ year }) => year);
 
-const publicationListStyle = { listStyleType: "square" };
+const impactListStyle = { listStyleType: "square" };
 
 const YearNav = ({ onScrollTo, children }) => (
   <div className="publication-year-nav">
     <div className="publication-year-buttons">
-      {PUBLICATION_YEARS.map((year, index) => (
+      {IMPACT_YEARS.map((year, index) => (
         <React.Fragment key={year}>
           {index > 0 && ' - '}
           <button className="black year-nav-button" type="button" onClick={() => onScrollTo(year)}>
@@ -27,22 +27,29 @@ const YearNav = ({ onScrollTo, children }) => (
   </div>
 );
 
-const PublicationYear = ({ group }) => (
+const ImpactYear = ({ group }) => (
   <div className={`publication-year-group ${group.year}`}>
     <br></br><br></br>
     <h1><span className="orange_underline">{group.year}</span></h1><br></br>
-    <ul style={publicationListStyle}>
-      {group.publications.map(({ title, url }) => (
-        <li key={`${group.year}-${title}`}>
-          <span>{title}</span>
-          <a className="publication-link" href={url} target="_blank" rel="noopener noreferrer" aria-label={`Open publication link for ${title}`}><GrDocumentPdf /></a>
-        </li>
-      ))}
-    </ul>
+    {group.categories.map((category) => (
+      <section className="impact-category" key={`${group.year}-${category.title}`}>
+        <h2>{category.title}</h2>
+        <ul style={impactListStyle}>
+          {category.items.map(({ title, url }) => (
+            <li key={`${group.year}-${category.title}-${title}`}>
+              <span>{title}</span>
+              {url && (
+                <a className="publication-link" href={url} target="_blank" rel="noopener noreferrer" aria-label={`Open link for ${title}`}><FiExternalLink /></a>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
   </div>
 );
 
-export default function Publications() {
+export default function Impact() {
   function scrollTo(year) {
     scroller.scrollTo(year, {
       duration: 800,
@@ -55,17 +62,16 @@ export default function Publications() {
     <>
       <div className="publication-body">
         <header className="page-hero">
-          <p className="page-eyebrow">Publications</p>
-          <h1>Peer-reviewed work in safe autonomy, AI reasoning, and robotic systems.</h1>
-          <p>Browse recent CAV-Lab publications by year, with links to papers, proceedings, and preprints where available.</p>
+          <h1>CAV-Lab Research Impact</h1>
+          <p>Selected CAV-Lab publications, books, patents, policy contributions, and public engagement.</p>
         </header>
         <YearNav onScrollTo={scrollTo}>
           <button className="black year-nav-button year-nav-icon" type="button" onClick={() => scroll.scrollToBottom()} aria-label="Scroll to bottom">
             <AiOutlineArrowDown/>
           </button>
         </YearNav>
-        {publicationGroups.map((group) => (
-          <PublicationYear key={group.year} group={group} />
+        {impactGroups.map((group) => (
+          <ImpactYear key={group.year} group={group} />
         ))}
         <YearNav onScrollTo={scrollTo}>
           <button className="black year-nav-button year-nav-icon" type="button" onClick={() => scroll.scrollToTop()} aria-label="Scroll to top">

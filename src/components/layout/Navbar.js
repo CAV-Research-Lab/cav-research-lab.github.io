@@ -8,7 +8,7 @@ const NAV_ITEMS = [
   { label: 'Home', path: '/' },
   { label: 'Research', path: '/research' },
   { label: 'Innovations', path: '/Innovations' },
-  { label: 'Publications', path: '/publications' },
+  { label: 'Impact', path: '/impact' },
   { label: 'Team', path: '/team' },
   { label: 'News', path: '/news' },
   { label: 'Blog', path: '/blog' },

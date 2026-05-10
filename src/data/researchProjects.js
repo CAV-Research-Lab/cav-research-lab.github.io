@@ -1,6 +1,7 @@
 import carmaImage from '../assets/images/research/carma.png';
 import cogniautoaiImage from '../assets/images/research/cogniautoai.png';
 import futureRobotsImage from '../assets/images/research/futurerobots.png';
+import iawareImage from '../assets/images/research/iaware.png';
 
 export const researchProjects = [
   {
@@ -33,6 +34,8 @@ export const researchProjects = [
     title: 'IAWARE',
     summary: 'Intelligent situational awareness and decision-making for safer CCAM systems',
     themes: ['Collective awareness', 'Multimodal AI', 'Ethical decision-making'],
+    image: iawareImage,
+    imageAlt: 'IAWARE collective awareness and decision-making architecture',
     description:
       'IAWARE (Intelligent Situation-Aware Decision-Making System for CCAM Applications) advances AI-driven collective awareness and decision-making for Cooperative, Connected, and Automated Mobility. The project develops explainable AI models that help automated vehicles, infrastructure, services, and vulnerable road users exchange trusted information in real time and build a shared understanding of complex traffic environments. Its technical focus includes predictive system-state awareness, multimodal sensor fusion, resilient collective perception, road-user behaviour prediction, driver-state and vehicle-perception fusion, and high-level world models that support ethical decision-making. IAWARE also addresses operational design domain and scenario recognition, enabling automated systems to identify when conditions are changing and trigger safe actions in response to hazards, faulty perception sources, occlusions, or uncertain road-user behaviour. A central ambition of the project is to embed human-centric and responsible AI into the full CCAM action chain, from perception to decision-making and control. This includes ethical and human-like goal functions, assurance frameworks for trustworthy AI components, secure data and AI model spaces, and user-acceptance methods that consider the needs of diverse road users. Through simulation, proof-of-concept demonstrations, and real-world evaluations, IAWARE aims to improve the safety, transparency, resilience, and societal readiness of future CCAM technologies.',
   },
