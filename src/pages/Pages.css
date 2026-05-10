@@ -178,9 +178,17 @@ h5 {
     padding: clamp(1.25rem, 3vw, 2rem);
 }
 
+.research-card-with-media {
+    display: block;
+}
+
 .research-card-content {
     max-width: 940px;
     text-align: left;
+}
+
+.research-card-with-media .research-card-content {
+    max-width: 100%;
 }
 
 .research-card-content .page-eyebrow {
@@ -241,6 +249,19 @@ h5 {
     padding: 0.45rem 0.7rem;
 }
 
+.research-card-media {
+    align-items: center;
+    background: #f7f8fa;
+    border: 1px solid var(--color-line);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0 1.6rem;
+    min-height: clamp(24rem, 42vw, 34rem);
+    overflow: hidden;
+    padding: clamp(1.1rem, 2vw, 1.75rem);
+}
+
 .grid-item {
     align-items: center;
     display: flex;
@@ -249,12 +270,14 @@ h5 {
 }
 
 .project-img {
-    background: #fff;
     border: 0;
-    border-radius: 0;
+    border-radius: 4px;
     box-shadow: none;
-    max-height: 24rem;
+    display: block;
+    height: auto;
+    max-height: 31rem;
     object-fit: contain;
+    width: 100%;
 }
 
 .funding {
@@ -567,6 +590,10 @@ h5 {
 
     .research-hero p:last-child {
         max-width: 100%;
+    }
+
+    .research-card-media {
+        min-height: 14rem;
     }
 
 }

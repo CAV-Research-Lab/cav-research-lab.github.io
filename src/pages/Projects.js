@@ -7,11 +7,16 @@ import { fundingGroups, researchProjects } from '../data/researchProjects';
 const listStyle = { listStyleType: 'square' };
 
 const ProjectCard = ({ project }) => (
-  <article className="research-card">
+  <article className={project.image ? 'research-card research-card-with-media' : 'research-card'}>
     <div className="research-card-content">
       <p className="page-eyebrow">Research Programme</p>
       <h2>{project.title}</h2>
       <p className="research-summary">{project.summary}</p>
+      {project.image && (
+        <figure className="research-card-media">
+          <img className="project-img" src={project.image} alt={project.imageAlt} loading="lazy" decoding="async" />
+        </figure>
+      )}
       <p>{project.description}</p>
       <div className="research-meta">
         <div>
