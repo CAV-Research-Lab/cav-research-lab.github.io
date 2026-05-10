@@ -48,7 +48,7 @@ export default function Projects() {
       <div className="projects-body">
         <header className="page-hero research-hero">
           <h1>Research</h1>
-          <p>CAV-Lab advances research that turns autonomous systems into trustworthy, explainable technologies for the real world.</p>
+          <p>CAV-Lab turns autonomous systems into trustworthy, explainable technologies for the real world.</p>
         </header>
         <div className="research-grid-container">
           {researchProjects.map((project) => (

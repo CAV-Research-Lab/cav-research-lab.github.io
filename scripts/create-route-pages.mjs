@@ -12,8 +12,8 @@ const routes = [
   {
     route: '',
     path: '/',
-    title: 'CAV-Lab | Connected Autonomous Research Lab',
-    description: 'Connected Autonomous Research Lab at the University of Surrey, advancing safe, trustworthy AI for autonomous vehicles, robotics, and connected mobility.',
+    title: 'CAV-Lab | Cognitive Autonomous Vehicles Research Lab',
+    description: 'Cognitive Autonomous Vehicles Research Lab at the University of Surrey, advancing safe, trustworthy AI for autonomous vehicles, robotics, and connected mobility.',
   },
   {
     route: 'research',
@@ -25,7 +25,7 @@ const routes = [
     route: 'Innovations',
     path: '/Innovations/',
     title: 'CAV-Lab Innovations',
-    description: 'Discover CAV-Lab innovations, prototypes, and applied research outputs for connected autonomous vehicles, robotics, and trustworthy AI.',
+    description: 'Discover CAV-Lab innovations, prototypes, and applied research outputs for autonomous vehicles, robotics, and trustworthy AI.',
   },
   {
     route: 'impact',
@@ -43,13 +43,13 @@ const routes = [
     route: 'team',
     path: '/team/',
     title: 'CAV-Lab Research Team',
-    description: 'Meet the CAV-Lab research team working on connected autonomous vehicles, robotics, safe AI, and intelligent mobility at the University of Surrey.',
+    description: 'Meet the CAV-Lab research team working on autonomous vehicles, robotics, safe AI, and intelligent mobility at the University of Surrey.',
   },
   {
     route: 'news',
     path: '/news/',
     title: 'CAV-Lab News',
-    description: 'Read the latest CAV-Lab news, announcements, media coverage, events, and research updates from the Connected Autonomous Research Lab.',
+    description: 'Read the latest CAV-Lab news, announcements, media coverage, events, and research updates from Cognitive Autonomous Vehicles Research Lab.',
   },
   {
     route: 'blog',
@@ -82,7 +82,7 @@ function getStructuredData(route) {
     {
       '@context': 'https://schema.org',
       '@type': 'Organization',
-      name: 'Connected Autonomous Research Lab',
+      name: 'Cognitive Autonomous Vehicles Research Lab',
       alternateName: 'CAV-Lab',
       url: siteUrl,
       logo: `${siteUrl}/logo512.png`,
@@ -97,11 +97,11 @@ function getStructuredData(route) {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'CAV-Lab',
-      alternateName: 'Connected Autonomous Research Lab',
+      alternateName: 'Cognitive Autonomous Vehicles Research Lab',
       url: siteUrl,
       publisher: {
         '@type': 'Organization',
-        name: 'Connected Autonomous Research Lab',
+        name: 'Cognitive Autonomous Vehicles Research Lab',
       },
     },
     {
@@ -112,12 +112,12 @@ function getStructuredData(route) {
       url: canonicalUrl,
       isPartOf: {
         '@type': 'WebSite',
-        name: 'CAV-Lab',
+        name: 'Cognitive Autonomous Vehicles Research Lab',
         url: siteUrl,
       },
       about: {
         '@type': 'Organization',
-        name: 'Connected Autonomous Research Lab',
+        name: 'Cognitive Autonomous Vehicles Research Lab',
         url: siteUrl,
       },
       primaryImageOfPage: {

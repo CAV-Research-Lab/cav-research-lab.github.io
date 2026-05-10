@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import './Navbar.css';
-import cavLabLogo from '../../assets/images/brand/CAV-LAB_logo_white.png';
+import cavLabLogo from '../../assets/images/home/cavlab_logo.png';
 
 const NAV_ITEMS = [
   { label: 'Home', path: '/' },
@@ -33,20 +33,6 @@ function Navbar() {
 
   return (
     <nav className='navbar'>
-      <div>
-        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src={cavLabLogo} alt='CAV-Lab logo' />
-        </Link>
-      </div>
-      <button
-        className='menu-icon'
-        type='button'
-        onClick={handleClick}
-        aria-label={click ? 'Close navigation menu' : 'Open navigation menu'}
-        aria-expanded={click}
-      >
-        {click ? <AiOutlineClose aria-hidden='true' /> : <AiOutlineMenu aria-hidden='true' />}
-      </button>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         {NAV_ITEMS.map(({ label, path }) => (
           <li className='nav-item' key={path}>
@@ -56,6 +42,20 @@ function Navbar() {
           </li>
         ))}
       </ul>
+      <button
+        className='menu-icon'
+        type='button'
+        onClick={handleClick}
+        aria-label={click ? 'Close navigation menu' : 'Open navigation menu'}
+        aria-expanded={click}
+      >
+        {click ? <AiOutlineClose aria-hidden='true' /> : <AiOutlineMenu aria-hidden='true' />}
+      </button>
+      <div>
+        <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <img src={cavLabLogo} alt='CAV-Lab logo' />
+        </Link>
+      </div>
     </nav>
   );
 }

@@ -23,7 +23,7 @@ export default function Innovations() {
           <div className="innovation-content">
             <div>
               <p>
-              At CAV-Lab, we are thrilled to introduce our latest innovation, a mobile robot named "Agility". 
+              CAV-Lab is thrilled to introduce its latest innovation, a mobile robot named "Agility". 
               Developed to stand at the forefront of robotics and artificial intelligence, Agility is engineered 
               to redefine the boundaries of autonomous driving and navigation. 
               </p>
@@ -67,8 +67,8 @@ export default function Innovations() {
 
               <h3><b>AI-Ready Platform</b></h3>
               <p>
-              Agility is designed to be the ideal testbed for CAV-Lab's cutting-edge AI algorithms. Our
-               researchers are ceaselessly working on next-gen solutions for autonomous navigation, and Agility
+              Agility is designed to be the ideal testbed for the lab's cutting-edge AI algorithms. Our
+               researchers are continually working on next-gen solutions for autonomous navigation, and Agility
                 offers the perfect platform for real-world trials and implementation.
               </p>
 

@@ -62,8 +62,8 @@ export default function Impact() {
     <>
       <div className="publication-body">
         <header className="page-hero">
-          <h1>CAV-Lab Research Impact</h1>
-          <p>Selected CAV-Lab publications, books, patents, policy contributions, and public engagement.</p>
+          <h1>Research Impact</h1>
+          <p>Selected publications, books, patents, policy contributions, and public engagement from CAV-Lab.</p>
         </header>
         <YearNav onScrollTo={scrollTo}>
           <button className="black year-nav-button year-nav-icon" type="button" onClick={() => scroll.scrollToBottom()} aria-label="Scroll to bottom">

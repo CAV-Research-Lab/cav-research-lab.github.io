@@ -48,7 +48,7 @@ return (
 		<header className="news-page-header">
 			<p className="news-eyebrow">CAV-Lab Updates</p>
 			<h1>News</h1>
-			<p>Selected talks, media coverage, research milestones, and project updates from the Connected Autonomous Vehicles Research Lab.</p>
+			<p>Selected talks, media coverage, research milestones, and project updates from CAV-Lab.</p>
 		</header>
 
 		{featuredPost && (

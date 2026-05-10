@@ -8,7 +8,7 @@ const aboutCards = [
         title: 'Who We Are',
         label: 'Research Group',
         body: [
-            'CAV-Lab was established in 2016 by Professor Saber Fallah and has received research funding from UK and European government programmes, including EPSRC, Innovate UK, H2020, and KTP, as well as industry partners.',
+            'Established in 2016 by Professor Saber Fallah, CAV-Lab has received research funding from UK and European government programmes, including EPSRC, Innovate UK, H2020, and KTP, as well as industry partners.',
             'The lab brings together academic researchers, engineers, and AI specialists working at the forefront of connected and autonomous robotics and vehicles. Based in the UK, the team collaborates with national and international companies and universities on projects with global impact.',
             'Its research culture combines rigorous engineering, AI innovation, and close engagement with real-world mobility challenges to support safer, more capable autonomous systems.',
         ],
@@ -26,7 +26,7 @@ const aboutCards = [
         title: 'What We Offer',
         label: 'Partnership',
         body: [
-            'CAV-Lab offers expertise in autonomous robotics and vehicles, safe and trustworthy AI, machine learning, explainable AI, learning control systems, and connected mobility technologies.',
+            'The lab offers expertise in autonomous robotics and vehicles, safe and trustworthy AI, machine learning, explainable AI, learning control systems, and connected mobility technologies.',
             'We specialise in AI methods for situational awareness, prediction, decision-making, safety-critical operation, and cyber-threat detection and mitigation.',
             'Our team supports research collaboration, technical development, experimental validation, and knowledge exchange with partners seeking robust autonomy solutions for transport, robotics, and safety-critical systems.',
         ],

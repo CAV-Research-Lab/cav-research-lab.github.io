@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import cavLabLogo from '../../assets/images/home/cavlab_logo.png';
 import uosLogo from '../../assets/images/brand/UoS-Logo.png';
 import { AiOutlineMail, AiOutlineYoutube } from 'react-icons/ai'
 import { FaInstagram, FaLinkedinIn } from 'react-icons/fa';
@@ -9,6 +10,7 @@ function Footer() {
       <div className='footer-container'>
         <section className='footer-main'>
           <div className='footer-brand'>
+              <img className='footer-brand-logo' src={cavLabLogo} alt='CAV-Lab logo' loading='lazy' decoding='async' />
               <h2>CAV-Lab</h2>
               <p>Advancing safe, trustworthy autonomy for intelligent vehicles, robotics, and connected mobility.</p>
               <div className='social-icons'>
