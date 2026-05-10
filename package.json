@@ -19,8 +19,9 @@
     "build": "vite build",
     "postbuild": "node scripts/create-route-pages.mjs",
     "preview": "vite preview --host 0.0.0.0",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build && npx --yes wrangler deploy",
+    "deploy:github": "npm run build && gh-pages -d build",
+    "deploy:cloudflare": "npm run build && npx --yes wrangler deploy"
   },
   "browserslist": {
     "production": [
